@@ -1,4 +1,4 @@
-create type cliente(
+create type cliente (
     DNI             INTEGER         PRIMARY KEY,
     apellidos       VARCHAR(100)    NOT NULL,
     nombre          VARCHAR(100)    NOT NULL,

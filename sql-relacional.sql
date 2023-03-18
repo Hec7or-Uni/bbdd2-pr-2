@@ -1,30 +1,33 @@
 create type cliente(
     DNI             INTEGER         PRIMARY KEY,
-    apellidos       VARCHAR(100)    NOT NULL        CHECK (apellidos<>''),
-    nombre          VARCHAR(100)    NOT NULL        CHECK (nombre<>''),
+    apellidos       VARCHAR(100)    NOT NULL,
+    nombre          VARCHAR(100)    NOT NULL,
     fechaNacimiento DATE            NOT NULL,
-    direccion       VARCHAR(100)    NOT NULL        CHECK (direccion<>''),
-    email           VARCHAR(50)     NOT NULL        CHECK (email<>''),
-    telefono        INTEGER         NOT NULL        CHECK (telefono>0),
+    direccion       VARCHAR(100)    NOT NULL,
+    email           VARCHAR(50),
+    telefono        INTEGER         NOT NULL,
+    edad
 );
 
 create table cuenta (
-    numero          INTEGER         NOT NULL,
-    IBANcontrol     INTEGER         NOT NULL,
-    IBANresto       INTEGER         PRIMARY KEY,
+    PRIMARY KEY (codPais, codIdentificacion, digitosCtrl, numCuenta)
+    codPais         VARCHAR(2)      NOT NULL,
+    codIdentificacion VARCHAR(2)    NOT NULL,
+    digitosCtrl     VARCHAR(4)      NOT NULL,
+    numCuenta       VARCHAR(16)     NOT NULL,
     fechaCreacion   TIMESTAMP       NOT NULL,
-    saldoActual     FLOAT           NOT NULL        CHECK (saldo<>0.0),
+    saldo           FLOAT           NOT NULL,
     FOREIGN KEY (entidad) REFERENCES entidad(codigo)
 );
 
-create table titular (
+create table tiene (
+    PRIMARY KEY (cliente, cuenta)
     FOREIGN KEY (cliente) REFERENCES cliente(DNI),
-    FOREIGN KEY (cuenta) REFERENCES cuenta(IBANcontrol),
-    PRIMARY KEY (cliente,cuenta)
+    FOREIGN KEY (cuenta) REFERENCES cuenta(codPais, codIdentificacion, digitosCtrl, numCuenta),
 );
 
-create table cuentaAhorro (
-    IBANcontrol     INTEGER         PRIMARY KEY,
+create table ahorro (
+    cuenta          INTEGER         PRIMARY KEY,
     interes         INTEGER         NOT NULL
 );
 

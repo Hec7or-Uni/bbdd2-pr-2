@@ -25,7 +25,7 @@ cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta)
 
 AHORRO
 cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta) (clave primaria)
-interés
+interes
 
 CORRIENTE
 cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta) (clave primaria)
@@ -34,7 +34,7 @@ oficina (codigo)
 OFICINA
 codigo (clave primaria)
 telefono
-dirección
+direccion
 entidad (codPais, codIdentificacion)
 
 ENTIDAD

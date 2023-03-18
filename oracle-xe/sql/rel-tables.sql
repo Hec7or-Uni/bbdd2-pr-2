@@ -21,7 +21,7 @@ create table oficina (
     telefono        VARCHAR(13)     NOT NULL,
     direccion       VARCHAR(255)    NOT NULL,
     idEntidad       VARCHAR(36)     NOT NULL,
-    FOREIGN KEY (idEntidad)   REFERENCES entidad(id)
+    FOREIGN KEY (idEntidad)         REFERENCES entidad(id)
 );
 
 create table cuenta (
@@ -32,24 +32,28 @@ create table cuenta (
     numCuenta       VARCHAR(16)     NOT NULL,
     fechaCreacion   TIMESTAMP       NOT NULL,
     saldo           NUMBER   		DEFAULT(0),
-    tipoCuenta      VARCHAR(9)      NOT NULL    CHECK (tipoCuenta IN ('ahorro', 'corriente')),
+    tipoCuenta      VARCHAR(9)      NOT NULL,
     interes         DECIMAL(4,3),
     oficina         INTEGER         NULL,
     idEntidad       VARCHAR(36)     NOT NULL,
     UNIQUE (codPais, codId, digitosCtrl, numCuenta),
+    CHECK (tipoCuenta IN ('ahorro', 'corriente')),
+    CHECK ((tipoCuenta = 'ahorro' AND oficina IS NULL AND interes IS NOT NULL) OR (tipoCuenta = 'corriente' AND oficina IS NOT NULL AND interes IS NULL)),
     FOREIGN KEY (oficina)           REFERENCES oficina(codigo),
-    FOREIGN KEY (idEntidad)    REFERENCES entidad(id)
+    FOREIGN KEY (idEntidad)         REFERENCES entidad(id)
 );
 
 create table operacion (
     codigo          VARCHAR(36),
     cantidad        NUMBER			NOT NULL,
     timestamp       TIMESTAMP       NOT NULL,
-    tipoOp          VARCHAR(13)     NOT NULL    CHECK (tipoOp IN ('ingreso', 'retirada', 'transferencia')),
+    tipoOp          VARCHAR(13)     NOT NULL,
     descripcion     VARCHAR(255),
     cuentaEmisora   VARCHAR(24)		NOT NULL,
     cuentaReceptora VARCHAR(24)		NOT NULL,
     oficina         INTEGER         NULL,
+    CHECK (tipoOp IN ('ingreso', 'retirada', 'transferencia')),
+    CHECK ((tipoOp = 'ingreso' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'retirada' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'transferencia' AND cuentaReceptora IS NOT NULL AND oficina IS NULL)),
     PRIMARY KEY (codigo),
     FOREIGN KEY (cuentaEmisora)     REFERENCES cuenta(id),
     FOREIGN KEY (cuentaReceptora)   REFERENCES cuenta(id),

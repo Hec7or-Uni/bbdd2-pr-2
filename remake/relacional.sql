@@ -6,57 +6,65 @@ fechaNacimiento
 direccion
 email
 telefono
+edad
 
 CUENTA
-numero
-IBAN control
-IBAN resto
-fecha creacion
-saldo actual
+codPais + codIdentificacion + digitosCtrl + numCuenta (clave primaria)
+codPais
+codIdentificacion
+digitosCtrl
+numCuenta
+fechaCreacion
+saldo
 entidad (codigo)
-clave primaria numero
 
-TITULAR
-clave primaria DNI + IBAN control
+TIENE
+cliente + cuenta (clave primaria)
 cliente (DNI)
-cuenta (IBAN control)
+cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta)
 
-CUENTA AHORRO
-cuenta (IBAN control) clave primaria
+AHORRO
+cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta) (clave primaria)
 interés
 
-CUENTA CORRIENTE
-cuenta (IBAN control) clave primaria
+CORRIENTE
+cuenta (codPais, codIdentificacion, digitosCtrl, numCuenta) (clave primaria)
 oficina (codigo)
 
 OFICINA
 codigo (clave primaria)
 telefono
 dirección
-entidad (codigo)
+entidad (codPais, codIdentificacion)
 
 ENTIDAD
-codigo (clave primaria)
-pais
-nombre
+codPais + codIdentificacion (clave primaria)
+codPais
+codIdentificacion
 
 TRANSFERENCIA
-clave primaria (codigo + cuenta emisora)
+clave primaria (codigo)
 codigo
-cuenta emisora (IBAN control)
-importe
-fecha y hora
+cantidad
+fechaYHora
 descripcion
-cuenta receptora (IBAN control)
+cuenta emisora (codPais, codIdentificacion, digitosCtrl, numCuenta)
+cuenta receptora (codPais, codIdentificacion, digitosCtrl, numCuenta)
 
-INGRESORETIRADA
-clave primaria (codigo + IBAN control)
+INGRESOS
+clave primaria (codigo)
 codigo
-cuenta emisora (IBAN control)
-importe
-fecha y hora
+cantidad
+fechaYHora
 descripcion
+cuenta emisora (codPais, codIdentificacion, digitosCtrl, numCuenta)
 oficina (codigo)
-tipo
 
-HAY QUE PONER CHECK EN EL CAMPO TIPO DE INGRESORETIRADA
+RETIRADAS
+clave primaria (codigo)
+codigo
+cantidad
+fechaYHora
+descripcion
+cuenta emisora (codPais, codIdentificacion, digitosCtrl, numCuenta)
+oficina (codigo)

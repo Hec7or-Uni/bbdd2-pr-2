@@ -17,7 +17,7 @@ create type cuentaUdt as (
     digitosCtrl         varchar(4),
     numCuenta           varchar(16),
     fechaCreacion       timestamp,
-    saldoActual         float,
+    saldo         float,
     refCliente ref(clienteUdt) scope cliente array[10] -- DNI
     references are checked on delete set null,
     refEntidad ref(entidadUdt) scope entidad varchar(4) -- ID = codPais + codIdentificacion

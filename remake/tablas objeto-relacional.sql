@@ -11,7 +11,7 @@ create table cliente of clienteUdt (
 create table cuenta of cuentaUdt (
     primary key (codPais,codIdentificacion,digitosCtrl,numCuenta),
     fechaCreacion       with option not null,
-    saldoActual         with option not null,
+    saldo               with option not null,
     refEntidad          with option not null,
     foreign key (entidad) references entidad(codigo)
     on delete cascade,

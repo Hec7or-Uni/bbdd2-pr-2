@@ -1,71 +1,77 @@
 CREATE TABLE cliente OF clienteUdt (
-    DNI                 VARCHAR2(9) PRIMARY KEY,
-    nombre              VARCHAR2(100) NOT NULL,
-    apellido            VARCHAR2(100) NOT NULL,
-    fechaNacimiento     DATE NOT NULL,
-    direccion           VARCHAR2(100) NOT NULL,
-    telefono            INTEGER NOT NULL,
-    email               VARCHAR2(50) NOT NULL,
-    refCuenta           REF(cuentaUdt) SCOPE IS cuenta ARRAY[100],
-    CONSTRAINT fk_cliente_cuenta FOREIGN KEY (refCuenta) REFERENCES cuenta(cuentaID)
+    DNI                 PRIMARY KEY,
+    nombre              NOT NULL,
+    apellido            NOT NULL,
+    fechaNacimiento     NOT NULL,
+    direccion           NOT NULL,
+    telefono            NOT NULL,
+    email               NOT NULL,
+    refCuenta           NOT NULL
 );
+/
 
 CREATE TABLE cuenta OF cuentaUdt (
-    id                  INTEGER PRIMARY KEY,
-    codPais             VARCHAR2(2) NOT NULL,
-    codIdentificacion   VARCHAR2(2) NOT NULL,
-    digitosCtrl         VARCHAR2(4) NOT NULL,
-    numCuenta           VARCHAR2(16) NOT NULL,
-    fechaCreacion       TIMESTAMP NOT NULL,
-    saldo               FLOAT NOT NULL,
-    refCliente          REF(clienteUdt) SCOPE IS cliente ARRAY[10],
-    refEntidad          REF(entidadUdt) SCOPE IS entidad VARCHAR2(4),
-    refOperacion        REF(operacionUdt) SCOPE IS operacion ARRAY[100],
-    CONSTRAINT fk_cuenta_cliente FOREIGN KEY (refCliente) REFERENCES cliente(clienteID),
-    CONSTRAINT fk_cuenta_entidad FOREIGN KEY (refEntidad) REFERENCES entidad(id)
+    id                  PRIMARY KEY,
+    codPais             NOT NULL,
+    codIdentificacion   NOT NULL,
+    digitosCtrl         NOT NULL,
+    numCuenta           NOT NULL,
+    fechaCreacion       NOT NULL,
+    saldo               NOT NULL,
+    refCliente          NOT NULL,
+    refEntidad          NOT NULL
 );
+/
 
-CREATE TABLE cuentaAhorro OF cuentaAhorroUdt (
-    interes             INTEGER NOT NULL,
-    PRIMARY KEY (id),
-    CONSTRAINT fk_cuentaAhorro_cuenta FOREIGN KEY (id) REFERENCES cuenta(id)
+CREATE TABLE cuentaAhorro OF cuentaAhorroUdt(
+    interes             NOT NULL,
+    PRIMARY KEY (id)
 );
+/
 
 CREATE TABLE cuentaCorriente OF cuentaCorrienteUdt (
-    refOficina          INTEGER NOT NULL,
-    PRIMARY KEY (id),
-    CONSTRAINT fk_cuentaCorriente_cuenta FOREIGN KEY (id) REFERENCES cuenta(id),
-    CONSTRAINT fk_cuentaCorriente_oficina FOREIGN KEY (refOficina) REFERENCES oficina(codigo)
+    refOficina         NOT NULL,
+    PRIMARY KEY (id)
 );
+/
 
 create table oficina of oficinaUdt (
-    codigo              integer primary key,
-    telefono            varchar(50) not null,
-    direccion           varchar(250) not null,
-    entidad             integer,
-    foreign key (entidad) references entidad(codigo)
-    on delete set null,
-    ref is system generated
+    codigo              primary key,
+    telefono            not null,
+    direccion           not null,
+    refEntidad          not null
 );
+/
 
 create table entidad of entidadUdt (
-    codigoPais          varchar(2) not null,
-    codIdentificacion   varchar(10) not null,
-    primary key (codigoPais, codIdentificacion),
-    ref is system generated
+    codPais          not null,
+    codIdentificacion   not null,
+    primary key (id)
 );
+/
 
 create table operacion of operacionUdt (
-    codigo              integer primary key,
-    cantidad            float not null,
-    fechaYHora          timestamp not null,
-    descripcion         varchar(250),
-    refCuentaEmisora    integer not null,
-    refCuentaReceptora  integer,
-    refOficina          integer,
-    foreign key (refCuentaEmisora) references cuenta(cuentaID),
-    foreign key (refCuentaReceptora) references cuenta(cuentaID),
-    foreign key (refOficina) references oficina(oficinaID)
-    on delete cascade,
-    ref is system generated
+    codigo              primary key,
+    cantidad            not null,
+    fechaYHora          not null,
+    refCuentaEmisora    not null
 );
+/
+
+create table transferencia of transferenciaUdt (
+    codigo              primary key,
+    refCuentaReceptora  not null
+);
+/
+
+create table ingreso of ingresoUdt (
+    codigo              primary key,
+    refOficina          not null
+);
+/
+
+create table retirada of retiradaUdt (
+    codigo              primary key,
+    refOficina          not null
+);
+/

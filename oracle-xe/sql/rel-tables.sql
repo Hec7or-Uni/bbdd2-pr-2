@@ -16,14 +16,15 @@ CREATE TABLE OFICINAS (
 );
 
 CREATE TABLE CUENTAS (
-    IBAN            VARCHAR(24)     PRIMARY KEY,
+    IBAN            VARCHAR(40)     PRIMARY KEY,
     fechaCreacion   TIMESTAMP       NOT NULL,
     saldo           NUMBER          DEFAULT(0),
-    tipoCuenta      ENUM('AHORRO', 'CORRIENTE') NOT NULL,
+    tipoCuenta      VARCHAR(9)      NOT NULL,
     interes         DECIMAL(4,3),
     oficina         INTEGER         NULL,
+    CHECK (tipoCuenta IN ('AHORRO', 'CORRIENTE')),
     CHECK ((tipoCuenta = 'AHORRO' AND oficina IS NULL AND interes IS NOT NULL) OR (tipoCuenta = 'CORRIENTE' AND oficina IS NOT NULL AND interes IS NULL)),
-    FOREIGN KEY (oficina)   REFERENCES oficina(codigo),
+    FOREIGN KEY (oficina)   REFERENCES oficinas(codigo)
 );
 
 CREATE TABLE OPERACIONES (

@@ -4,7 +4,7 @@ create table cliente(
     apellido        VARCHAR(100)    NOT NULL,
     email           VARCHAR(50),
     telefono        VARCHAR(15)     NOT NULL,
-    fechaNacimiento DATE            NOT NULL,
+    fechaNacimiento VARCHAR(10)     NOT NULL,
     direccion       VARCHAR(100)    NOT NULL,
     edad            INTEGER         NOT NULL
 );

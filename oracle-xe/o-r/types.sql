@@ -4,7 +4,7 @@ DROP TYPE retiradaUdt FORCE;
 DROP TYPE ingresoUdt FORCE;
 /
 
-DROP TYPE tranSferenciaUdt FORCE;
+DROP TYPE transferenciaUdt FORCE;
 /
 
 DROP TYPE operacionUdt FORCE;
@@ -46,18 +46,15 @@ DROP TYPE entidadUdt FORCE;
 CREATE TYPE entidadUdt AS OBJECT (
     id VARCHAR2(36),
     codPais VARCHAR2(2),
-    codIdentificacion VARCHAR2(2)
+    codId VARCHAR2(4)
 ) INSTANTIABLE NOT FINAL;
-/
-
-CREATE TYPE tipoEntidad as ARRAY(1) OF REF entidadUdt;
 /
 
 CREATE TYPE oficinaUdt AS OBJECT (
     codigo NUMBER,
     telefono NUMBER,
     direccion VARCHAR2(255),
-    refEntidad tipoEntidad -- ID = codPais + codIdentificacion
+    refEntidad entidadUdt -- ID = codPais + codIdentificacion
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -86,7 +83,7 @@ CREATE OR REPLACE TYPE cuentaUdt AS OBJECT (
     fechaCreacion TIMESTAMP,
     saldo FLOAT,
     refCliente tipoTitulares, -- DNI
-    refEntidad tipoEntidad -- ID = codPais + codIdentificacion
+    refEntidad entidadUdt -- ID = codPais + codIdentificacion
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -101,11 +98,8 @@ CREATE TYPE cuentaAhorroUdt UNDER cuentaUdt (
 ) INSTANTIABLE NOT FINAL;
 /
 
-CREATE TYPE tipoOficina AS ARRAY(1) OF REF oficinaUdt;
-/
-
 CREATE TYPE cuentaCorrienteUdt UNDER cuentaUdt (
-    refOficina tipoOficina
+    refOficina oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -127,11 +121,11 @@ CREATE TYPE transferenciaUdt UNDER operacionUdt (
 /
 
 CREATE TYPE ingresoUdt UNDER operacionUdt (
-    refOficina          tipoOficina
+    refOficina          oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 
 CREATE TYPE retiradaUdt UNDER operacionUdt (
-    refOficina          tipoOficina
+    refOficina          oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /

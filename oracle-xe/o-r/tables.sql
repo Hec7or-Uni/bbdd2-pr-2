@@ -1,3 +1,33 @@
+DROP TABLE cliente FORCE;
+/
+
+DROP TABLE cuenta FORCE;
+/
+
+DROP TABLE cuentaAhorro FORCE;
+/
+
+DROP TABLE cuentaCorriente FORCE;
+/
+
+DROP TABLE oficina FORCE;
+/
+
+DROP TABLE entidad FORCE;
+/
+
+DROP TABLE operacion FORCE;
+/
+
+DROP TABLE transferencia FORCE;
+/
+
+DROP TABLE ingreso FORCE;
+/
+
+DROP TABLE retirada FORCE;
+/
+
 CREATE TABLE cliente OF clienteUdt (
     DNI                 PRIMARY KEY,
     nombre              NOT NULL,
@@ -45,7 +75,7 @@ create table oficina of oficinaUdt (
 
 create table entidad of entidadUdt (
     codPais          not null,
-    codIdentificacion   not null,
+    codId   not null,
     primary key (id)
 );
 /

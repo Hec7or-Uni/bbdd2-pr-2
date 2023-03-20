@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   oracle:
+    # image: gvenzl/oracle-xe:latest
     image: gvenzl/oracle-xe:21.3.0
     container_name: oracle
     restart: always

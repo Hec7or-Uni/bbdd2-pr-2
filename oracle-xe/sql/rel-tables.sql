@@ -3,7 +3,7 @@ create table cliente(
     nombre          VARCHAR(100)    NOT NULL,
     apellido        VARCHAR(100)    NOT NULL,
     email           VARCHAR(50),
-    telefono        VARCHAR(13)     NOT NULL,
+    telefono        VARCHAR(15)     NOT NULL,
     fechaNacimiento DATE            NOT NULL,
     direccion       VARCHAR(100)    NOT NULL,
     edad            INTEGER         NOT NULL
@@ -18,7 +18,7 @@ create table entidad (
 
 create table oficina (
     codigo          INTEGER         PRIMARY KEY,
-    telefono        VARCHAR(13)     NOT NULL,
+    telefono        VARCHAR(15)     NOT NULL,
     direccion       VARCHAR(255)    NOT NULL,
     idEntidad       VARCHAR(36)     NOT NULL,
     FOREIGN KEY (idEntidad)         REFERENCES entidad(id)

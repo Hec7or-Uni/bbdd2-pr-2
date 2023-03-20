@@ -1,69 +1,52 @@
-create table cliente(
+CREATE TABLE CLIENTES (
     DNI             VARCHAR(9)      PRIMARY KEY,
-    nombre          VARCHAR(100)    NOT NULL,
-    apellido        VARCHAR(100)    NOT NULL,
-    email           VARCHAR(50),
+    nombre          VARCHAR(30)     NOT NULL,
+    apellido        VARCHAR(30)     NOT NULL,
+    email           VARCHAR(75),
     telefono        VARCHAR(15)     NOT NULL,
-    fechaNacimiento VARCHAR(10)     NOT NULL,
-    direccion       VARCHAR(100)    NOT NULL,
+    fechaNacimiento DATE            NOT NULL ,
+    direccion       VARCHAR(50)     NOT NULL,
     edad            INTEGER         NOT NULL
 );
 
-create table entidad (
-    id              VARCHAR(36)     PRIMARY KEY,
-    codPais         VARCHAR(2)      NOT NULL,
-    codId           VARCHAR(4)      NOT NULL,
-    UNIQUE (codPais, codId)
-);
-
-create table oficina (
+CREATE TABLE OFICINAS (
     codigo          INTEGER         PRIMARY KEY,
     telefono        VARCHAR(15)     NOT NULL,
     direccion       VARCHAR(255)    NOT NULL,
-    idEntidad       VARCHAR(36)     NOT NULL,
-    FOREIGN KEY (idEntidad)         REFERENCES entidad(id)
 );
 
-create table cuenta (
-    id              VARCHAR(24)     PRIMARY KEY,
-    codPais         VARCHAR(2)      NOT NULL,
-    digitosCtrl     VARCHAR(4)      NOT NULL,
-    codId           VARCHAR(2)      NOT NULL,
-    numCuenta       VARCHAR(16)     NOT NULL,
+CREATE TABLE CUENTAS (
+    IBAN            VARCHAR(40)     PRIMARY KEY,
     fechaCreacion   TIMESTAMP       NOT NULL,
-    saldo           NUMBER   		DEFAULT(0),
+    saldo           NUMBER          DEFAULT(0),
     tipoCuenta      VARCHAR(9)      NOT NULL,
     interes         DECIMAL(4,3),
     oficina         INTEGER         NULL,
-    idEntidad       VARCHAR(36)     NOT NULL,
-    UNIQUE (codPais, codId, digitosCtrl, numCuenta),
-    CHECK (tipoCuenta IN ('ahorro', 'corriente')),
-    CHECK ((tipoCuenta = 'ahorro' AND oficina IS NULL AND interes IS NOT NULL) OR (tipoCuenta = 'corriente' AND oficina IS NOT NULL AND interes IS NULL)),
-    FOREIGN KEY (oficina)           REFERENCES oficina(codigo),
-    FOREIGN KEY (idEntidad)         REFERENCES entidad(id)
+    CHECK (tipoCuenta IN ('AHORRO', 'CORRIENTE')),
+    CHECK ((tipoCuenta = 'AHORRO' AND oficina IS NULL AND interes IS NOT NULL) OR (tipoCuenta = 'CORRIENTE' AND oficina IS NOT NULL AND interes IS NULL)),
+    FOREIGN KEY (oficina)   REFERENCES oficinas(codigo)
 );
 
-create table operacion (
+CREATE TABLE OPERACIONES (
     codigo          VARCHAR(36),
     cantidad        NUMBER			NOT NULL,
     timestamp       TIMESTAMP       NOT NULL,
-    tipoOp          VARCHAR(13)     NOT NULL,
+    tipoOp          ENUM('INGRESO', 'RETIRADA', 'TRANSFERENCIA') NOT NULL,
     descripcion     VARCHAR(255),
     cuentaEmisora   VARCHAR(24)		NOT NULL,
     cuentaReceptora VARCHAR(24)		NOT NULL,
     oficina         INTEGER         NULL,
-    CHECK (tipoOp IN ('ingreso', 'retirada', 'transferencia')),
-    CHECK ((tipoOp = 'ingreso' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'retirada' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'transferencia' AND cuentaReceptora IS NOT NULL AND oficina IS NULL)),
+    CHECK ((tipoOp = 'INGRESO' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'RETIRADA' AND cuentaReceptora IS NULL AND oficina IS NOT NULL) OR (tipoOp = 'TRANSFERENCIA' AND cuentaReceptora IS NOT NULL AND oficina IS NULL)),
     PRIMARY KEY (codigo),
     FOREIGN KEY (cuentaEmisora)     REFERENCES cuenta(id),
     FOREIGN KEY (cuentaReceptora)   REFERENCES cuenta(id),
     FOREIGN KEY (oficina)           REFERENCES oficina(codigo)
 );
 
-create table tiene (
-    DNI         VARCHAR(9)      NOT NULL,
-    idCuenta    VARCHAR(24)		NOT NULL,
-    PRIMARY KEY (DNI, idCuenta),
-    FOREIGN KEY (DNI)   		REFERENCES cliente(DNI),
-    FOREIGN KEY (idcuenta)		REFERENCES cuenta(id)
+CREATE TABLE TIENEN (
+    DNI     VARCHAR(9),
+    IBAN    VARCHAR(40),
+    PRIMARY KEY (DNI, IBAN),
+    FOREIGN KEY (DNI)       REFERENCES clientes(DNI),
+    FOREIGN KEY (IBAN)		REFERENCES cuentas(IBAN)
 );

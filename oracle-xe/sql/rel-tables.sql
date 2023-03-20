@@ -1,11 +1,11 @@
-create table cliente(
+CREATE TABLE CLIENTES (
     DNI             VARCHAR(9)      PRIMARY KEY,
-    nombre          VARCHAR(100)    NOT NULL,
-    apellido        VARCHAR(100)    NOT NULL,
-    email           VARCHAR(50),
+    nombre          VARCHAR(30)    NOT NULL,
+    apellido        VARCHAR(30)    NOT NULL,
+    email           VARCHAR(75),
     telefono        VARCHAR(15)     NOT NULL,
-    fechaNacimiento VARCHAR(10)     NOT NULL,
-    direccion       VARCHAR(100)    NOT NULL,
+    fechaNacimiento DATE            NOT NULL ,
+    direccion       VARCHAR(50)     NOT NULL,
     edad            INTEGER         NOT NULL
 );
 

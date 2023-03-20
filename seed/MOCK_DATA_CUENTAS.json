@@ -4,7 +4,7 @@
     "IBAN": "CH50 5682 234S RJST SUTP Z",
     "saldo": "$145826.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -12,7 +12,7 @@
     "IBAN": "FO20 5755 0074 4797 91",
     "saldo": "$98271.15",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -21,7 +21,7 @@
     "saldo": "$295971.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.444,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-10-08T02:24:54Z",
@@ -29,14 +29,14 @@
     "saldo": "$134630.38",
     "tipoCuenta": "AHORRO",
     "interes": 0.203,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-01-13T16:05:19Z",
     "IBAN": "BH55 XYLN 0PSK PCO0 FNEP ZT",
     "saldo": "$272926.64",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -45,7 +45,7 @@
     "saldo": "$168642.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.723,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-12-29T03:38:04Z",
@@ -53,7 +53,7 @@
     "saldo": "$25897.97",
     "tipoCuenta": "AHORRO",
     "interes": 0.566,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-10-14T12:55:40Z",
@@ -61,7 +61,7 @@
     "saldo": "$107250.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.172,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-12-30T02:50:12Z",
@@ -69,14 +69,14 @@
     "saldo": "$182900.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.833,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-08-12T18:19:19Z",
     "IBAN": "BE31 2205 7718 0279",
     "saldo": "$273225.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -85,14 +85,14 @@
     "saldo": "$118285.46",
     "tipoCuenta": "AHORRO",
     "interes": 0.063,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-03-21T20:59:38Z",
     "IBAN": "IT36 B073 5122 487Y NKZX VQNR EPT",
     "saldo": "$208026.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -101,14 +101,14 @@
     "saldo": "$87212.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.128,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-07-13T15:58:40Z",
     "IBAN": "PK38 DFFB AOAQ 8NIE NILU MFX2",
     "saldo": "$294645.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -117,14 +117,14 @@
     "saldo": "$248896.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.842,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-20T10:27:20Z",
     "IBAN": "VG49 SCRH 0926 1891 1469 9392",
     "saldo": "$233096.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -132,7 +132,7 @@
     "IBAN": "EE89 0313 4170 9642 7020",
     "saldo": "$298214.30",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -141,7 +141,7 @@
     "saldo": "$249368.34",
     "tipoCuenta": "AHORRO",
     "interes": 0.572,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-12-23T15:41:31Z",
@@ -149,7 +149,7 @@
     "saldo": "$172750.60",
     "tipoCuenta": "AHORRO",
     "interes": 0.693,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-05-24T03:29:10Z",
@@ -157,14 +157,14 @@
     "saldo": "$260392.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.702,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-06-02T23:09:32Z",
     "IBAN": "AE38 8659 7687 7338 1282 241",
     "saldo": "$125715.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -173,7 +173,7 @@
     "saldo": "$234578.88",
     "tipoCuenta": "AHORRO",
     "interes": 0.447,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2005-02-19T03:40:19Z",
@@ -181,7 +181,7 @@
     "saldo": "$276267.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.931,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-11-22T22:55:17Z",
@@ -189,14 +189,14 @@
     "saldo": "$148745.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.694,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1978-06-21T10:50:46Z",
     "IBAN": "AT13 9564 5583 6385 9750",
     "saldo": "$133077.34",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -205,14 +205,14 @@
     "saldo": "$33337.95",
     "tipoCuenta": "AHORRO",
     "interes": 0.285,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-09-18T07:09:46Z",
     "IBAN": "NL41 GGRH 0277 0273 44",
     "saldo": "$267746.47",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -221,7 +221,7 @@
     "saldo": "$122196.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.754,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-02-09T17:06:12Z",
@@ -229,14 +229,14 @@
     "saldo": "$54539.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.115,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-03-08T11:24:45Z",
     "IBAN": "HR79 0283 9490 4259 8063 6",
     "saldo": "$288246.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -244,7 +244,7 @@
     "IBAN": "LI40 0073 3YSI SILP QK9U Y",
     "saldo": "$108021.31",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -252,7 +252,7 @@
     "IBAN": "SK11 9692 9049 8269 1808 8840",
     "saldo": "$175329.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -261,14 +261,14 @@
     "saldo": "$233351.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.093,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-09-13T11:50:40Z",
     "IBAN": "HR84 6216 2393 3283 7421 2",
     "saldo": "$116380.71",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -277,7 +277,7 @@
     "saldo": "$86426.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.033,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-03-22T01:37:47Z",
@@ -285,7 +285,7 @@
     "saldo": "$213448.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.133,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-10-07T13:36:06Z",
@@ -293,7 +293,7 @@
     "saldo": "$120315.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.273,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-08-29T07:56:42Z",
@@ -301,7 +301,7 @@
     "saldo": "$224483.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.19,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-03-28T03:46:45Z",
@@ -309,7 +309,7 @@
     "saldo": "$245926.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.973,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-03-25T15:17:10Z",
@@ -317,7 +317,7 @@
     "saldo": "$248220.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.226,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-04-05T16:12:46Z",
@@ -325,14 +325,14 @@
     "saldo": "$267938.07",
     "tipoCuenta": "AHORRO",
     "interes": 0.635,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-03-24T15:47:47Z",
     "IBAN": "KW26 HFGK EYQX ZHZP VAZG RL2H FOTV XH",
     "saldo": "$269939.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -341,7 +341,7 @@
     "saldo": "$139368.85",
     "tipoCuenta": "AHORRO",
     "interes": 0.193,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-04-08T08:23:30Z",
@@ -349,14 +349,14 @@
     "saldo": "$54535.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.212,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-01-11T17:46:40Z",
     "IBAN": "SA37 239K U6TX TAKT C6GA YDGB",
     "saldo": "$148891.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -364,7 +364,7 @@
     "IBAN": "SM15 C329 1049 471P VYBX P5GR AL6",
     "saldo": "$143253.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -373,7 +373,7 @@
     "saldo": "$52733.72",
     "tipoCuenta": "AHORRO",
     "interes": 0.488,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-11-18T04:48:56Z",
@@ -381,7 +381,7 @@
     "saldo": "$46276.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.691,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-08-09T01:08:35Z",
@@ -389,14 +389,14 @@
     "saldo": "$261768.64",
     "tipoCuenta": "AHORRO",
     "interes": 0.393,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2005-01-21T13:56:43Z",
     "IBAN": "CR14 8322 5089 5601 5345 0",
     "saldo": "$159288.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -405,7 +405,7 @@
     "saldo": "$42819.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.962,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-15T14:59:59Z",
@@ -413,7 +413,7 @@
     "saldo": "$66346.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.713,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-07-06T05:34:56Z",
@@ -421,14 +421,14 @@
     "saldo": "$293580.23",
     "tipoCuenta": "AHORRO",
     "interes": 0.519,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-12-17T22:19:29Z",
     "IBAN": "FR83 5891 7047 460A F6IS MNBY 098",
     "saldo": "$80769.60",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -436,7 +436,7 @@
     "IBAN": "CY56 2468 9358 0AZ3 DSSH 1LEG Q7VU",
     "saldo": "$6451.39",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -445,14 +445,14 @@
     "saldo": "$187538.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.328,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-01-07T00:41:11Z",
     "IBAN": "LT14 4777 7809 1412 3208",
     "saldo": "$78902.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -461,7 +461,7 @@
     "saldo": "$147187.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.305,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-02-09T10:32:40Z",
@@ -469,14 +469,14 @@
     "saldo": "$266463.26",
     "tipoCuenta": "AHORRO",
     "interes": 0.211,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-06-07T02:44:28Z",
     "IBAN": "GB86 MMMW 1528 6995 9705 97",
     "saldo": "$180147.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -485,7 +485,7 @@
     "saldo": "$69004.76",
     "tipoCuenta": "AHORRO",
     "interes": 0.227,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-02-05T10:14:29Z",
@@ -493,7 +493,7 @@
     "saldo": "$5551.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.577,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-06-06T17:57:11Z",
@@ -501,14 +501,14 @@
     "saldo": "$250653.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.463,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-01-08T12:14:40Z",
     "IBAN": "AT97 5431 4439 3076 5787",
     "saldo": "$265623.66",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -517,7 +517,7 @@
     "saldo": "$291773.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.593,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-05-02T01:24:07Z",
@@ -525,7 +525,7 @@
     "saldo": "$75915.45",
     "tipoCuenta": "AHORRO",
     "interes": 0.64,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-03-07T15:09:38Z",
@@ -533,7 +533,7 @@
     "saldo": "$79041.47",
     "tipoCuenta": "AHORRO",
     "interes": 0.69,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-04-20T01:53:04Z",
@@ -541,7 +541,7 @@
     "saldo": "$168046.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.466,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-07-11T07:43:07Z",
@@ -549,14 +549,14 @@
     "saldo": "$113563.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.199,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-05-15T00:42:16Z",
     "IBAN": "MR55 9055 4667 6885 7690 9460 807",
     "saldo": "$148101.25",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -564,7 +564,7 @@
     "IBAN": "MR16 8446 9811 0573 2577 7998 338",
     "saldo": "$234460.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -573,7 +573,7 @@
     "saldo": "$227082.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.19,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-08-22T09:44:54Z",
@@ -581,14 +581,14 @@
     "saldo": "$118373.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.36,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-11-23T23:35:49Z",
     "IBAN": "BH04 OQHX EHL5 70HK KIRA Q0",
     "saldo": "$86813.36",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -596,7 +596,7 @@
     "IBAN": "PL53 1310 4885 2542 6923 8648 7847",
     "saldo": "$146024.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -604,7 +604,7 @@
     "IBAN": "AZ49 TWLZ CU32 NRI5 2AZH BPTM 9EJS",
     "saldo": "$36963.74",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -613,7 +613,7 @@
     "saldo": "$250384.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.813,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-05-08T22:05:42Z",
@@ -621,14 +621,14 @@
     "saldo": "$250436.75",
     "tipoCuenta": "AHORRO",
     "interes": 0.601,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-12-11T09:05:07Z",
     "IBAN": "PK55 BOKR LRLZ MKIN M2AJ W9S9",
     "saldo": "$54507.90",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -637,7 +637,7 @@
     "saldo": "$107082.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.882,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-04-13T18:36:36Z",
@@ -645,7 +645,7 @@
     "saldo": "$102257.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.479,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-09-23T23:41:04Z",
@@ -653,7 +653,7 @@
     "saldo": "$8337.02",
     "tipoCuenta": "AHORRO",
     "interes": 0.309,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-03-10T06:36:09Z",
@@ -661,7 +661,7 @@
     "saldo": "$139086.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.523,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-10-17T15:52:17Z",
@@ -669,7 +669,7 @@
     "saldo": "$221309.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.897,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-01-15T05:09:26Z",
@@ -677,14 +677,14 @@
     "saldo": "$64155.22",
     "tipoCuenta": "AHORRO",
     "interes": 0.558,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-12-03T03:09:03Z",
     "IBAN": "PL72 0464 0191 3414 7291 2163 6815",
     "saldo": "$145781.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -693,7 +693,7 @@
     "saldo": "$223666.26",
     "tipoCuenta": "AHORRO",
     "interes": 0.593,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-05-05T12:39:55Z",
@@ -701,7 +701,7 @@
     "saldo": "$232766.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.207,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-03-03T08:17:39Z",
@@ -709,7 +709,7 @@
     "saldo": "$296322.04",
     "tipoCuenta": "AHORRO",
     "interes": 0.103,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-05-12T18:26:39Z",
@@ -717,7 +717,7 @@
     "saldo": "$235249.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.496,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-03-20T22:32:37Z",
@@ -725,14 +725,14 @@
     "saldo": "$106045.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.285,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-10-10T18:57:53Z",
     "IBAN": "SI79 9100 1242 0815 145",
     "saldo": "$47353.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -741,7 +741,7 @@
     "saldo": "$299273.18",
     "tipoCuenta": "AHORRO",
     "interes": 0.025,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-02-08T09:47:53Z",
@@ -749,14 +749,14 @@
     "saldo": "$229250.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.227,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-11-19T21:05:30Z",
     "IBAN": "ME91 4202 8167 0908 2400 25",
     "saldo": "$11726.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -764,7 +764,7 @@
     "IBAN": "IL32 6873 4304 1469 8223 482",
     "saldo": "$255085.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -772,7 +772,7 @@
     "IBAN": "FR26 1055 7452 98AB 6AMY PWGO W53",
     "saldo": "$6962.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -780,7 +780,7 @@
     "IBAN": "AE15 9559 5432 7687 8620 246",
     "saldo": "$61369.69",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -788,7 +788,7 @@
     "IBAN": "SE24 3976 7128 6696 4592 0584",
     "saldo": "$148130.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -796,7 +796,7 @@
     "IBAN": "LI34 7864 2LCC ULOH YYI0 3",
     "saldo": "$35869.68",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -804,7 +804,7 @@
     "IBAN": "FR18 3552 1409 49TJ KCZZ FP5R G44",
     "saldo": "$5672.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -813,14 +813,14 @@
     "saldo": "$242380.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.329,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-04-02T06:58:13Z",
     "IBAN": "EE17 0019 9049 9156 4089",
     "saldo": "$45957.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -828,7 +828,7 @@
     "IBAN": "IT97 Z851 7879 8075 YOQ1 FLWT NJY",
     "saldo": "$290015.99",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -836,7 +836,7 @@
     "IBAN": "RS18 9487 9793 3303 3403 90",
     "saldo": "$17855.89",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -844,7 +844,7 @@
     "IBAN": "MU67 HJGH 5816 9666 7467 4729 976X MW",
     "saldo": "$36510.36",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -852,7 +852,7 @@
     "IBAN": "MR33 9091 4908 5090 3938 8667 464",
     "saldo": "$245067.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -860,7 +860,7 @@
     "IBAN": "FR21 4331 6369 644F PPUJ QP7K R72",
     "saldo": "$188519.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -869,7 +869,7 @@
     "saldo": "$172869.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.805,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-05-08T13:01:44Z",
@@ -877,7 +877,7 @@
     "saldo": "$163636.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.221,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-08-27T23:04:44Z",
@@ -885,14 +885,14 @@
     "saldo": "$241752.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.356,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-08-09T13:43:30Z",
     "IBAN": "KW72 WTYL ATQ9 PTEI OCQM H1VQ MVJQ TB",
     "saldo": "$264948.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -901,7 +901,7 @@
     "saldo": "$90016.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.004,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-06-25T10:27:04Z",
@@ -909,7 +909,7 @@
     "saldo": "$102102.45",
     "tipoCuenta": "AHORRO",
     "interes": 0.449,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-06-28T15:32:44Z",
@@ -917,14 +917,14 @@
     "saldo": "$230022.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.237,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-07-01T07:29:21Z",
     "IBAN": "AD54 6880 1102 KTSE ALU0 L3CS",
     "saldo": "$171733.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -933,7 +933,7 @@
     "saldo": "$290793.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.298,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-09-22T04:20:11Z",
@@ -941,7 +941,7 @@
     "saldo": "$10552.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.683,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-01-08T12:26:30Z",
@@ -949,14 +949,14 @@
     "saldo": "$21232.16",
     "tipoCuenta": "AHORRO",
     "interes": 0.649,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-12-16T23:30:01Z",
     "IBAN": "AD71 2807 6486 SSYF TCZS G9OB",
     "saldo": "$105979.53",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -964,7 +964,7 @@
     "IBAN": "BR16 0557 5643 1617 5599 8718 656R K",
     "saldo": "$250027.95",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -973,7 +973,7 @@
     "saldo": "$14297.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.923,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-10-10T15:31:27Z",
@@ -981,7 +981,7 @@
     "saldo": "$193649.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.104,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-01-29T06:26:30Z",
@@ -989,7 +989,7 @@
     "saldo": "$233634.72",
     "tipoCuenta": "AHORRO",
     "interes": 0.075,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-12-09T20:31:48Z",
@@ -997,7 +997,7 @@
     "saldo": "$104838.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.909,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-07-20T20:15:34Z",
@@ -1005,14 +1005,14 @@
     "saldo": "$264445.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.589,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-11-07T14:01:24Z",
     "IBAN": "PL03 1418 3147 9506 5010 1418 4110",
     "saldo": "$40991.09",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1021,14 +1021,14 @@
     "saldo": "$97008.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.795,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-08-14T15:58:01Z",
     "IBAN": "PL09 9847 9397 4319 6484 7992 8422",
     "saldo": "$140503.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1037,7 +1037,7 @@
     "saldo": "$171884.95",
     "tipoCuenta": "AHORRO",
     "interes": 0.961,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-11-05T15:02:03Z",
@@ -1045,7 +1045,7 @@
     "saldo": "$4459.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.277,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-02-17T15:07:03Z",
@@ -1053,7 +1053,7 @@
     "saldo": "$251907.47",
     "tipoCuenta": "AHORRO",
     "interes": 0.438,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-11-03T07:10:56Z",
@@ -1061,14 +1061,14 @@
     "saldo": "$49260.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.004,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-05-20T16:10:48Z",
     "IBAN": "BG34 ETKL 3222 34F2 EZK0 QL",
     "saldo": "$209676.99",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1076,7 +1076,7 @@
     "IBAN": "VG59 IHOM 4429 4684 7134 4147",
     "saldo": "$292989.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1084,7 +1084,7 @@
     "IBAN": "FR44 0098 4816 73D6 A67N NW9J Q75",
     "saldo": "$130198.86",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1093,14 +1093,14 @@
     "saldo": "$163661.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.17,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-08-03T07:43:18Z",
     "IBAN": "FR07 0276 8659 35G6 WXFR BXLT C84",
     "saldo": "$240152.70",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1108,7 +1108,7 @@
     "IBAN": "CH89 8563 1G5X PSGH QFQM G",
     "saldo": "$64053.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1117,7 +1117,7 @@
     "saldo": "$151760.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.815,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-11-12T21:40:03Z",
@@ -1125,7 +1125,7 @@
     "saldo": "$266434.35",
     "tipoCuenta": "AHORRO",
     "interes": 0.729,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-05-13T11:37:13Z",
@@ -1133,14 +1133,14 @@
     "saldo": "$244459.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.76,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-08-11T23:49:59Z",
     "IBAN": "FR56 5413 0343 8064 1KHQ TYL0 M82",
     "saldo": "$224817.60",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1149,14 +1149,14 @@
     "saldo": "$214249.92",
     "tipoCuenta": "AHORRO",
     "interes": 0.291,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-07-18T16:48:17Z",
     "IBAN": "LV69 BHDQ YP04 TZXK 1YYK P",
     "saldo": "$243158.51",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1164,7 +1164,7 @@
     "IBAN": "BH96 GQPZ 0EWB PHMV LFR6 D7",
     "saldo": "$274051.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1173,7 +1173,7 @@
     "saldo": "$296004.06",
     "tipoCuenta": "AHORRO",
     "interes": 0.622,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-06-20T02:04:28Z",
@@ -1181,7 +1181,7 @@
     "saldo": "$12903.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.644,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-04-17T22:51:55Z",
@@ -1189,7 +1189,7 @@
     "saldo": "$188581.95",
     "tipoCuenta": "AHORRO",
     "interes": 0.659,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-06-09T06:47:03Z",
@@ -1197,14 +1197,14 @@
     "saldo": "$258028.40",
     "tipoCuenta": "AHORRO",
     "interes": 0.289,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-02-28T11:26:46Z",
     "IBAN": "GE19 QI92 2381 0537 3311 84",
     "saldo": "$89012.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1212,7 +1212,7 @@
     "IBAN": "LI83 2196 9D8Y 5YIG 923B V",
     "saldo": "$10935.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1220,7 +1220,7 @@
     "IBAN": "BH05 LGPW JYPH WPTC 4WEA 9H",
     "saldo": "$229021.12",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1228,7 +1228,7 @@
     "IBAN": "GT94 SYTU KDW0 1HYY B3YS MTCS PW6F",
     "saldo": "$111507.11",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1236,7 +1236,7 @@
     "IBAN": "AT93 8319 6258 3949 6090",
     "saldo": "$272077.92",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1244,7 +1244,7 @@
     "IBAN": "FI13 7038 8898 1523 54",
     "saldo": "$214029.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1253,14 +1253,14 @@
     "saldo": "$131654.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.97,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-05-22T09:04:44Z",
     "IBAN": "DK35 7835 6263 6421 06",
     "saldo": "$299207.08",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1268,7 +1268,7 @@
     "IBAN": "BH07 OHPS JNRP FE9C EY97 HQ",
     "saldo": "$265215.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1277,14 +1277,14 @@
     "saldo": "$219850.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.318,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-05-03T07:34:22Z",
     "IBAN": "FR39 1722 7185 85FY CHDW FFDM S37",
     "saldo": "$178864.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1292,7 +1292,7 @@
     "IBAN": "VG24 FLZJ 5099 9325 9114 8564",
     "saldo": "$260231.85",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1301,7 +1301,7 @@
     "saldo": "$289936.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.062,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-11-08T10:08:21Z",
@@ -1309,7 +1309,7 @@
     "saldo": "$290732.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.896,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-02-04T06:53:27Z",
@@ -1317,14 +1317,14 @@
     "saldo": "$133484.74",
     "tipoCuenta": "AHORRO",
     "interes": 0.754,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-08-08T12:27:07Z",
     "IBAN": "KW38 STPK A7D5 5GWL R7AW 0XYT 5FPI 08",
     "saldo": "$105905.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1332,7 +1332,7 @@
     "IBAN": "MU88 RJIA 9052 0755 2191 7397 382C JC",
     "saldo": "$258441.07",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1340,7 +1340,7 @@
     "IBAN": "BG02 YLTI 9998 88IB SNWY 7C",
     "saldo": "$188749.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1349,14 +1349,14 @@
     "saldo": "$111864.37",
     "tipoCuenta": "AHORRO",
     "interes": 0.362,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-02-14T07:37:32Z",
     "IBAN": "KW19 LDJD EBQM BATZ RRSO E5MT QQM5 EN",
     "saldo": "$269165.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1365,7 +1365,7 @@
     "saldo": "$287440.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.154,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-11-26T00:51:21Z",
@@ -1373,14 +1373,14 @@
     "saldo": "$225231.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.52,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-11-19T07:22:25Z",
     "IBAN": "CR93 2778 9784 0841 5068 4",
     "saldo": "$11689.67",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1388,7 +1388,7 @@
     "IBAN": "CY83 5304 2217 HFQU O9BE DHAU ZJSS",
     "saldo": "$23071.47",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1396,7 +1396,7 @@
     "IBAN": "SI68 0266 7205 1924 472",
     "saldo": "$137262.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1404,7 +1404,7 @@
     "IBAN": "FR11 0111 8448 75A0 N1KZ WVDJ P97",
     "saldo": "$31027.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1412,7 +1412,7 @@
     "IBAN": "LI95 0115 9ZVW P6SI XD78 2",
     "saldo": "$268411.32",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1420,7 +1420,7 @@
     "IBAN": "BH44 GAQX VRBH TAMK ZOPH UZ",
     "saldo": "$120938.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1429,14 +1429,14 @@
     "saldo": "$52966.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.735,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-12-24T13:33:21Z",
     "IBAN": "FR82 7708 6394 04X4 YGYE 7TY6 U83",
     "saldo": "$170716.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1445,14 +1445,14 @@
     "saldo": "$152999.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.766,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-03-25T07:43:40Z",
     "IBAN": "SE19 6699 8068 7554 7851 7671",
     "saldo": "$209275.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1460,7 +1460,7 @@
     "IBAN": "LB11 4870 VWLI M6VM Q7VB BNKO XDPU",
     "saldo": "$124364.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1469,14 +1469,14 @@
     "saldo": "$8441.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.306,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-05-27T14:56:05Z",
     "IBAN": "BE60 1191 5001 3718",
     "saldo": "$163331.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1485,14 +1485,14 @@
     "saldo": "$213350.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.9,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-03-07T10:12:31Z",
     "IBAN": "NL74 ZLYP 7577 4423 48",
     "saldo": "$275991.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1500,7 +1500,7 @@
     "IBAN": "BG52 DEZX 8477 36NP 9GFJ 7R",
     "saldo": "$129961.86",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1508,7 +1508,7 @@
     "IBAN": "ES18 3637 0361 4059 0558 7068",
     "saldo": "$260029.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1516,7 +1516,7 @@
     "IBAN": "GI11 RPXO QUEQ IGYZ LPNM IOV",
     "saldo": "$144277.47",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1525,14 +1525,14 @@
     "saldo": "$68639.34",
     "tipoCuenta": "AHORRO",
     "interes": 0.644,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-05-10T23:50:27Z",
     "IBAN": "IS65 3857 3065 5743 4494 9052 89",
     "saldo": "$208435.35",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1540,7 +1540,7 @@
     "IBAN": "GR83 3025 422W 8ZUV 4NDB VSGM KFJ",
     "saldo": "$39024.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1548,7 +1548,7 @@
     "IBAN": "AZ79 AAZK Q7FU AXBK 3N8B VUYG ESID",
     "saldo": "$193059.15",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1557,14 +1557,14 @@
     "saldo": "$23744.56",
     "tipoCuenta": "AHORRO",
     "interes": 0.73,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-06-18T22:33:39Z",
     "IBAN": "MR16 5861 4008 1426 8654 9307 142",
     "saldo": "$70315.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1573,7 +1573,7 @@
     "saldo": "$84113.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.215,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-08-15T04:39:38Z",
@@ -1581,14 +1581,14 @@
     "saldo": "$3525.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.935,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-12-31T00:12:53Z",
     "IBAN": "FR42 2274 2207 46VE NVMH SOG0 B80",
     "saldo": "$238435.08",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1596,7 +1596,7 @@
     "IBAN": "CR30 9358 7989 2517 4809 3",
     "saldo": "$292913.77",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1605,14 +1605,14 @@
     "saldo": "$295200.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.362,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-05-21T07:47:02Z",
     "IBAN": "IT37 O205 6506 750T FPJC EPLC I5I",
     "saldo": "$13713.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1621,7 +1621,7 @@
     "saldo": "$193895.02",
     "tipoCuenta": "AHORRO",
     "interes": 0.531,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-06-08T15:06:04Z",
@@ -1629,14 +1629,14 @@
     "saldo": "$118217.06",
     "tipoCuenta": "AHORRO",
     "interes": 0.942,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-04-08T00:07:37Z",
     "IBAN": "KZ20 922O XGMM 40I2 24FZ",
     "saldo": "$7804.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1644,7 +1644,7 @@
     "IBAN": "SM32 Z235 6825 690A WYMV LJSI QK0",
     "saldo": "$296317.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1652,7 +1652,7 @@
     "IBAN": "LV75 TIPV 7RH9 BBM8 RUCQ D",
     "saldo": "$40444.92",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1661,7 +1661,7 @@
     "saldo": "$61672.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.081,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-10-13T16:28:59Z",
@@ -1669,7 +1669,7 @@
     "saldo": "$258096.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.345,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-12-21T21:17:58Z",
@@ -1677,7 +1677,7 @@
     "saldo": "$109377.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.545,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-02-21T22:11:25Z",
@@ -1685,7 +1685,7 @@
     "saldo": "$127184.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.909,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-11-24T22:06:49Z",
@@ -1693,14 +1693,14 @@
     "saldo": "$69386.88",
     "tipoCuenta": "AHORRO",
     "interes": 0.179,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-01-21T14:20:46Z",
     "IBAN": "FR32 6222 8888 70NY QLKY UTWG M57",
     "saldo": "$274213.30",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1708,7 +1708,7 @@
     "IBAN": "BG03 HULH 3663 81VJ NQOT JF",
     "saldo": "$292858.23",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1716,7 +1716,7 @@
     "IBAN": "GB62 SAMZ 7628 2734 3536 69",
     "saldo": "$190191.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1724,7 +1724,7 @@
     "IBAN": "PT71 1899 8485 1220 3647 2372 8",
     "saldo": "$211607.35",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1732,7 +1732,7 @@
     "IBAN": "HR49 3089 8869 6221 7868 7",
     "saldo": "$125400.50",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1740,7 +1740,7 @@
     "IBAN": "LI56 6291 5WLT 8FLR B0RP D",
     "saldo": "$106931.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1749,7 +1749,7 @@
     "saldo": "$193989.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.545,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-12-07T15:52:40Z",
@@ -1757,7 +1757,7 @@
     "saldo": "$263993.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.912,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-10-06T03:33:23Z",
@@ -1765,7 +1765,7 @@
     "saldo": "$284977.20",
     "tipoCuenta": "AHORRO",
     "interes": 0.12,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-09-04T07:27:26Z",
@@ -1773,14 +1773,14 @@
     "saldo": "$56788.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.793,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-09-16T13:21:36Z",
     "IBAN": "MR68 0383 9820 3974 6916 0884 585",
     "saldo": "$232495.06",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1789,7 +1789,7 @@
     "saldo": "$5041.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.424,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-05-18T08:13:44Z",
@@ -1797,7 +1797,7 @@
     "saldo": "$238298.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.822,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-05-25T21:04:37Z",
@@ -1805,7 +1805,7 @@
     "saldo": "$250737.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.98,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-02-14T16:11:06Z",
@@ -1813,14 +1813,14 @@
     "saldo": "$109036.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.272,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-08-29T05:52:13Z",
     "IBAN": "ES74 4070 5517 5080 0585 4160",
     "saldo": "$56887.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1829,7 +1829,7 @@
     "saldo": "$108108.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.669,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-11-20T19:12:47Z",
@@ -1837,14 +1837,14 @@
     "saldo": "$291031.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.293,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-04-12T18:32:40Z",
     "IBAN": "FR54 0641 4771 9887 9YDI CJDB L75",
     "saldo": "$270182.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1853,14 +1853,14 @@
     "saldo": "$10182.60",
     "tipoCuenta": "AHORRO",
     "interes": 0.02,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-09-13T16:30:19Z",
     "IBAN": "FR75 6629 1558 58O6 KSLA 4S3L U04",
     "saldo": "$10738.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1869,14 +1869,14 @@
     "saldo": "$36487.08",
     "tipoCuenta": "AHORRO",
     "interes": 0.72,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-06-23T16:51:00Z",
     "IBAN": "FR76 4452 8960 68VH RU9G YVGN 705",
     "saldo": "$77135.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1884,7 +1884,7 @@
     "IBAN": "IL74 2211 7655 0170 3275 515",
     "saldo": "$10989.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1892,7 +1892,7 @@
     "IBAN": "DO67 ELVZ 1866 8806 2086 1737 9378",
     "saldo": "$66251.23",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1901,7 +1901,7 @@
     "saldo": "$80683.49",
     "tipoCuenta": "AHORRO",
     "interes": 0.074,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-08-10T15:15:21Z",
@@ -1909,7 +1909,7 @@
     "saldo": "$232645.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.86,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-03-02T13:52:38Z",
@@ -1917,7 +1917,7 @@
     "saldo": "$110409.18",
     "tipoCuenta": "AHORRO",
     "interes": 0.252,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-04-13T00:46:24Z",
@@ -1925,14 +1925,14 @@
     "saldo": "$28185.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.181,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-04-02T15:47:24Z",
     "IBAN": "FR24 8649 0212 09U6 WF24 P4NZ W10",
     "saldo": "$99314.64",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1941,7 +1941,7 @@
     "saldo": "$157534.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.931,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-02-12T21:47:00Z",
@@ -1949,14 +1949,14 @@
     "saldo": "$113293.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.154,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-04-06T11:02:01Z",
     "IBAN": "MD43 H72P F1KN WH6R IJ7Z S1FG",
     "saldo": "$147375.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1965,7 +1965,7 @@
     "saldo": "$55074.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.657,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-06-07T05:47:34Z",
@@ -1973,14 +1973,14 @@
     "saldo": "$193845.92",
     "tipoCuenta": "AHORRO",
     "interes": 0.378,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-10-14T22:40:12Z",
     "IBAN": "MC28 2536 6739 05ZS GXT5 OBEA W69",
     "saldo": "$131473.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -1989,14 +1989,14 @@
     "saldo": "$170547.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.003,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-01-04T20:39:18Z",
     "IBAN": "SI42 0594 2828 0243 881",
     "saldo": "$205631.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2005,7 +2005,7 @@
     "saldo": "$111362.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.45,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-05-25T09:18:29Z",
@@ -2013,7 +2013,7 @@
     "saldo": "$70873.08",
     "tipoCuenta": "AHORRO",
     "interes": 0.906,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-03-01T15:25:05Z",
@@ -2021,14 +2021,14 @@
     "saldo": "$185107.50",
     "tipoCuenta": "AHORRO",
     "interes": 0.358,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-03-07T19:02:23Z",
     "IBAN": "LV83 JEBV CSIB J4M8 LFGL G",
     "saldo": "$66231.18",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2037,14 +2037,14 @@
     "saldo": "$25444.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.675,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-05-25T15:22:09Z",
     "IBAN": "DK60 7519 3192 5171 51",
     "saldo": "$72942.78",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2053,7 +2053,7 @@
     "saldo": "$61309.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.095,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-03-24T17:10:15Z",
@@ -2061,7 +2061,7 @@
     "saldo": "$115934.72",
     "tipoCuenta": "AHORRO",
     "interes": 0.16,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-02-25T17:38:04Z",
@@ -2069,7 +2069,7 @@
     "saldo": "$297795.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.971,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-12-04T22:17:06Z",
@@ -2077,14 +2077,14 @@
     "saldo": "$274052.28",
     "tipoCuenta": "AHORRO",
     "interes": 0.141,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-07-19T20:30:06Z",
     "IBAN": "MC50 2748 5952 56TW HL9T B6YU V80",
     "saldo": "$267011.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2093,14 +2093,14 @@
     "saldo": "$56074.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.557,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-11-20T15:01:59Z",
     "IBAN": "FR86 3542 7981 229C WNOB RQNQ Y86",
     "saldo": "$217700.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2108,7 +2108,7 @@
     "IBAN": "FR07 5605 3159 44R5 3CGM BZED F02",
     "saldo": "$6533.58",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2117,14 +2117,14 @@
     "saldo": "$259498.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.492,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-12-18T12:52:10Z",
     "IBAN": "SI89 3269 7413 0895 917",
     "saldo": "$114945.02",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2133,7 +2133,7 @@
     "saldo": "$35608.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.486,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-05-10T21:30:56Z",
@@ -2141,14 +2141,14 @@
     "saldo": "$133331.46",
     "tipoCuenta": "AHORRO",
     "interes": 0.776,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-12-07T01:18:19Z",
     "IBAN": "FR70 3586 2142 43RR X6ZT GRJG Q22",
     "saldo": "$178839.67",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2156,7 +2156,7 @@
     "IBAN": "LB35 7085 GF7L ILQZ CQUC QATV 7B0K",
     "saldo": "$182767.72",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2165,14 +2165,14 @@
     "saldo": "$140919.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.479,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-07-15T10:36:59Z",
     "IBAN": "ME02 2260 3753 5865 0764 42",
     "saldo": "$291772.99",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2180,7 +2180,7 @@
     "IBAN": "HR96 2170 5400 5756 1794 3",
     "saldo": "$116394.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2188,7 +2188,7 @@
     "IBAN": "GT48 MP1V SHDE XYZZ IIPB 6UFQ RVBP",
     "saldo": "$37362.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2197,7 +2197,7 @@
     "saldo": "$17787.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.069,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-01-01T18:00:07Z",
@@ -2205,7 +2205,7 @@
     "saldo": "$59815.27",
     "tipoCuenta": "AHORRO",
     "interes": 0.284,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-02-02T15:04:57Z",
@@ -2213,7 +2213,7 @@
     "saldo": "$177552.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.301,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-09-21T11:07:02Z",
@@ -2221,7 +2221,7 @@
     "saldo": "$149716.93",
     "tipoCuenta": "AHORRO",
     "interes": 0.923,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-12T15:25:48Z",
@@ -2229,14 +2229,14 @@
     "saldo": "$256431.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.635,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-05-03T17:37:19Z",
     "IBAN": "SI93 2857 4295 6303 033",
     "saldo": "$105386.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2245,7 +2245,7 @@
     "saldo": "$131441.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.321,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-12-02T00:10:12Z",
@@ -2253,14 +2253,14 @@
     "saldo": "$122656.27",
     "tipoCuenta": "AHORRO",
     "interes": 0.313,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-11-22T07:30:30Z",
     "IBAN": "TN45 9402 5157 5182 2814 9263",
     "saldo": "$166639.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2268,7 +2268,7 @@
     "IBAN": "MT54 YSGP 1460 4YUD FZU1 JSMP PA28 0XR",
     "saldo": "$121418.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2277,14 +2277,14 @@
     "saldo": "$151033.14",
     "tipoCuenta": "AHORRO",
     "interes": 0.814,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-07-05T16:38:14Z",
     "IBAN": "GR26 1789 4196 MTOD GWOP XBQU NK0",
     "saldo": "$150015.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2292,7 +2292,7 @@
     "IBAN": "VG22 XSDQ 1300 6557 8094 0269",
     "saldo": "$82872.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2301,7 +2301,7 @@
     "saldo": "$247891.34",
     "tipoCuenta": "AHORRO",
     "interes": 0.042,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-10-07T03:38:26Z",
@@ -2309,14 +2309,14 @@
     "saldo": "$33121.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.022,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-02-24T01:42:41Z",
     "IBAN": "AD80 9021 1823 VXPR 3HUN TDCD",
     "saldo": "$65674.72",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2324,7 +2324,7 @@
     "IBAN": "AE63 8542 4595 0849 7507 816",
     "saldo": "$175185.53",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2333,14 +2333,14 @@
     "saldo": "$181189.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.741,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-09-05T21:21:45Z",
     "IBAN": "FR35 6827 4396 26CJ 1PA3 YVCJ W74",
     "saldo": "$126062.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2349,14 +2349,14 @@
     "saldo": "$26914.43",
     "tipoCuenta": "AHORRO",
     "interes": 0.128,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-02-21T22:43:00Z",
     "IBAN": "AL69 3344 2330 QBGZ 1ZWO QLGA 3ARE",
     "saldo": "$197720.12",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2364,7 +2364,7 @@
     "IBAN": "IL54 5142 3997 3425 4337 589",
     "saldo": "$262583.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2372,7 +2372,7 @@
     "IBAN": "DE30 1158 8526 4673 9036 24",
     "saldo": "$292895.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2381,14 +2381,14 @@
     "saldo": "$134436.64",
     "tipoCuenta": "AHORRO",
     "interes": 0.831,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-02-28T08:45:54Z",
     "IBAN": "IL86 9839 5543 3079 6679 794",
     "saldo": "$25155.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2397,7 +2397,7 @@
     "saldo": "$253463.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.771,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-01-14T23:54:05Z",
@@ -2405,14 +2405,14 @@
     "saldo": "$119967.50",
     "tipoCuenta": "AHORRO",
     "interes": 0.661,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-06-04T23:57:43Z",
     "IBAN": "BA68 9519 4046 6322 5115",
     "saldo": "$30702.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2420,7 +2420,7 @@
     "IBAN": "ME20 9238 5829 1583 0225 23",
     "saldo": "$204411.02",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2428,7 +2428,7 @@
     "IBAN": "GB16 KWVQ 5856 7169 6227 65",
     "saldo": "$64343.39",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2437,14 +2437,14 @@
     "saldo": "$155354.74",
     "tipoCuenta": "AHORRO",
     "interes": 0.598,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-10-22T04:29:54Z",
     "IBAN": "FR10 6049 4961 80F7 YF1K VOQH Y03",
     "saldo": "$244496.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2452,7 +2452,7 @@
     "IBAN": "EE76 4485 5991 6165 1576",
     "saldo": "$236767.75",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2460,7 +2460,7 @@
     "IBAN": "IT78 I977 1099 0718 ZFNM FEPX 4FX",
     "saldo": "$163626.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2469,7 +2469,7 @@
     "saldo": "$233568.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.625,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-03-16T17:45:47Z",
@@ -2477,7 +2477,7 @@
     "saldo": "$109921.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.072,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-08-17T12:17:47Z",
@@ -2485,14 +2485,14 @@
     "saldo": "$20229.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.513,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-11-11T04:44:26Z",
     "IBAN": "IT57 D010 2829 655H PGM2 DCUS WYB",
     "saldo": "$33932.31",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2500,7 +2500,7 @@
     "IBAN": "BA88 5056 4754 7520 7194",
     "saldo": "$156219.56",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2508,7 +2508,7 @@
     "IBAN": "LU40 969H HGPG G82S 9CRY",
     "saldo": "$59699.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2517,14 +2517,14 @@
     "saldo": "$256236.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.231,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-02-16T23:15:55Z",
     "IBAN": "PT56 8714 5538 4397 0039 6153 4",
     "saldo": "$177092.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2533,14 +2533,14 @@
     "saldo": "$214926.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.172,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-02-07T22:17:52Z",
     "IBAN": "FR40 6420 6672 19UX 6XV1 72RM J16",
     "saldo": "$196507.74",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2548,7 +2548,7 @@
     "IBAN": "AE19 2100 4858 9628 6111 479",
     "saldo": "$127112.03",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2557,14 +2557,14 @@
     "saldo": "$137317.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.394,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-09-24T06:53:26Z",
     "IBAN": "FR05 4399 8108 81XJ 94FU SDMG J41",
     "saldo": "$145501.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2572,7 +2572,7 @@
     "IBAN": "SE12 5312 4717 5825 8809 1664",
     "saldo": "$18648.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2581,7 +2581,7 @@
     "saldo": "$213676.13",
     "tipoCuenta": "AHORRO",
     "interes": 0.851,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-04-08T17:36:39Z",
@@ -2589,7 +2589,7 @@
     "saldo": "$118537.34",
     "tipoCuenta": "AHORRO",
     "interes": 0.531,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-07-12T02:09:19Z",
@@ -2597,14 +2597,14 @@
     "saldo": "$61897.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.015,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-05-31T10:05:26Z",
     "IBAN": "DO37 LS9M 1972 8760 2917 6227 6529",
     "saldo": "$15666.59",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2613,14 +2613,14 @@
     "saldo": "$76711.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.081,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-05-04T00:59:32Z",
     "IBAN": "MD55 QXNR VVYK M0IH CB8W 8B7J",
     "saldo": "$44627.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2629,14 +2629,14 @@
     "saldo": "$115964.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.474,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-11-29T09:51:10Z",
     "IBAN": "TR30 8536 1X6K BLJO G4KQ SFUH NW",
     "saldo": "$152088.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2645,14 +2645,14 @@
     "saldo": "$243374.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.598,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-08-15T08:02:15Z",
     "IBAN": "FR34 9248 2934 299A ZD02 8JKZ N93",
     "saldo": "$128052.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2661,14 +2661,14 @@
     "saldo": "$179110.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.088,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-06-21T18:47:40Z",
     "IBAN": "MC02 1577 5788 20KG DTN5 WDQF A60",
     "saldo": "$280253.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2676,7 +2676,7 @@
     "IBAN": "CZ78 6552 0976 1643 6898 3706",
     "saldo": "$64555.83",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2685,14 +2685,14 @@
     "saldo": "$142823.14",
     "tipoCuenta": "AHORRO",
     "interes": 0.016,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-02-14T13:43:51Z",
     "IBAN": "FR35 7612 0147 29GQ BHQF 9KSD I46",
     "saldo": "$46509.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2700,7 +2700,7 @@
     "IBAN": "CY74 5560 8665 JT2J UMUR YM09 6AFC",
     "saldo": "$132863.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2709,14 +2709,14 @@
     "saldo": "$1165.08",
     "tipoCuenta": "AHORRO",
     "interes": 0.177,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-08-15T01:20:14Z",
     "IBAN": "RS10 3046 2971 3049 7980 03",
     "saldo": "$226082.07",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2724,7 +2724,7 @@
     "IBAN": "NL60 GQYW 6585 4518 15",
     "saldo": "$273387.97",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2732,7 +2732,7 @@
     "IBAN": "CZ62 1801 4050 3749 6272 0759",
     "saldo": "$169273.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2740,7 +2740,7 @@
     "IBAN": "FI73 5254 3427 4437 34",
     "saldo": "$79758.50",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2748,7 +2748,7 @@
     "IBAN": "LI75 0298 3GJT IYTJ MAQD A",
     "saldo": "$40523.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2757,14 +2757,14 @@
     "saldo": "$114695.22",
     "tipoCuenta": "AHORRO",
     "interes": 0.959,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-10-30T22:59:36Z",
     "IBAN": "MU70 VHHH 6261 3004 7504 5766 361Q VU",
     "saldo": "$239903.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2773,7 +2773,7 @@
     "saldo": "$280188.01",
     "tipoCuenta": "AHORRO",
     "interes": 0.276,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-10-28T19:49:17Z",
@@ -2781,7 +2781,7 @@
     "saldo": "$68666.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.327,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-01-20T07:59:49Z",
@@ -2789,7 +2789,7 @@
     "saldo": "$113145.88",
     "tipoCuenta": "AHORRO",
     "interes": 0.582,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-07-19T10:51:35Z",
@@ -2797,14 +2797,14 @@
     "saldo": "$139026.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.594,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-04-23T07:10:48Z",
     "IBAN": "IE84 TCBK 4247 0990 4138 98",
     "saldo": "$110079.72",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2812,7 +2812,7 @@
     "IBAN": "LI16 8356 6RYD DHFY BEQJ H",
     "saldo": "$9993.75",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2820,7 +2820,7 @@
     "IBAN": "AT05 3131 9699 7230 1213",
     "saldo": "$19519.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2829,7 +2829,7 @@
     "saldo": "$176255.74",
     "tipoCuenta": "AHORRO",
     "interes": 0.403,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-10-25T09:28:49Z",
@@ -2837,14 +2837,14 @@
     "saldo": "$20589.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.611,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-08-29T01:46:12Z",
     "IBAN": "FR87 0729 0365 97M6 NNFD AH5K U51",
     "saldo": "$281650.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2852,7 +2852,7 @@
     "IBAN": "MU37 KNKB 8358 1091 9848 4504 475R SC",
     "saldo": "$264817.58",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2861,14 +2861,14 @@
     "saldo": "$252365.16",
     "tipoCuenta": "AHORRO",
     "interes": 0.651,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-03-09T15:41:31Z",
     "IBAN": "GR96 6051 305O X8TR JKTZ KR9U K5U",
     "saldo": "$238996.89",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2876,7 +2876,7 @@
     "IBAN": "RO84 LTVK QLTB SV3Z 0U3P KGSO",
     "saldo": "$267923.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2885,14 +2885,14 @@
     "saldo": "$178465.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.801,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-09-29T12:25:56Z",
     "IBAN": "IT30 C025 8415 274P I6VX MIWL F4J",
     "saldo": "$232600.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2900,7 +2900,7 @@
     "IBAN": "GB84 ERRY 5626 2036 4114 63",
     "saldo": "$38116.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2909,14 +2909,14 @@
     "saldo": "$110878.95",
     "tipoCuenta": "AHORRO",
     "interes": 0.245,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-03-27T00:35:59Z",
     "IBAN": "MT03 MNCX 1714 0TRO XBE0 J4T0 BLPN TEZ",
     "saldo": "$26813.51",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2925,7 +2925,7 @@
     "saldo": "$234027.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.099,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-09-15T06:26:18Z",
@@ -2933,7 +2933,7 @@
     "saldo": "$211850.83",
     "tipoCuenta": "AHORRO",
     "interes": 0.013,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-12-23T18:51:56Z",
@@ -2941,14 +2941,14 @@
     "saldo": "$122418.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.247,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-05-14T08:19:09Z",
     "IBAN": "AL71 7948 2622 SNVP KN9B ZXDS 5XKN",
     "saldo": "$87249.78",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2956,7 +2956,7 @@
     "IBAN": "DO09 E78V 3551 6612 1440 3484 8875",
     "saldo": "$35642.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2964,7 +2964,7 @@
     "IBAN": "DE36 5743 5842 7128 4576 34",
     "saldo": "$249908.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2972,7 +2972,7 @@
     "IBAN": "BR50 6962 5469 6405 6884 9633 568U Y",
     "saldo": "$199882.70",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2980,7 +2980,7 @@
     "IBAN": "CR70 5881 2903 7537 8080 6",
     "saldo": "$253727.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -2989,14 +2989,14 @@
     "saldo": "$288462.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.051,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-12-12T12:32:56Z",
     "IBAN": "GI27 WTBY 1CO4 JTJQ F6P8 CNC",
     "saldo": "$136608.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3005,7 +3005,7 @@
     "saldo": "$81433.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.712,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-04-20T18:24:57Z",
@@ -3013,14 +3013,14 @@
     "saldo": "$133331.49",
     "tipoCuenta": "AHORRO",
     "interes": 0.1,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-11-26T16:05:30Z",
     "IBAN": "CH34 1093 77HZ T4NP 83GE O",
     "saldo": "$295653.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3028,7 +3028,7 @@
     "IBAN": "IL65 5304 7618 5168 5355 459",
     "saldo": "$140224.25",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3037,14 +3037,14 @@
     "saldo": "$290915.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.066,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-03-16T04:12:05Z",
     "IBAN": "FI76 6050 6269 7437 81",
     "saldo": "$55584.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3053,14 +3053,14 @@
     "saldo": "$14169.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.173,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-05-28T22:31:57Z",
     "IBAN": "LT46 6310 0380 3207 8728",
     "saldo": "$46692.06",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3069,14 +3069,14 @@
     "saldo": "$288679.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.034,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-01-14T08:51:50Z",
     "IBAN": "SM60 Z192 5697 683U XZIM FEWB FYT",
     "saldo": "$171560.36",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3085,7 +3085,7 @@
     "saldo": "$21912.40",
     "tipoCuenta": "AHORRO",
     "interes": 0.182,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-01-27T23:53:01Z",
@@ -3093,14 +3093,14 @@
     "saldo": "$12323.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.816,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-04-11T11:01:40Z",
     "IBAN": "CR17 3153 7901 8729 0348 1",
     "saldo": "$297939.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3108,7 +3108,7 @@
     "IBAN": "MR71 1021 8409 6549 4682 5295 450",
     "saldo": "$136842.68",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3117,7 +3117,7 @@
     "saldo": "$161390.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.854,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-04-14T18:41:30Z",
@@ -3125,14 +3125,14 @@
     "saldo": "$28941.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.273,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-07-29T12:54:55Z",
     "IBAN": "CH74 1298 8YOT IJDA CI0J C",
     "saldo": "$288475.64",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3141,7 +3141,7 @@
     "saldo": "$64373.69",
     "tipoCuenta": "AHORRO",
     "interes": 0.022,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-02-15T05:13:55Z",
@@ -3149,7 +3149,7 @@
     "saldo": "$290276.97",
     "tipoCuenta": "AHORRO",
     "interes": 0.925,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-06-29T23:41:31Z",
@@ -3157,14 +3157,14 @@
     "saldo": "$253854.92",
     "tipoCuenta": "AHORRO",
     "interes": 0.272,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-01-26T05:00:51Z",
     "IBAN": "BG24 WUNS 6663 06IN L5HW QI",
     "saldo": "$69542.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3173,7 +3173,7 @@
     "saldo": "$83458.09",
     "tipoCuenta": "AHORRO",
     "interes": 0.649,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-05-17T13:10:54Z",
@@ -3181,7 +3181,7 @@
     "saldo": "$261871.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.702,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-10-30T12:50:09Z",
@@ -3189,7 +3189,7 @@
     "saldo": "$172679.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.373,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-01-19T04:24:07Z",
@@ -3197,7 +3197,7 @@
     "saldo": "$289032.43",
     "tipoCuenta": "AHORRO",
     "interes": 0.599,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-12-31T00:57:04Z",
@@ -3205,14 +3205,14 @@
     "saldo": "$854.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.717,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-09-18T22:23:33Z",
     "IBAN": "LB72 6079 REHY 16XE MOHK 2WOC CORH",
     "saldo": "$297240.25",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3220,7 +3220,7 @@
     "IBAN": "PK50 LVLX A8WO NPFW BR4R 62YT",
     "saldo": "$150477.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3229,14 +3229,14 @@
     "saldo": "$225193.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.364,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-09-01T17:35:08Z",
     "IBAN": "AT44 2157 4769 2907 2448",
     "saldo": "$152557.11",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3245,14 +3245,14 @@
     "saldo": "$272547.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.39,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-12-01T08:52:01Z",
     "IBAN": "FR39 2578 8016 71GW ZHXM YMUZ A07",
     "saldo": "$167627.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3260,7 +3260,7 @@
     "IBAN": "CZ95 3118 0445 3788 4553 8447",
     "saldo": "$45858.48",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3269,14 +3269,14 @@
     "saldo": "$1248.48",
     "tipoCuenta": "AHORRO",
     "interes": 0.896,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-11-16T15:13:20Z",
     "IBAN": "GL90 9004 4588 1189 79",
     "saldo": "$172571.70",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3284,7 +3284,7 @@
     "IBAN": "BA38 2379 0019 3338 9344",
     "saldo": "$289639.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3293,14 +3293,14 @@
     "saldo": "$28252.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.962,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-09-18T05:35:16Z",
     "IBAN": "PK86 VKYN 9KAA QIRQ 7PA7 XDZJ",
     "saldo": "$151493.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3308,7 +3308,7 @@
     "IBAN": "KZ07 7118 NMPN RKTH ZKJH",
     "saldo": "$192276.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3316,7 +3316,7 @@
     "IBAN": "GB48 TQCV 0729 6283 9241 20",
     "saldo": "$147638.18",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3324,7 +3324,7 @@
     "IBAN": "ES62 6099 0300 8359 9347 5752",
     "saldo": "$191949.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3332,7 +3332,7 @@
     "IBAN": "MR70 9795 6034 6636 1639 1616 822",
     "saldo": "$200373.13",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3341,14 +3341,14 @@
     "saldo": "$153604.78",
     "tipoCuenta": "AHORRO",
     "interes": 0.12,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-10-06T12:10:23Z",
     "IBAN": "CR64 9982 5824 4025 6554 2",
     "saldo": "$289874.32",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3356,7 +3356,7 @@
     "IBAN": "LT84 1527 1742 3866 3289",
     "saldo": "$278483.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3364,7 +3364,7 @@
     "IBAN": "BA49 4586 6648 7295 3003",
     "saldo": "$178989.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3372,7 +3372,7 @@
     "IBAN": "ME24 4126 7708 3835 5317 13",
     "saldo": "$21079.77",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3381,7 +3381,7 @@
     "saldo": "$75592.27",
     "tipoCuenta": "AHORRO",
     "interes": 0.846,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-01-29T08:15:43Z",
@@ -3389,7 +3389,7 @@
     "saldo": "$20183.44",
     "tipoCuenta": "AHORRO",
     "interes": 0.65,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-12-26T02:47:29Z",
@@ -3397,7 +3397,7 @@
     "saldo": "$128544.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.797,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-09-17T21:59:55Z",
@@ -3405,7 +3405,7 @@
     "saldo": "$298293.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.56,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1992-12-06T05:39:25Z",
@@ -3413,7 +3413,7 @@
     "saldo": "$295188.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.268,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-03-10T06:47:13Z",
@@ -3421,14 +3421,14 @@
     "saldo": "$201580.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.082,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-03-26T08:23:36Z",
     "IBAN": "FR42 8401 1983 267J CCRN RKDW M15",
     "saldo": "$120621.15",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3437,14 +3437,14 @@
     "saldo": "$11398.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.393,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-10-23T18:46:40Z",
     "IBAN": "FR39 0661 6374 87N2 DJ9H RWHH S55",
     "saldo": "$50072.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3452,7 +3452,7 @@
     "IBAN": "CH84 6119 3JMA AVIS 9WLM I",
     "saldo": "$128015.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3461,14 +3461,14 @@
     "saldo": "$177959.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.028,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-07-06T05:29:05Z",
     "IBAN": "FR15 2728 5554 18DZ UWFU RP5V E38",
     "saldo": "$132838.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3477,14 +3477,14 @@
     "saldo": "$50648.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.176,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-05-02T04:33:33Z",
     "IBAN": "LU81 044L RSIQ CDOV UJEA",
     "saldo": "$202333.23",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3492,7 +3492,7 @@
     "IBAN": "ES04 3641 4842 2000 6653 2325",
     "saldo": "$46704.88",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3500,7 +3500,7 @@
     "IBAN": "GB63 YIRQ 0305 5165 1110 97",
     "saldo": "$127310.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3509,14 +3509,14 @@
     "saldo": "$101728.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.039,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-03-18T21:05:15Z",
     "IBAN": "FR06 4807 2226 527B 26IX OJEV K73",
     "saldo": "$132910.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3524,7 +3524,7 @@
     "IBAN": "AE64 8760 0575 7703 7100 198",
     "saldo": "$90768.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3532,7 +3532,7 @@
     "IBAN": "FR23 0532 5613 90DW 2BNN PY3U N12",
     "saldo": "$134927.23",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3540,7 +3540,7 @@
     "IBAN": "MT51 NHMV 7326 5QVB N9T9 BMHQ T2IM 0E5",
     "saldo": "$25342.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3549,14 +3549,14 @@
     "saldo": "$283551.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.738,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-08-22T13:47:59Z",
     "IBAN": "KW48 NQHS 5OCX NUJA PR6Z 1OKM JTJB UA",
     "saldo": "$279778.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3564,7 +3564,7 @@
     "IBAN": "IL84 8874 4025 7700 8839 666",
     "saldo": "$36251.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3572,7 +3572,7 @@
     "IBAN": "SE23 8683 5971 2384 0436 9443",
     "saldo": "$216662.84",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3580,7 +3580,7 @@
     "IBAN": "VG22 GVHR 2502 8808 2453 0552",
     "saldo": "$259650.67",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3589,7 +3589,7 @@
     "saldo": "$13534.22",
     "tipoCuenta": "AHORRO",
     "interes": 0.283,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-07-27T12:01:11Z",
@@ -3597,14 +3597,14 @@
     "saldo": "$90689.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.592,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-07-09T04:04:15Z",
     "IBAN": "FI74 6709 5522 3143 04",
     "saldo": "$115965.63",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3613,14 +3613,14 @@
     "saldo": "$93332.76",
     "tipoCuenta": "AHORRO",
     "interes": 0.016,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-11-11T20:54:13Z",
     "IBAN": "FR22 1564 4132 090G QTIW TFXL K61",
     "saldo": "$87462.32",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3628,7 +3628,7 @@
     "IBAN": "IS53 6536 1376 3661 5071 9658 32",
     "saldo": "$177482.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3637,7 +3637,7 @@
     "saldo": "$98353.55",
     "tipoCuenta": "AHORRO",
     "interes": 0.115,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-01-25T17:15:38Z",
@@ -3645,7 +3645,7 @@
     "saldo": "$193417.69",
     "tipoCuenta": "AHORRO",
     "interes": 0.027,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-01-09T06:43:05Z",
@@ -3653,7 +3653,7 @@
     "saldo": "$52201.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.381,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-06-24T16:53:52Z",
@@ -3661,7 +3661,7 @@
     "saldo": "$150436.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.556,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-06-25T19:49:12Z",
@@ -3669,14 +3669,14 @@
     "saldo": "$112501.13",
     "tipoCuenta": "AHORRO",
     "interes": 0.767,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-03-30T17:42:23Z",
     "IBAN": "SI30 4157 2151 7310 622",
     "saldo": "$239410.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3685,7 +3685,7 @@
     "saldo": "$64467.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.213,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1978-05-04T13:58:15Z",
@@ -3693,7 +3693,7 @@
     "saldo": "$19904.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.191,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-12-26T00:11:31Z",
@@ -3701,14 +3701,14 @@
     "saldo": "$27838.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.468,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-04-28T11:52:03Z",
     "IBAN": "LT41 1111 1242 2021 4562",
     "saldo": "$46901.78",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3716,7 +3716,7 @@
     "IBAN": "PK71 ZGGC ZO85 MPI6 ITOV IA3K",
     "saldo": "$4690.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3725,7 +3725,7 @@
     "saldo": "$123135.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.988,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-05-27T17:11:26Z",
@@ -3733,7 +3733,7 @@
     "saldo": "$167268.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.63,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-01-01T00:16:25Z",
@@ -3741,14 +3741,14 @@
     "saldo": "$140558.46",
     "tipoCuenta": "AHORRO",
     "interes": 0.373,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-02-03T00:17:23Z",
     "IBAN": "FR68 1870 2598 5928 CBOL IY38 X46",
     "saldo": "$46789.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3757,14 +3757,14 @@
     "saldo": "$266508.35",
     "tipoCuenta": "AHORRO",
     "interes": 0.577,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-02-20T12:13:08Z",
     "IBAN": "FO18 4129 3180 9222 27",
     "saldo": "$237817.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3772,7 +3772,7 @@
     "IBAN": "RS98 1876 7267 7767 0967 46",
     "saldo": "$14083.64",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3781,14 +3781,14 @@
     "saldo": "$48475.66",
     "tipoCuenta": "AHORRO",
     "interes": 0.922,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-12-29T20:13:05Z",
     "IBAN": "CR84 7962 5526 7646 4783 2",
     "saldo": "$111236.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3796,7 +3796,7 @@
     "IBAN": "AT77 1970 6796 0344 8891",
     "saldo": "$75520.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3804,7 +3804,7 @@
     "IBAN": "CY43 0654 9305 KK3O FBHV ALNL MSWW",
     "saldo": "$132741.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3813,14 +3813,14 @@
     "saldo": "$95487.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.94,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-08-06T06:53:52Z",
     "IBAN": "GE35 HZ53 3947 3407 1975 95",
     "saldo": "$174555.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3828,7 +3828,7 @@
     "IBAN": "FR19 4639 9126 818F YE2Q SP91 E38",
     "saldo": "$40319.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3837,7 +3837,7 @@
     "saldo": "$190248.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.971,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-12-08T12:32:38Z",
@@ -3845,7 +3845,7 @@
     "saldo": "$253736.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.341,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-08-05T17:22:49Z",
@@ -3853,7 +3853,7 @@
     "saldo": "$237364.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.95,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-11-19T05:01:50Z",
@@ -3861,14 +3861,14 @@
     "saldo": "$83886.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.439,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1992-02-05T04:53:34Z",
     "IBAN": "FR60 9439 1562 93ZC C1AN WUUC F02",
     "saldo": "$40901.13",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3876,7 +3876,7 @@
     "IBAN": "FR76 4986 3288 20RV EYHW SNFY L56",
     "saldo": "$209548.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3884,7 +3884,7 @@
     "IBAN": "NO91 7871 9382 088",
     "saldo": "$58692.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3892,7 +3892,7 @@
     "IBAN": "MK62 3737 8LVX FOWW I10",
     "saldo": "$104513.58",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3900,7 +3900,7 @@
     "IBAN": "SM33 C308 2343 5083 LYWU MDRD H7G",
     "saldo": "$78059.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3908,7 +3908,7 @@
     "IBAN": "LB49 3804 FFPH YOSB U1MR ZCWC ORPD",
     "saldo": "$283881.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3916,7 +3916,7 @@
     "IBAN": "AL80 6322 4532 SBGW Y9MS PDYI QKAW",
     "saldo": "$292411.13",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3925,14 +3925,14 @@
     "saldo": "$78660.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.764,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1978-01-01T20:25:46Z",
     "IBAN": "FR15 6777 2803 58ZJ 2DXX GPGK 383",
     "saldo": "$200937.03",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3941,14 +3941,14 @@
     "saldo": "$53151.47",
     "tipoCuenta": "AHORRO",
     "interes": 0.737,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1998-01-21T16:12:06Z",
     "IBAN": "IT31 Z647 9969 893K G6YV ACZP RTY",
     "saldo": "$190306.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3957,14 +3957,14 @@
     "saldo": "$231282.38",
     "tipoCuenta": "AHORRO",
     "interes": 0.889,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-06-06T13:06:44Z",
     "IBAN": "BA40 6408 8109 7798 5798",
     "saldo": "$33486.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -3973,7 +3973,7 @@
     "saldo": "$112517.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.181,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-02-19T07:55:00Z",
@@ -3981,7 +3981,7 @@
     "saldo": "$288891.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.728,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-04-08T11:47:40Z",
@@ -3989,14 +3989,14 @@
     "saldo": "$273340.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.823,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-07-17T11:49:19Z",
     "IBAN": "DK82 5235 5207 2512 56",
     "saldo": "$143424.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4004,7 +4004,7 @@
     "IBAN": "KW15 JIHW QUUO 0AMU 2U9X WOUY RKOU IK",
     "saldo": "$266594.97",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4012,7 +4012,7 @@
     "IBAN": "CZ13 4350 2981 4740 0376 7780",
     "saldo": "$248245.83",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4020,7 +4020,7 @@
     "IBAN": "FR40 1735 6722 28JP GBYH 0ZD2 955",
     "saldo": "$63182.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4029,14 +4029,14 @@
     "saldo": "$119428.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.882,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-06-28T17:38:40Z",
     "IBAN": "GI38 KKLQ AKAH EXSI 5TZW QEW",
     "saldo": "$134314.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4044,7 +4044,7 @@
     "IBAN": "CZ40 9463 3062 7977 8020 6600",
     "saldo": "$134382.39",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4052,7 +4052,7 @@
     "IBAN": "FR29 6294 5349 93O2 1QX2 KQTD K54",
     "saldo": "$278761.58",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4060,7 +4060,7 @@
     "IBAN": "MU81 JSWC 0281 8700 5459 6252 460E GS",
     "saldo": "$192476.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4069,7 +4069,7 @@
     "saldo": "$220262.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.582,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-10-20T16:31:12Z",
@@ -4077,14 +4077,14 @@
     "saldo": "$73235.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.577,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-02-06T21:41:10Z",
     "IBAN": "FR06 5879 9592 01VV CTJR ZOJM M13",
     "saldo": "$32991.14",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4093,14 +4093,14 @@
     "saldo": "$164913.16",
     "tipoCuenta": "AHORRO",
     "interes": 0.483,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-01-27T18:30:00Z",
     "IBAN": "FR14 3674 2236 21OP IBVS POF0 D48",
     "saldo": "$228920.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4109,14 +4109,14 @@
     "saldo": "$59149.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.701,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-10-23T16:26:03Z",
     "IBAN": "VG94 VDWB 8026 1577 4128 5616",
     "saldo": "$236264.12",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4124,7 +4124,7 @@
     "IBAN": "IS27 5997 2832 0568 9013 5903 46",
     "saldo": "$236160.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4133,7 +4133,7 @@
     "saldo": "$25807.09",
     "tipoCuenta": "AHORRO",
     "interes": 0.377,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-12-19T17:04:04Z",
@@ -4141,14 +4141,14 @@
     "saldo": "$110521.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.974,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-09-22T16:30:09Z",
     "IBAN": "FR97 0300 1024 02BX JBCT CGUB M29",
     "saldo": "$240291.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4157,14 +4157,14 @@
     "saldo": "$76793.56",
     "tipoCuenta": "AHORRO",
     "interes": 0.28,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-07-17T03:13:39Z",
     "IBAN": "CR07 1422 0984 7728 6370 0",
     "saldo": "$250787.31",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4173,14 +4173,14 @@
     "saldo": "$107891.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.537,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-12-07T03:45:39Z",
     "IBAN": "CZ41 7132 3368 3850 3759 8405",
     "saldo": "$217577.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4189,7 +4189,7 @@
     "saldo": "$255261.27",
     "tipoCuenta": "AHORRO",
     "interes": 0.201,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-08-05T04:16:30Z",
@@ -4197,14 +4197,14 @@
     "saldo": "$58345.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.346,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-06-14T18:46:34Z",
     "IBAN": "PS20 KIDE HYD6 DCPT UVR9 LW0C Z3RU F",
     "saldo": "$183468.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4213,14 +4213,14 @@
     "saldo": "$279193.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.07,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-09-17T14:06:20Z",
     "IBAN": "LU17 251D VMFZ TFTL 8ULM",
     "saldo": "$107092.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4228,7 +4228,7 @@
     "IBAN": "HU09 8140 3101 7674 6196 9324 3162",
     "saldo": "$247807.76",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4236,7 +4236,7 @@
     "IBAN": "LT62 2364 4573 9410 5929",
     "saldo": "$18450.04",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4244,7 +4244,7 @@
     "IBAN": "MT89 CAJM 6202 602D CID8 ROXG OI64 6B6",
     "saldo": "$145812.33",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4252,7 +4252,7 @@
     "IBAN": "TN85 9445 7817 3025 4622 3774",
     "saldo": "$117468.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4260,7 +4260,7 @@
     "IBAN": "GB94 WVLB 8972 3165 8602 65",
     "saldo": "$157518.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4268,7 +4268,7 @@
     "IBAN": "GR03 9414 7730 2SJ4 MCQB YFNW UC9",
     "saldo": "$215786.31",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4277,7 +4277,7 @@
     "saldo": "$284374.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.854,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-11-11T09:17:01Z",
@@ -4285,14 +4285,14 @@
     "saldo": "$270313.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.802,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-12-24T21:03:51Z",
     "IBAN": "FI31 5107 4665 6020 82",
     "saldo": "$149961.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4301,14 +4301,14 @@
     "saldo": "$108586.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.084,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-12-25T16:28:41Z",
     "IBAN": "FO83 0638 8081 8609 46",
     "saldo": "$60811.19",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4316,7 +4316,7 @@
     "IBAN": "TN46 2334 2123 6495 1435 1886",
     "saldo": "$167250.50",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4324,7 +4324,7 @@
     "IBAN": "IS16 8279 3091 5131 5634 4803 73",
     "saldo": "$210418.74",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4333,7 +4333,7 @@
     "saldo": "$195059.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.099,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-06-05T13:03:54Z",
@@ -4341,14 +4341,14 @@
     "saldo": "$2350.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.357,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-11-14T23:48:42Z",
     "IBAN": "GL39 8543 5417 9658 46",
     "saldo": "$6431.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4356,7 +4356,7 @@
     "IBAN": "TN95 8450 7165 5961 9807 5463",
     "saldo": "$213997.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4365,7 +4365,7 @@
     "saldo": "$294682.85",
     "tipoCuenta": "AHORRO",
     "interes": 0.212,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-07-22T21:18:23Z",
@@ -4373,14 +4373,14 @@
     "saldo": "$193243.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.175,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-08-09T21:24:40Z",
     "IBAN": "IL51 9856 0823 5221 8205 957",
     "saldo": "$189727.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4389,14 +4389,14 @@
     "saldo": "$177572.14",
     "tipoCuenta": "AHORRO",
     "interes": 0.227,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-05-03T16:24:17Z",
     "IBAN": "TR89 0944 93ZN OWOD 06S0 CXYH OK",
     "saldo": "$242146.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4404,7 +4404,7 @@
     "IBAN": "PS30 RWTP ZFF9 XI3U MOEL FGZD XYND W",
     "saldo": "$97476.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4412,7 +4412,7 @@
     "IBAN": "GR96 0597 9838 VWBK STZP XTG3 B7Z",
     "saldo": "$91359.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4421,7 +4421,7 @@
     "saldo": "$147436.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.632,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-04-18T12:38:31Z",
@@ -4429,14 +4429,14 @@
     "saldo": "$278639.95",
     "tipoCuenta": "AHORRO",
     "interes": 0.97,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-08-08T01:51:11Z",
     "IBAN": "LU92 009A OVFJ UEIO GOIW",
     "saldo": "$175049.04",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4444,7 +4444,7 @@
     "IBAN": "GR29 7911 935R VUXE ZQAS X6GV IMK",
     "saldo": "$253843.41",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4452,7 +4452,7 @@
     "IBAN": "LU41 811H Y6WZ HPU8 HOIV",
     "saldo": "$39682.70",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4461,7 +4461,7 @@
     "saldo": "$36113.09",
     "tipoCuenta": "AHORRO",
     "interes": 0.5,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-11-25T10:25:20Z",
@@ -4469,7 +4469,7 @@
     "saldo": "$194048.69",
     "tipoCuenta": "AHORRO",
     "interes": 0.829,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-12-29T18:32:31Z",
@@ -4477,14 +4477,14 @@
     "saldo": "$92123.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.383,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-10-08T15:14:27Z",
     "IBAN": "BR46 2276 5100 0702 5791 3172 546W Y",
     "saldo": "$180718.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4493,14 +4493,14 @@
     "saldo": "$283477.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.914,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-10-23T13:56:41Z",
     "IBAN": "FR77 9966 1344 85QN LFCA HFWM X79",
     "saldo": "$35275.56",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4508,7 +4508,7 @@
     "IBAN": "CR06 9654 0739 8588 3674 7",
     "saldo": "$63887.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4517,7 +4517,7 @@
     "saldo": "$280199.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.927,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-09-20T15:40:59Z",
@@ -4525,7 +4525,7 @@
     "saldo": "$272848.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.982,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-05-03T09:14:09Z",
@@ -4533,7 +4533,7 @@
     "saldo": "$70559.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.617,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-07-19T19:02:30Z",
@@ -4541,7 +4541,7 @@
     "saldo": "$152999.23",
     "tipoCuenta": "AHORRO",
     "interes": 0.173,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-08-12T02:22:42Z",
@@ -4549,7 +4549,7 @@
     "saldo": "$3784.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.561,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-10-16T10:22:41Z",
@@ -4557,14 +4557,14 @@
     "saldo": "$135865.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.957,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-05-01T12:53:16Z",
     "IBAN": "PT15 1145 4849 5717 4275 1898 4",
     "saldo": "$254726.34",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4572,7 +4572,7 @@
     "IBAN": "DO22 A3UY 2732 4499 3241 8572 3592",
     "saldo": "$283271.09",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4581,7 +4581,7 @@
     "saldo": "$64621.15",
     "tipoCuenta": "AHORRO",
     "interes": 0.723,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-08-18T21:07:19Z",
@@ -4589,14 +4589,14 @@
     "saldo": "$123710.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.517,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-06-21T04:01:42Z",
     "IBAN": "CH47 4132 4T6F EJKT 82AT V",
     "saldo": "$297536.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4604,7 +4604,7 @@
     "IBAN": "SI78 8918 1686 6392 033",
     "saldo": "$291152.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4612,7 +4612,7 @@
     "IBAN": "CZ96 1361 3904 1358 9849 5115",
     "saldo": "$143743.77",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4620,7 +4620,7 @@
     "IBAN": "FR57 2197 1172 14NF WIRD M6UN I34",
     "saldo": "$165105.88",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4628,7 +4628,7 @@
     "IBAN": "BG22 DXXD 6679 86OT EJD7 UI",
     "saldo": "$284364.50",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4636,7 +4636,7 @@
     "IBAN": "FR30 7960 0037 27YQ FZZH KK8U O07",
     "saldo": "$287528.18",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4645,7 +4645,7 @@
     "saldo": "$198801.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.17,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-01-19T06:00:27Z",
@@ -4653,14 +4653,14 @@
     "saldo": "$137131.50",
     "tipoCuenta": "AHORRO",
     "interes": 0.204,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-11-29T19:15:51Z",
     "IBAN": "FR97 6198 8174 835A 58UC P664 J01",
     "saldo": "$273109.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4668,7 +4668,7 @@
     "IBAN": "CH18 4234 8NDE WIUM WHBW F",
     "saldo": "$102167.88",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4677,14 +4677,14 @@
     "saldo": "$30262.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.232,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-09-13T07:06:14Z",
     "IBAN": "FR43 8814 9102 51DO HWJY WLRL 541",
     "saldo": "$96647.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4693,14 +4693,14 @@
     "saldo": "$227438.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.183,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-11-07T03:40:50Z",
     "IBAN": "FR26 3373 1261 79PM EUIB IMV5 B71",
     "saldo": "$16964.24",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4708,7 +4708,7 @@
     "IBAN": "DO27 IOK1 5883 2092 5839 1571 8105",
     "saldo": "$62930.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4716,7 +4716,7 @@
     "IBAN": "FR45 5308 5691 48IO VYTR GLRE B11",
     "saldo": "$42225.84",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4725,7 +4725,7 @@
     "saldo": "$225590.52",
     "tipoCuenta": "AHORRO",
     "interes": 0.282,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-06-09T04:55:14Z",
@@ -4733,14 +4733,14 @@
     "saldo": "$48042.55",
     "tipoCuenta": "AHORRO",
     "interes": 0.327,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-03-16T12:57:19Z",
     "IBAN": "HR38 0908 5177 6230 7170 9",
     "saldo": "$36647.40",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4748,7 +4748,7 @@
     "IBAN": "IL09 0659 1022 9770 0044 185",
     "saldo": "$126496.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4756,7 +4756,7 @@
     "IBAN": "GT21 ELJM GU4F OCH9 FDVP BFZ8 T35W",
     "saldo": "$105431.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4765,14 +4765,14 @@
     "saldo": "$160539.97",
     "tipoCuenta": "AHORRO",
     "interes": 0.858,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-05-03T07:47:47Z",
     "IBAN": "SE88 0351 6511 6904 4947 3450",
     "saldo": "$183280.97",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4780,7 +4780,7 @@
     "IBAN": "FR74 4715 7956 58A6 LDVC BIFI 933",
     "saldo": "$167249.22",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4788,7 +4788,7 @@
     "IBAN": "FR29 8462 2481 669Z 97KE E7K3 V87",
     "saldo": "$138459.63",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4796,7 +4796,7 @@
     "IBAN": "ES80 6005 9195 6530 2194 8437",
     "saldo": "$177019.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4805,14 +4805,14 @@
     "saldo": "$93660.81",
     "tipoCuenta": "AHORRO",
     "interes": 0.779,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-25T16:39:15Z",
     "IBAN": "BH57 RPKF TUDG DTLG 2UL1 AE",
     "saldo": "$224784.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4821,14 +4821,14 @@
     "saldo": "$104804.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.029,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-07-19T17:18:18Z",
     "IBAN": "LI74 8635 8UU8 ZMHQ OQMO 7",
     "saldo": "$87715.48",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4836,7 +4836,7 @@
     "IBAN": "DK57 6971 5302 1441 92",
     "saldo": "$6084.99",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4844,7 +4844,7 @@
     "IBAN": "FR77 8371 0333 96RK 0NY1 E8EM C78",
     "saldo": "$15368.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4852,7 +4852,7 @@
     "IBAN": "FR59 7647 0400 4008 XIPU UNEF 201",
     "saldo": "$143962.34",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4861,14 +4861,14 @@
     "saldo": "$265856.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.255,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-09-14T13:36:59Z",
     "IBAN": "DO51 VQR5 2114 0662 8224 1721 4791",
     "saldo": "$263591.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4877,14 +4877,14 @@
     "saldo": "$53630.39",
     "tipoCuenta": "AHORRO",
     "interes": 0.462,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-06-15T15:43:52Z",
     "IBAN": "FR30 2021 6558 214L ZEUV A5HH M92",
     "saldo": "$214171.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4892,7 +4892,7 @@
     "IBAN": "GT36 VPBU QHZ8 6LFU 8GOK FJC9 UOTR",
     "saldo": "$216342.74",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4900,7 +4900,7 @@
     "IBAN": "BH71 VRCK KV54 0JJD UIO1 I4",
     "saldo": "$105087.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4908,7 +4908,7 @@
     "IBAN": "BR94 3674 7278 0545 1448 0388 711W U",
     "saldo": "$129265.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4916,7 +4916,7 @@
     "IBAN": "BE32 4923 2130 4898",
     "saldo": "$263424.89",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4925,14 +4925,14 @@
     "saldo": "$3754.18",
     "tipoCuenta": "AHORRO",
     "interes": 0.31,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-04-30T14:56:32Z",
     "IBAN": "FR16 1341 1202 35IK BJJM NU6Y H99",
     "saldo": "$83581.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4941,14 +4941,14 @@
     "saldo": "$236983.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.345,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-07-29T09:32:53Z",
     "IBAN": "IL47 5303 4624 3928 0498 541",
     "saldo": "$103271.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4956,7 +4956,7 @@
     "IBAN": "PS07 BNLQ MZH6 3MMO OJGZ ZF0F DDBF C",
     "saldo": "$144531.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4965,14 +4965,14 @@
     "saldo": "$127796.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.648,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-04-27T21:46:07Z",
     "IBAN": "IT79 I514 1953 855U BHGD 86LI NSB",
     "saldo": "$202255.36",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -4981,7 +4981,7 @@
     "saldo": "$240838.03",
     "tipoCuenta": "AHORRO",
     "interes": 0.832,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-02-18T08:35:25Z",
@@ -4989,14 +4989,14 @@
     "saldo": "$121995.55",
     "tipoCuenta": "AHORRO",
     "interes": 0.277,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-09-02T10:08:31Z",
     "IBAN": "AE98 7767 5072 7327 0372 584",
     "saldo": "$224837.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5004,7 +5004,7 @@
     "IBAN": "IT16 T773 7242 765B JJAG 91KP CTV",
     "saldo": "$261546.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5013,7 +5013,7 @@
     "saldo": "$123740.50",
     "tipoCuenta": "AHORRO",
     "interes": 0.738,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-03-14T02:24:21Z",
@@ -5021,14 +5021,14 @@
     "saldo": "$252092.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.754,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1987-05-18T19:12:57Z",
     "IBAN": "IT93 R453 9974 471T R7N2 O3C1 QIF",
     "saldo": "$241033.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5036,7 +5036,7 @@
     "IBAN": "FR47 6204 0242 83PC 8DBU 00TA 234",
     "saldo": "$241624.70",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5044,7 +5044,7 @@
     "IBAN": "SM57 A660 2639 613H CHMF AUNX 5ER",
     "saldo": "$71831.85",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5053,7 +5053,7 @@
     "saldo": "$108321.00",
     "tipoCuenta": "AHORRO",
     "interes": 0.207,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-04-08T16:45:48Z",
@@ -5061,14 +5061,14 @@
     "saldo": "$109465.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.076,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-05-04T09:50:06Z",
     "IBAN": "RO64 QPNG BTAZ FJYI KQMT L0NJ",
     "saldo": "$27402.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5076,7 +5076,7 @@
     "IBAN": "VG46 COWW 5259 7551 7518 9715",
     "saldo": "$49583.97",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5085,7 +5085,7 @@
     "saldo": "$229313.35",
     "tipoCuenta": "AHORRO",
     "interes": 0.578,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-05-22T04:49:32Z",
@@ -5093,7 +5093,7 @@
     "saldo": "$194857.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.591,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-08-29T04:38:25Z",
@@ -5101,14 +5101,14 @@
     "saldo": "$289852.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.892,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-12-06T12:52:35Z",
     "IBAN": "ME42 7781 6468 8521 5563 16",
     "saldo": "$175304.07",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5117,7 +5117,7 @@
     "saldo": "$7132.08",
     "tipoCuenta": "AHORRO",
     "interes": 0.383,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-04-14T03:18:34Z",
@@ -5125,7 +5125,7 @@
     "saldo": "$49542.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.821,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-11-21T23:59:54Z",
@@ -5133,14 +5133,14 @@
     "saldo": "$189863.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.871,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-03-01T09:57:34Z",
     "IBAN": "BA78 3137 8096 6160 2487",
     "saldo": "$205460.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5148,7 +5148,7 @@
     "IBAN": "CY92 1855 2100 DBAX UIZY N03P JE1V",
     "saldo": "$10250.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5157,7 +5157,7 @@
     "saldo": "$155046.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.358,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-05-17T00:09:14Z",
@@ -5165,14 +5165,14 @@
     "saldo": "$30087.29",
     "tipoCuenta": "AHORRO",
     "interes": 0.635,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1966-05-31T01:33:03Z",
     "IBAN": "PK54 DWWP AWZT XTCY AFUH AMR5",
     "saldo": "$63028.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5181,7 +5181,7 @@
     "saldo": "$92873.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.221,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-05-21T14:54:49Z",
@@ -5189,7 +5189,7 @@
     "saldo": "$26592.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.335,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-03-20T05:36:21Z",
@@ -5197,14 +5197,14 @@
     "saldo": "$48510.78",
     "tipoCuenta": "AHORRO",
     "interes": 0.471,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-01-03T13:31:44Z",
     "IBAN": "RS51 1928 1398 7600 5959 61",
     "saldo": "$169594.66",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5212,7 +5212,7 @@
     "IBAN": "SK04 4662 0099 1533 8276 2975",
     "saldo": "$294837.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5221,7 +5221,7 @@
     "saldo": "$4307.33",
     "tipoCuenta": "AHORRO",
     "interes": 0.696,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-12-17T12:44:50Z",
@@ -5229,14 +5229,14 @@
     "saldo": "$122656.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.507,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-11-06T15:02:43Z",
     "IBAN": "FR08 3825 0377 93WJ APQE AACJ E35",
     "saldo": "$149554.25",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5244,7 +5244,7 @@
     "IBAN": "ME46 0128 0150 3449 0831 65",
     "saldo": "$234353.59",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5252,7 +5252,7 @@
     "IBAN": "DO61 Y1HD 0845 1329 1924 9083 6734",
     "saldo": "$22733.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5260,7 +5260,7 @@
     "IBAN": "FR66 1588 1714 67TC JFBY NI8W O13",
     "saldo": "$246442.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5269,7 +5269,7 @@
     "saldo": "$279365.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.203,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-10-29T10:52:51Z",
@@ -5277,7 +5277,7 @@
     "saldo": "$270760.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.409,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-05-20T00:42:25Z",
@@ -5285,7 +5285,7 @@
     "saldo": "$28418.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.91,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-08-24T17:37:27Z",
@@ -5293,14 +5293,14 @@
     "saldo": "$285120.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.733,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-09-23T23:29:15Z",
     "IBAN": "IT44 U584 1248 969A ZQ9B MXXS TKC",
     "saldo": "$43799.02",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5308,7 +5308,7 @@
     "IBAN": "AD26 8641 1708 QOS9 EAID SO5Q",
     "saldo": "$35034.83",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5316,7 +5316,7 @@
     "IBAN": "KW77 KRWN XDI7 5AFG N36V BKRH HTEA EY",
     "saldo": "$251766.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5325,7 +5325,7 @@
     "saldo": "$292695.07",
     "tipoCuenta": "AHORRO",
     "interes": 0.73,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-10-23T05:21:44Z",
@@ -5333,14 +5333,14 @@
     "saldo": "$299352.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.51,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-08-17T01:54:13Z",
     "IBAN": "DE55 1374 3274 5416 3040 28",
     "saldo": "$102895.14",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5349,7 +5349,7 @@
     "saldo": "$100354.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.486,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-08-06T03:52:16Z",
@@ -5357,7 +5357,7 @@
     "saldo": "$237124.01",
     "tipoCuenta": "AHORRO",
     "interes": 0.97,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-01-31T20:00:16Z",
@@ -5365,14 +5365,14 @@
     "saldo": "$119512.10",
     "tipoCuenta": "AHORRO",
     "interes": 0.98,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-06-26T22:31:17Z",
     "IBAN": "SE26 8263 2752 0410 2297 6426",
     "saldo": "$232448.88",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5381,7 +5381,7 @@
     "saldo": "$242046.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.089,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-01-19T14:02:33Z",
@@ -5389,14 +5389,14 @@
     "saldo": "$29915.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.867,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-12-31T19:40:45Z",
     "IBAN": "BE76 5883 4947 2746",
     "saldo": "$62897.59",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5404,7 +5404,7 @@
     "IBAN": "FR42 9412 6732 82TK LVFA NQWG 523",
     "saldo": "$245190.41",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5413,14 +5413,14 @@
     "saldo": "$29517.92",
     "tipoCuenta": "AHORRO",
     "interes": 0.893,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-06-07T17:31:47Z",
     "IBAN": "PT51 6672 9152 1815 1718 7804 5",
     "saldo": "$235559.08",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5429,14 +5429,14 @@
     "saldo": "$191670.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.636,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-12-05T12:37:16Z",
     "IBAN": "FO75 9122 2584 0228 51",
     "saldo": "$38033.41",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5445,14 +5445,14 @@
     "saldo": "$135885.08",
     "tipoCuenta": "AHORRO",
     "interes": 0.601,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-08-12T05:23:12Z",
     "IBAN": "AZ73 NEPK SQ0X XXIC VDUF 4ULT BM2H",
     "saldo": "$218806.51",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5461,7 +5461,7 @@
     "saldo": "$218593.60",
     "tipoCuenta": "AHORRO",
     "interes": 0.482,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-12-28T14:41:59Z",
@@ -5469,14 +5469,14 @@
     "saldo": "$196889.56",
     "tipoCuenta": "AHORRO",
     "interes": 0.444,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-11-11T15:37:54Z",
     "IBAN": "FR69 4651 5561 723R 07VP MGOT A45",
     "saldo": "$263810.53",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5484,7 +5484,7 @@
     "IBAN": "VG63 ZYHC 1521 7065 9495 8274",
     "saldo": "$5725.33",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5492,7 +5492,7 @@
     "IBAN": "SK53 0033 4843 2556 6297 0807",
     "saldo": "$202378.62",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5500,7 +5500,7 @@
     "IBAN": "LV21 JHBV MIWD KXWK QGSH 9",
     "saldo": "$25033.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5508,7 +5508,7 @@
     "IBAN": "NL23 NKYE 4547 1321 07",
     "saldo": "$161595.53",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5516,7 +5516,7 @@
     "IBAN": "SM65 T259 0670 794G ZDPB U54P ZZT",
     "saldo": "$237458.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5525,14 +5525,14 @@
     "saldo": "$30766.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.445,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-12-11T04:21:46Z",
     "IBAN": "LU50 343D C6TP DCKK HENV",
     "saldo": "$298644.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5541,7 +5541,7 @@
     "saldo": "$185913.93",
     "tipoCuenta": "AHORRO",
     "interes": 0.328,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-12-11T11:50:02Z",
@@ -5549,14 +5549,14 @@
     "saldo": "$205421.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.478,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-11-01T04:13:37Z",
     "IBAN": "FR08 9329 9837 36BC TBLG FCSN K71",
     "saldo": "$277909.06",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5564,7 +5564,7 @@
     "IBAN": "MR37 9410 3082 6228 6851 7402 531",
     "saldo": "$18645.23",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5573,7 +5573,7 @@
     "saldo": "$199519.02",
     "tipoCuenta": "AHORRO",
     "interes": 0.982,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-11-21T01:51:23Z",
@@ -5581,7 +5581,7 @@
     "saldo": "$221387.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.649,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1962-10-11T22:48:03Z",
@@ -5589,7 +5589,7 @@
     "saldo": "$67612.64",
     "tipoCuenta": "AHORRO",
     "interes": 0.933,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-08-31T13:22:01Z",
@@ -5597,7 +5597,7 @@
     "saldo": "$98112.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.307,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-06-19T11:34:57Z",
@@ -5605,7 +5605,7 @@
     "saldo": "$222327.45",
     "tipoCuenta": "AHORRO",
     "interes": 0.902,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-03-10T00:50:37Z",
@@ -5613,14 +5613,14 @@
     "saldo": "$79910.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.85,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-03-12T14:13:07Z",
     "IBAN": "MD35 ALCX DDWJ X3HQ YMA8 2TMC",
     "saldo": "$87666.08",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5629,14 +5629,14 @@
     "saldo": "$156896.06",
     "tipoCuenta": "AHORRO",
     "interes": 0.365,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-07-31T18:40:23Z",
     "IBAN": "MU94 FEND 5897 3107 9410 0705 125T WK",
     "saldo": "$205662.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5644,7 +5644,7 @@
     "IBAN": "NL55 MVSU 4536 9218 58",
     "saldo": "$85415.67",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5652,7 +5652,7 @@
     "IBAN": "IE73 JWCT 8831 4597 1908 97",
     "saldo": "$31387.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5660,7 +5660,7 @@
     "IBAN": "FI63 5327 2521 8434 87",
     "saldo": "$279492.29",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5669,14 +5669,14 @@
     "saldo": "$284647.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.043,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1992-11-18T05:18:38Z",
     "IBAN": "BA10 1275 9765 5760 0142",
     "saldo": "$280861.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5684,7 +5684,7 @@
     "IBAN": "MK17 493P F4LU 1MDI 545",
     "saldo": "$166392.78",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5692,7 +5692,7 @@
     "IBAN": "BA69 6311 3707 9391 1114",
     "saldo": "$50809.58",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5701,14 +5701,14 @@
     "saldo": "$246533.76",
     "tipoCuenta": "AHORRO",
     "interes": 0.86,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-11-26T19:40:23Z",
     "IBAN": "MU64 HLZH 2802 4271 5999 9042 411K AP",
     "saldo": "$146984.17",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5717,14 +5717,14 @@
     "saldo": "$87491.75",
     "tipoCuenta": "AHORRO",
     "interes": 0.22,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-09-13T19:50:11Z",
     "IBAN": "KW97 FOQD ROCG EKJI 3PHV 1KG7 OLGV BH",
     "saldo": "$131158.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5732,7 +5732,7 @@
     "IBAN": "AL38 3468 3814 GHQ6 0A4K AQTA XDNE",
     "saldo": "$129416.08",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5741,7 +5741,7 @@
     "saldo": "$56071.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.935,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-09-04T13:20:27Z",
@@ -5749,14 +5749,14 @@
     "saldo": "$77353.47",
     "tipoCuenta": "AHORRO",
     "interes": 0.438,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-06-22T17:59:27Z",
     "IBAN": "FR63 7613 9517 16OZ G078 OH3H 785",
     "saldo": "$94874.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5765,7 +5765,7 @@
     "saldo": "$219581.45",
     "tipoCuenta": "AHORRO",
     "interes": 0.505,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-01-01T02:58:42Z",
@@ -5773,14 +5773,14 @@
     "saldo": "$116559.13",
     "tipoCuenta": "AHORRO",
     "interes": 0.722,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-07-30T23:23:26Z",
     "IBAN": "GT81 CNFD FCLG V4W3 TBU7 R4GD IHP7",
     "saldo": "$157651.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5789,14 +5789,14 @@
     "saldo": "$14597.50",
     "tipoCuenta": "AHORRO",
     "interes": 0.488,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-09-18T12:21:55Z",
     "IBAN": "FR57 8526 9965 48S9 Z84Z KRHM V39",
     "saldo": "$174134.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5804,7 +5804,7 @@
     "IBAN": "MU95 FPCK 8258 5935 5433 4605 585D HP",
     "saldo": "$60039.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5812,7 +5812,7 @@
     "IBAN": "FR48 1823 9887 28VS SQQJ BP1S S47",
     "saldo": "$274670.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5820,7 +5820,7 @@
     "IBAN": "GB57 EPEL 1381 3283 4105 45",
     "saldo": "$90233.67",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5828,7 +5828,7 @@
     "IBAN": "CH42 3131 6HZG RGPB CDL0 A",
     "saldo": "$109298.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5837,14 +5837,14 @@
     "saldo": "$62721.15",
     "tipoCuenta": "AHORRO",
     "interes": 0.715,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-09-05T17:48:50Z",
     "IBAN": "FR07 5737 4998 29ZK Z5GZ DA5U M55",
     "saldo": "$32263.29",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5853,7 +5853,7 @@
     "saldo": "$250066.20",
     "tipoCuenta": "AHORRO",
     "interes": 0.523,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-03-11T12:20:48Z",
@@ -5861,14 +5861,14 @@
     "saldo": "$227152.43",
     "tipoCuenta": "AHORRO",
     "interes": 0.112,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-12-24T01:53:00Z",
     "IBAN": "FR05 9001 8315 54B0 EUSK KSNP N18",
     "saldo": "$253180.63",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5876,7 +5876,7 @@
     "IBAN": "GR40 5395 717X JCCF IOWE UG9H LWK",
     "saldo": "$187031.64",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5885,14 +5885,14 @@
     "saldo": "$94199.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.787,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-03-13T07:58:36Z",
     "IBAN": "DE73 2233 1823 5975 7081 00",
     "saldo": "$202713.68",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5900,7 +5900,7 @@
     "IBAN": "FR24 6859 8820 293R XSAM HA7I 310",
     "saldo": "$270881.27",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5908,7 +5908,7 @@
     "IBAN": "CR06 1074 9089 1264 3524 0",
     "saldo": "$286186.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5917,14 +5917,14 @@
     "saldo": "$122061.67",
     "tipoCuenta": "AHORRO",
     "interes": 0.334,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-03-30T14:56:26Z",
     "IBAN": "FI77 3544 1260 9213 87",
     "saldo": "$278639.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5932,7 +5932,7 @@
     "IBAN": "FR20 0221 9513 33FT XQWY SRBB 011",
     "saldo": "$270128.84",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5940,7 +5940,7 @@
     "IBAN": "GL83 9867 5418 8417 57",
     "saldo": "$90604.69",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5948,7 +5948,7 @@
     "IBAN": "SK03 0780 9230 7436 8655 6107",
     "saldo": "$183370.83",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5956,7 +5956,7 @@
     "IBAN": "CZ22 0748 4685 1692 0692 2077",
     "saldo": "$173711.90",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5965,7 +5965,7 @@
     "saldo": "$203720.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.523,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-03-11T10:38:39Z",
@@ -5973,7 +5973,7 @@
     "saldo": "$106459.35",
     "tipoCuenta": "AHORRO",
     "interes": 0.897,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-11-23T19:26:51Z",
@@ -5981,14 +5981,14 @@
     "saldo": "$178789.26",
     "tipoCuenta": "AHORRO",
     "interes": 0.364,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-12-24T13:47:51Z",
     "IBAN": "GR77 5995 294R TTCB XQXE AWER 3KC",
     "saldo": "$240548.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -5996,7 +5996,7 @@
     "IBAN": "DK48 9663 5579 3644 49",
     "saldo": "$218486.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6005,7 +6005,7 @@
     "saldo": "$159828.69",
     "tipoCuenta": "AHORRO",
     "interes": 0.584,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-06-17T10:01:32Z",
@@ -6013,7 +6013,7 @@
     "saldo": "$85048.13",
     "tipoCuenta": "AHORRO",
     "interes": 0.765,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-06-06T17:30:14Z",
@@ -6021,7 +6021,7 @@
     "saldo": "$130756.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.511,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-05-13T20:34:34Z",
@@ -6029,7 +6029,7 @@
     "saldo": "$138010.15",
     "tipoCuenta": "AHORRO",
     "interes": 0.76,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-05-16T11:21:05Z",
@@ -6037,7 +6037,7 @@
     "saldo": "$157804.65",
     "tipoCuenta": "AHORRO",
     "interes": 0.076,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-07-18T14:20:57Z",
@@ -6045,14 +6045,14 @@
     "saldo": "$146700.11",
     "tipoCuenta": "AHORRO",
     "interes": 0.8,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-12-15T09:24:10Z",
     "IBAN": "MU04 THNW 6137 5234 5023 1951 855X WK",
     "saldo": "$161841.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6061,14 +6061,14 @@
     "saldo": "$95724.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.331,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-04-06T20:29:29Z",
     "IBAN": "MU95 QVXR 7258 4984 1095 3986 714C KV",
     "saldo": "$253597.26",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6076,7 +6076,7 @@
     "IBAN": "BR66 6194 0078 9653 2881 2252 171U 8",
     "saldo": "$92377.68",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6084,7 +6084,7 @@
     "IBAN": "LB32 4836 JGBI LVBV ICTB KQ1Q ILSH",
     "saldo": "$67858.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6092,7 +6092,7 @@
     "IBAN": "NL13 YMMI 7153 5292 75",
     "saldo": "$129863.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6100,7 +6100,7 @@
     "IBAN": "SI59 7863 8098 7261 548",
     "saldo": "$160220.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6109,7 +6109,7 @@
     "saldo": "$11109.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.337,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-09-21T05:38:04Z",
@@ -6117,14 +6117,14 @@
     "saldo": "$4606.33",
     "tipoCuenta": "AHORRO",
     "interes": 0.317,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-08-07T13:01:16Z",
     "IBAN": "CH29 8225 9CVM 8CJN S4X2 D",
     "saldo": "$149472.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6132,7 +6132,7 @@
     "IBAN": "VG35 EJEH 2634 1104 8471 5024",
     "saldo": "$177913.05",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6141,7 +6141,7 @@
     "saldo": "$91569.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.604,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-02-17T05:01:22Z",
@@ -6149,14 +6149,14 @@
     "saldo": "$15885.42",
     "tipoCuenta": "AHORRO",
     "interes": 0.528,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-03-10T04:09:42Z",
     "IBAN": "MK54 0290 2W9V MO2J A76",
     "saldo": "$43140.07",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6165,14 +6165,14 @@
     "saldo": "$111427.17",
     "tipoCuenta": "AHORRO",
     "interes": 0.837,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-01-09T18:57:48Z",
     "IBAN": "GT88 UZ04 I2LC ULZS TOCH PMOQ MES0",
     "saldo": "$60331.69",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6181,7 +6181,7 @@
     "saldo": "$53172.88",
     "tipoCuenta": "AHORRO",
     "interes": 0.343,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1988-03-28T19:39:43Z",
@@ -6189,7 +6189,7 @@
     "saldo": "$145339.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.839,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-05-22T08:01:02Z",
@@ -6197,14 +6197,14 @@
     "saldo": "$17465.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.96,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-02-11T23:51:08Z",
     "IBAN": "FR66 3886 4105 99O7 IGFO LMST B47",
     "saldo": "$161754.34",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6213,14 +6213,14 @@
     "saldo": "$133517.20",
     "tipoCuenta": "AHORRO",
     "interes": 0.829,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-10-18T17:22:30Z",
     "IBAN": "FR32 4727 1217 63S1 JJTJ L009 T22",
     "saldo": "$70913.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6228,7 +6228,7 @@
     "IBAN": "LI77 7003 8VYP ZMX8 ME5D N",
     "saldo": "$285839.39",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6236,7 +6236,7 @@
     "IBAN": "MC37 8408 5019 80GV OEEH 6F5K Q14",
     "saldo": "$38501.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6244,7 +6244,7 @@
     "IBAN": "BH75 PLYF JNLB Z75S TANP JU",
     "saldo": "$113420.06",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6253,14 +6253,14 @@
     "saldo": "$58911.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.955,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-02-26T19:24:35Z",
     "IBAN": "GE12 GP68 4406 4891 0758 06",
     "saldo": "$204496.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6269,14 +6269,14 @@
     "saldo": "$289233.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.834,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-01-27T13:07:19Z",
     "IBAN": "AT37 2381 8136 5858 8017",
     "saldo": "$252901.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6284,7 +6284,7 @@
     "IBAN": "IL48 7180 9185 3376 2970 822",
     "saldo": "$7810.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6293,14 +6293,14 @@
     "saldo": "$163956.93",
     "tipoCuenta": "AHORRO",
     "interes": 0.489,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-11-24T08:51:55Z",
     "IBAN": "ES62 2026 6507 2294 8527 8909",
     "saldo": "$131867.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6308,7 +6308,7 @@
     "IBAN": "KZ65 923Q AMEN YPQY W7CY",
     "saldo": "$163488.63",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6317,7 +6317,7 @@
     "saldo": "$22044.31",
     "tipoCuenta": "AHORRO",
     "interes": 0.585,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-06-12T14:33:44Z",
@@ -6325,14 +6325,14 @@
     "saldo": "$61673.90",
     "tipoCuenta": "AHORRO",
     "interes": 0.286,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-02-19T00:01:44Z",
     "IBAN": "HR75 1325 2445 5406 8129 2",
     "saldo": "$116366.85",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6340,7 +6340,7 @@
     "IBAN": "FI95 5895 4801 6579 74",
     "saldo": "$279618.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6349,7 +6349,7 @@
     "saldo": "$97156.01",
     "tipoCuenta": "AHORRO",
     "interes": 0.548,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-09T10:18:39Z",
@@ -6357,7 +6357,7 @@
     "saldo": "$60368.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.708,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-06-22T03:08:08Z",
@@ -6365,14 +6365,14 @@
     "saldo": "$159848.15",
     "tipoCuenta": "AHORRO",
     "interes": 0.271,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-07-07T03:00:37Z",
     "IBAN": "KW24 VNVG HCNQ 0DXK CQLH BYYM 0QGQ W1",
     "saldo": "$47716.11",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6381,7 +6381,7 @@
     "saldo": "$64404.61",
     "tipoCuenta": "AHORRO",
     "interes": 0.326,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-03-27T09:37:12Z",
@@ -6389,14 +6389,14 @@
     "saldo": "$243399.93",
     "tipoCuenta": "AHORRO",
     "interes": 0.746,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-03-19T17:12:11Z",
     "IBAN": "IS17 4538 7751 4284 7678 6196 66",
     "saldo": "$262182.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6404,7 +6404,7 @@
     "IBAN": "FR21 1173 3461 91UJ AEHC II8W Z60",
     "saldo": "$235080.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6413,7 +6413,7 @@
     "saldo": "$264134.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.545,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1978-09-28T18:50:13Z",
@@ -6421,14 +6421,14 @@
     "saldo": "$182044.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.797,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-10-09T05:13:00Z",
     "IBAN": "FR71 3359 2127 87QH OVIB D3FQ O78",
     "saldo": "$53117.98",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6436,7 +6436,7 @@
     "IBAN": "DK47 8173 5869 0576 52",
     "saldo": "$41794.61",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6444,7 +6444,7 @@
     "IBAN": "MU64 XVJR 8891 8625 3417 5525 468E PD",
     "saldo": "$100327.92",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6453,14 +6453,14 @@
     "saldo": "$256720.01",
     "tipoCuenta": "AHORRO",
     "interes": 0.78,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-05-11T00:50:23Z",
     "IBAN": "PK08 ZAQH 1RLQ W9QU 32JC HO11",
     "saldo": "$192764.14",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6469,7 +6469,7 @@
     "saldo": "$241234.58",
     "tipoCuenta": "AHORRO",
     "interes": 0.676,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-10-02T23:49:04Z",
@@ -6477,7 +6477,7 @@
     "saldo": "$284340.99",
     "tipoCuenta": "AHORRO",
     "interes": 0.936,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-12-12T15:18:14Z",
@@ -6485,7 +6485,7 @@
     "saldo": "$42185.16",
     "tipoCuenta": "AHORRO",
     "interes": 0.472,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1967-08-31T20:41:10Z",
@@ -6493,14 +6493,14 @@
     "saldo": "$3595.65",
     "tipoCuenta": "AHORRO",
     "interes": 0.381,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-12-15T14:15:47Z",
     "IBAN": "BG46 DNVZ 4658 62PO 0BZF 15",
     "saldo": "$73162.03",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6508,7 +6508,7 @@
     "IBAN": "FR22 4881 5595 50AI HLC1 VA7N B62",
     "saldo": "$269639.20",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6516,7 +6516,7 @@
     "IBAN": "NO85 8214 5953 853",
     "saldo": "$246280.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6525,7 +6525,7 @@
     "saldo": "$136634.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.697,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-02-17T04:47:39Z",
@@ -6533,7 +6533,7 @@
     "saldo": "$111577.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.703,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-05-29T16:46:20Z",
@@ -6541,7 +6541,7 @@
     "saldo": "$62829.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.857,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-03-23T12:37:28Z",
@@ -6549,14 +6549,14 @@
     "saldo": "$196996.79",
     "tipoCuenta": "AHORRO",
     "interes": 0.977,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-03-13T23:42:41Z",
     "IBAN": "LU54 0673 PN1S AEI0 AUN3",
     "saldo": "$237388.13",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6564,7 +6564,7 @@
     "IBAN": "FR11 9278 6567 76A1 RQXY 4YY6 V08",
     "saldo": "$238327.28",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6572,7 +6572,7 @@
     "IBAN": "FO95 8872 7261 7188 00",
     "saldo": "$292010.11",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6580,7 +6580,7 @@
     "IBAN": "EE18 7504 2398 1716 6883",
     "saldo": "$221220.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6588,7 +6588,7 @@
     "IBAN": "MU77 GDOK 9157 8298 8476 4990 735E YQ",
     "saldo": "$111394.02",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6597,7 +6597,7 @@
     "saldo": "$160442.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.327,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-03-03T00:14:58Z",
@@ -6605,14 +6605,14 @@
     "saldo": "$71662.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.631,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-09-12T09:33:43Z",
     "IBAN": "NL32 MYLF 4128 3042 96",
     "saldo": "$21960.01",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6621,14 +6621,14 @@
     "saldo": "$194308.70",
     "tipoCuenta": "AHORRO",
     "interes": 0.908,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1965-01-08T12:06:00Z",
     "IBAN": "GL03 5664 4737 5633 25",
     "saldo": "$228213.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6636,7 +6636,7 @@
     "IBAN": "CH96 6223 3P1I YOMA GDDF N",
     "saldo": "$205966.47",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6645,7 +6645,7 @@
     "saldo": "$67058.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.263,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-09-25T07:13:36Z",
@@ -6653,7 +6653,7 @@
     "saldo": "$284335.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.662,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-07-01T00:16:24Z",
@@ -6661,14 +6661,14 @@
     "saldo": "$6213.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.487,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-02-15T16:08:56Z",
     "IBAN": "PT79 2769 4233 6053 1814 1246 6",
     "saldo": "$201861.21",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6676,7 +6676,7 @@
     "IBAN": "AL41 7412 0284 WBKD RHCF 6ISC FCPG",
     "saldo": "$18722.51",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6684,7 +6684,7 @@
     "IBAN": "BR30 0140 4263 2417 1798 1351 863H I",
     "saldo": "$263818.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6692,7 +6692,7 @@
     "IBAN": "AT91 4810 0511 4388 3999",
     "saldo": "$207831.60",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6701,14 +6701,14 @@
     "saldo": "$282470.97",
     "tipoCuenta": "AHORRO",
     "interes": 0.331,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-02-12T03:18:23Z",
     "IBAN": "MK68 876E 5MLO Q6FJ L22",
     "saldo": "$296259.36",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6716,7 +6716,7 @@
     "IBAN": "HR26 6253 6634 7173 7859 9",
     "saldo": "$64203.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6725,7 +6725,7 @@
     "saldo": "$156161.24",
     "tipoCuenta": "AHORRO",
     "interes": 0.791,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-10-21T10:24:13Z",
@@ -6733,14 +6733,14 @@
     "saldo": "$165610.97",
     "tipoCuenta": "AHORRO",
     "interes": 0.757,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-10-05T17:58:24Z",
     "IBAN": "RO18 SWHX QQXX 991I NTJJ EMB5",
     "saldo": "$23399.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6749,7 +6749,7 @@
     "saldo": "$8135.03",
     "tipoCuenta": "AHORRO",
     "interes": 0.556,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-07-16T20:05:38Z",
@@ -6757,14 +6757,14 @@
     "saldo": "$127937.92",
     "tipoCuenta": "AHORRO",
     "interes": 0.17,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1961-07-23T06:31:07Z",
     "IBAN": "GI79 MBHV B1XW ISKF MLQ1 VIV",
     "saldo": "$64727.84",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6773,7 +6773,7 @@
     "saldo": "$77991.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.336,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1976-12-21T06:12:11Z",
@@ -6781,7 +6781,7 @@
     "saldo": "$26610.98",
     "tipoCuenta": "AHORRO",
     "interes": 0.403,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-05-16T04:03:50Z",
@@ -6789,7 +6789,7 @@
     "saldo": "$63143.71",
     "tipoCuenta": "AHORRO",
     "interes": 0.23,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-07-28T15:06:18Z",
@@ -6797,7 +6797,7 @@
     "saldo": "$22772.60",
     "tipoCuenta": "AHORRO",
     "interes": 0.718,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1991-04-14T16:38:35Z",
@@ -6805,14 +6805,14 @@
     "saldo": "$67265.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.366,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-07-29T15:35:18Z",
     "IBAN": "KZ71 187H TTPH RBQS 0TRA",
     "saldo": "$71870.89",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6821,14 +6821,14 @@
     "saldo": "$63001.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.106,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-12-20T04:54:56Z",
     "IBAN": "SK82 3988 0267 1976 6526 1828",
     "saldo": "$294114.12",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6836,7 +6836,7 @@
     "IBAN": "GI81 XCIJ 4RB3 B5UV WPKG CR7",
     "saldo": "$255142.72",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6845,14 +6845,14 @@
     "saldo": "$159184.85",
     "tipoCuenta": "AHORRO",
     "interes": 0.99,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-12-28T09:14:27Z",
     "IBAN": "LT25 3419 1890 1133 1124",
     "saldo": "$42048.22",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6860,7 +6860,7 @@
     "IBAN": "LI26 0252 6732 WF7F URIK S",
     "saldo": "$43820.73",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6869,7 +6869,7 @@
     "saldo": "$211973.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.588,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-07-12T02:21:32Z",
@@ -6877,14 +6877,14 @@
     "saldo": "$37529.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.185,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-05-08T06:18:34Z",
     "IBAN": "MC39 6505 8420 07RI XHBM 0SMR R99",
     "saldo": "$187110.77",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6892,7 +6892,7 @@
     "IBAN": "IT57 K612 1315 100L W3AM GAWQ LXU",
     "saldo": "$142311.81",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6900,7 +6900,7 @@
     "IBAN": "FR83 8483 6081 17GU AYUI UFCM T34",
     "saldo": "$75994.12",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6908,7 +6908,7 @@
     "IBAN": "BH83 QQSO NVLN FK94 NBAO IR",
     "saldo": "$45893.10",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6917,14 +6917,14 @@
     "saldo": "$36390.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.119,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-01-09T13:57:32Z",
     "IBAN": "FR06 9326 7636 68RB ZOL6 HADA H92",
     "saldo": "$144770.54",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6932,7 +6932,7 @@
     "IBAN": "AT30 7336 8222 9758 2537",
     "saldo": "$268623.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6940,7 +6940,7 @@
     "IBAN": "IL09 3088 5047 6946 9946 749",
     "saldo": "$39028.59",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6948,7 +6948,7 @@
     "IBAN": "DK45 7414 7735 6071 94",
     "saldo": "$271278.47",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6956,7 +6956,7 @@
     "IBAN": "SM53 R687 0172 177H P7LP TB4C 2Z1",
     "saldo": "$256097.55",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6964,7 +6964,7 @@
     "IBAN": "CR12 6948 3389 2109 8824 6",
     "saldo": "$225701.46",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6972,7 +6972,7 @@
     "IBAN": "PL70 3802 1478 0711 4139 5773 3331",
     "saldo": "$88268.11",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6981,14 +6981,14 @@
     "saldo": "$81980.94",
     "tipoCuenta": "AHORRO",
     "interes": 0.735,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-02-04T22:26:27Z",
     "IBAN": "AE64 2715 0524 4223 6664 242",
     "saldo": "$90351.63",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -6996,7 +6996,7 @@
     "IBAN": "MD32 KYW2 OAEV FAGP MIWO BV8H",
     "saldo": "$238939.92",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7004,7 +7004,7 @@
     "IBAN": "FI71 4814 1979 8577 97",
     "saldo": "$235319.44",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7012,7 +7012,7 @@
     "IBAN": "ES19 4603 8782 2913 5878 2219",
     "saldo": "$168664.09",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7021,7 +7021,7 @@
     "saldo": "$258806.44",
     "tipoCuenta": "AHORRO",
     "interes": 0.011,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1972-08-22T09:29:48Z",
@@ -7029,7 +7029,7 @@
     "saldo": "$50188.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.533,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-06-06T19:48:34Z",
@@ -7037,14 +7037,14 @@
     "saldo": "$87209.46",
     "tipoCuenta": "AHORRO",
     "interes": 0.432,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2003-03-19T21:19:05Z",
     "IBAN": "FR47 6786 2899 74QT RUBH N4IM 070",
     "saldo": "$77102.76",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7053,7 +7053,7 @@
     "saldo": "$270520.89",
     "tipoCuenta": "AHORRO",
     "interes": 0.558,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-02-11T20:26:08Z",
@@ -7061,7 +7061,7 @@
     "saldo": "$274984.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.455,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-06-27T20:24:20Z",
@@ -7069,14 +7069,14 @@
     "saldo": "$90219.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.977,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-09-29T12:25:39Z",
     "IBAN": "FR40 0302 4635 79OJ 2KQ2 TCTK Q97",
     "saldo": "$263700.25",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7084,7 +7084,7 @@
     "IBAN": "CY59 6515 5337 2QYG E3IQ 09EW IKCN",
     "saldo": "$124717.15",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7092,7 +7092,7 @@
     "IBAN": "IS29 7962 3959 7456 0743 0077 99",
     "saldo": "$158269.80",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7100,7 +7100,7 @@
     "IBAN": "BR44 7643 3982 8643 2774 5058 184B R",
     "saldo": "$2826.59",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7109,14 +7109,14 @@
     "saldo": "$41221.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.566,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-06-29T17:07:16Z",
     "IBAN": "GR70 5551 1764 PA4W SFLS Y6T8 RPP",
     "saldo": "$145773.06",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7125,7 +7125,7 @@
     "saldo": "$181025.43",
     "tipoCuenta": "AHORRO",
     "interes": 0.075,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1984-09-30T15:15:25Z",
@@ -7133,14 +7133,14 @@
     "saldo": "$170976.96",
     "tipoCuenta": "AHORRO",
     "interes": 0.682,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-01-30T00:06:09Z",
     "IBAN": "GI59 QSFF YW3F B2S0 BW41 DGD",
     "saldo": "$116652.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7149,14 +7149,14 @@
     "saldo": "$85154.26",
     "tipoCuenta": "AHORRO",
     "interes": 0.343,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-01-06T18:15:29Z",
     "IBAN": "PL13 7291 8998 4028 3221 1289 6829",
     "saldo": "$12130.77",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7164,7 +7164,7 @@
     "IBAN": "ES38 7659 0116 6833 3104 1942",
     "saldo": "$177151.79",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7173,14 +7173,14 @@
     "saldo": "$90086.53",
     "tipoCuenta": "AHORRO",
     "interes": 0.333,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-03-15T05:25:25Z",
     "IBAN": "DK69 6956 6613 0135 75",
     "saldo": "$140259.52",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7189,7 +7189,7 @@
     "saldo": "$95075.76",
     "tipoCuenta": "AHORRO",
     "interes": 0.947,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-07-19T02:30:20Z",
@@ -7197,14 +7197,14 @@
     "saldo": "$121786.55",
     "tipoCuenta": "AHORRO",
     "interes": 0.926,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-10-27T01:06:41Z",
     "IBAN": "FI48 3067 7022 8095 93",
     "saldo": "$56572.60",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7212,7 +7212,7 @@
     "IBAN": "IS49 0193 9866 7787 4779 0248 11",
     "saldo": "$73771.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7221,7 +7221,7 @@
     "saldo": "$25490.15",
     "tipoCuenta": "AHORRO",
     "interes": 0.392,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-02-11T21:45:27Z",
@@ -7229,14 +7229,14 @@
     "saldo": "$76289.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.864,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-07-17T07:22:26Z",
     "IBAN": "FR10 1130 1898 68QO KMG1 IWHJ G00",
     "saldo": "$207482.75",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7245,7 +7245,7 @@
     "saldo": "$67760.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.285,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1977-02-26T03:33:35Z",
@@ -7253,14 +7253,14 @@
     "saldo": "$155527.25",
     "tipoCuenta": "AHORRO",
     "interes": 0.786,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-06-22T00:22:38Z",
     "IBAN": "SE14 9481 2227 1671 5605 5980",
     "saldo": "$178586.43",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7268,7 +7268,7 @@
     "IBAN": "FR40 1357 5836 46DF FI8T V9IZ M38",
     "saldo": "$12964.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7277,14 +7277,14 @@
     "saldo": "$114430.87",
     "tipoCuenta": "AHORRO",
     "interes": 0.491,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2001-02-11T04:59:03Z",
     "IBAN": "BR19 5620 7413 5821 9438 8969 702X G",
     "saldo": "$235550.50",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7292,7 +7292,7 @@
     "IBAN": "RS07 5318 0943 0881 9411 82",
     "saldo": "$226167.88",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7301,14 +7301,14 @@
     "saldo": "$72028.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.157,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-09-05T07:18:35Z",
     "IBAN": "GI94 RAMH JUSU SLWB YQBJ SHX",
     "saldo": "$166063.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7317,7 +7317,7 @@
     "saldo": "$242826.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.113,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-08-29T18:44:12Z",
@@ -7325,14 +7325,14 @@
     "saldo": "$7486.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.01,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1973-01-23T20:07:04Z",
     "IBAN": "GE05 WQ84 7706 0860 2611 01",
     "saldo": "$40075.83",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7341,7 +7341,7 @@
     "saldo": "$55202.35",
     "tipoCuenta": "AHORRO",
     "interes": 0.116,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-06-05T15:02:33Z",
@@ -7349,14 +7349,14 @@
     "saldo": "$53061.28",
     "tipoCuenta": "AHORRO",
     "interes": 0.023,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-06-12T00:51:43Z",
     "IBAN": "LV39 MBBH TQUD Z3TF ZFMY B",
     "saldo": "$51575.91",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7364,7 +7364,7 @@
     "IBAN": "GR19 3821 458D QMBY LVRX TYUY SBO",
     "saldo": "$165195.45",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7372,7 +7372,7 @@
     "IBAN": "PS43 HKXV VJY3 JXFT BE0T X1T7 D2BU W",
     "saldo": "$197150.33",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7381,7 +7381,7 @@
     "saldo": "$15640.54",
     "tipoCuenta": "AHORRO",
     "interes": 0.05,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-09-16T13:42:13Z",
@@ -7389,14 +7389,14 @@
     "saldo": "$297832.76",
     "tipoCuenta": "AHORRO",
     "interes": 0.505,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-12-30T09:37:29Z",
     "IBAN": "BR47 0006 9950 2611 3165 8080 391X W",
     "saldo": "$229754.97",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7404,7 +7404,7 @@
     "IBAN": "GR19 8462 140W 2CJS SLZ7 KSCU 0CO",
     "saldo": "$146658.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7413,7 +7413,7 @@
     "saldo": "$108058.30",
     "tipoCuenta": "AHORRO",
     "interes": 0.249,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-12-27T00:15:41Z",
@@ -7421,14 +7421,14 @@
     "saldo": "$62945.93",
     "tipoCuenta": "AHORRO",
     "interes": 0.593,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1979-08-13T19:59:52Z",
     "IBAN": "MK40 557H 0HIR I9HT V81",
     "saldo": "$32936.49",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7437,14 +7437,14 @@
     "saldo": "$164652.60",
     "tipoCuenta": "AHORRO",
     "interes": 0.913,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1968-02-09T05:05:36Z",
     "IBAN": "BA66 2284 8346 1465 7606",
     "saldo": "$144472.99",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7453,14 +7453,14 @@
     "saldo": "$170800.33",
     "tipoCuenta": "AHORRO",
     "interes": 0.855,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-01-25T06:39:37Z",
     "IBAN": "GR66 1625 303I KIWM K40F T9R4 FRJ",
     "saldo": "$161226.37",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7468,7 +7468,7 @@
     "IBAN": "AD05 0123 6954 FNWN W7YR IDLR",
     "saldo": "$57171.03",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7477,7 +7477,7 @@
     "saldo": "$27268.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.398,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1969-09-09T10:21:18Z",
@@ -7485,14 +7485,14 @@
     "saldo": "$231461.23",
     "tipoCuenta": "AHORRO",
     "interes": 0.584,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1989-11-11T08:16:09Z",
     "IBAN": "MK63 859Z YIE9 3UTR N91",
     "saldo": "$33771.16",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7500,7 +7500,7 @@
     "IBAN": "FR48 6583 3404 62EG BUG7 HS9O V86",
     "saldo": "$24456.38",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7508,7 +7508,7 @@
     "IBAN": "CR65 6897 4514 6836 8658 2",
     "saldo": "$239166.78",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7516,7 +7516,7 @@
     "IBAN": "MR85 3815 4462 7844 7666 7883 321",
     "saldo": "$266499.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7525,14 +7525,14 @@
     "saldo": "$298848.40",
     "tipoCuenta": "AHORRO",
     "interes": 0.675,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-06-21T14:10:36Z",
     "IBAN": "AZ30 FFGP WFOE SVNM PCWF YOKJ 0O7X",
     "saldo": "$229062.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7541,7 +7541,7 @@
     "saldo": "$260392.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.177,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-07-02T00:15:21Z",
@@ -7549,7 +7549,7 @@
     "saldo": "$232805.22",
     "tipoCuenta": "AHORRO",
     "interes": 0.191,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1970-06-13T16:53:48Z",
@@ -7557,7 +7557,7 @@
     "saldo": "$19310.91",
     "tipoCuenta": "AHORRO",
     "interes": 0.084,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1971-11-17T09:48:55Z",
@@ -7565,7 +7565,7 @@
     "saldo": "$44210.54",
     "tipoCuenta": "AHORRO",
     "interes": 0.744,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1975-06-04T11:14:06Z",
@@ -7573,7 +7573,7 @@
     "saldo": "$205343.32",
     "tipoCuenta": "AHORRO",
     "interes": 0.395,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-07-14T20:12:17Z",
@@ -7581,7 +7581,7 @@
     "saldo": "$16056.36",
     "tipoCuenta": "AHORRO",
     "interes": 0.873,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-04-11T11:38:25Z",
@@ -7589,7 +7589,7 @@
     "saldo": "$79841.83",
     "tipoCuenta": "AHORRO",
     "interes": 0.804,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-10-24T06:23:32Z",
@@ -7597,7 +7597,7 @@
     "saldo": "$261215.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.449,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2004-07-04T17:12:22Z",
@@ -7605,7 +7605,7 @@
     "saldo": "$44363.77",
     "tipoCuenta": "AHORRO",
     "interes": 0.198,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1963-10-26T09:33:19Z",
@@ -7613,7 +7613,7 @@
     "saldo": "$97699.69",
     "tipoCuenta": "AHORRO",
     "interes": 0.443,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-06-27T21:30:32Z",
@@ -7621,7 +7621,7 @@
     "saldo": "$164721.14",
     "tipoCuenta": "AHORRO",
     "interes": 0.929,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-12-25T21:13:53Z",
@@ -7629,14 +7629,14 @@
     "saldo": "$124094.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.131,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-07-16T01:54:08Z",
     "IBAN": "TN66 8406 0196 5947 9252 4877",
     "saldo": "$60574.82",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7645,7 +7645,7 @@
     "saldo": "$55292.16",
     "tipoCuenta": "AHORRO",
     "interes": 0.939,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1981-09-28T01:23:40Z",
@@ -7653,7 +7653,7 @@
     "saldo": "$190917.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.446,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1986-07-04T20:02:19Z",
@@ -7661,7 +7661,7 @@
     "saldo": "$290000.43",
     "tipoCuenta": "AHORRO",
     "interes": 0.561,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2000-04-22T11:19:33Z",
@@ -7669,14 +7669,14 @@
     "saldo": "$148972.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.976,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-05-18T01:16:02Z",
     "IBAN": "FR94 1514 5345 66PB FH97 K90T E73",
     "saldo": "$64469.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7685,14 +7685,14 @@
     "saldo": "$242623.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.499,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-05-28T11:33:20Z",
     "IBAN": "ME15 9212 8537 2069 6822 10",
     "saldo": "$43701.35",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7701,7 +7701,7 @@
     "saldo": "$177857.82",
     "tipoCuenta": "AHORRO",
     "interes": 0.707,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-05-26T21:17:34Z",
@@ -7709,14 +7709,14 @@
     "saldo": "$285209.12",
     "tipoCuenta": "AHORRO",
     "interes": 0.519,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-04-08T08:42:04Z",
     "IBAN": "NO82 1319 6278 107",
     "saldo": "$277633.75",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7725,7 +7725,7 @@
     "saldo": "$59400.21",
     "tipoCuenta": "AHORRO",
     "interes": 0.953,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-10-03T08:53:34Z",
@@ -7733,7 +7733,7 @@
     "saldo": "$100235.62",
     "tipoCuenta": "AHORRO",
     "interes": 0.831,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1993-06-22T16:09:47Z",
@@ -7741,7 +7741,7 @@
     "saldo": "$13547.27",
     "tipoCuenta": "AHORRO",
     "interes": 0.362,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1980-12-17T03:22:37Z",
@@ -7749,14 +7749,14 @@
     "saldo": "$145808.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.18,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-09-02T08:09:30Z",
     "IBAN": "BG16 CJQU 8684 53L5 DTGA C4",
     "saldo": "$80969.65",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7765,7 +7765,7 @@
     "saldo": "$40915.59",
     "tipoCuenta": "AHORRO",
     "interes": 0.04,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1985-06-19T04:20:14Z",
@@ -7773,14 +7773,14 @@
     "saldo": "$46214.72",
     "tipoCuenta": "AHORRO",
     "interes": 0.909,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1990-08-31T16:07:36Z",
     "IBAN": "VG98 NBQY 7755 7835 1439 0384",
     "saldo": "$267910.96",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7789,7 +7789,7 @@
     "saldo": "$235960.19",
     "tipoCuenta": "AHORRO",
     "interes": 0.085,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1974-05-20T15:16:20Z",
@@ -7797,14 +7797,14 @@
     "saldo": "$211316.80",
     "tipoCuenta": "AHORRO",
     "interes": 0.065,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1983-10-13T13:24:19Z",
     "IBAN": "CR63 9365 0698 5828 8168 8",
     "saldo": "$161156.57",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7813,14 +7813,14 @@
     "saldo": "$165718.86",
     "tipoCuenta": "AHORRO",
     "interes": 0.69,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1997-09-26T18:52:02Z",
     "IBAN": "MC70 0871 2344 27ON MGNP J5AL P75",
     "saldo": "$245617.22",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7829,14 +7829,14 @@
     "saldo": "$171924.05",
     "tipoCuenta": "AHORRO",
     "interes": 0.23,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-08-31T23:22:00Z",
     "IBAN": "KW06 FMON SQGJ XWQD B6V8 VVFV MGIZ QB",
     "saldo": "$79687.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7845,14 +7845,14 @@
     "saldo": "$287724.03",
     "tipoCuenta": "AHORRO",
     "interes": 0.997,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1982-07-06T13:41:33Z",
     "IBAN": "AZ03 VQBB PMN1 YYOF KDCX PGGQ 3IZR",
     "saldo": "$65563.94",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7861,7 +7861,7 @@
     "saldo": "$258626.51",
     "tipoCuenta": "AHORRO",
     "interes": 0.921,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "2002-03-27T17:58:42Z",
@@ -7869,7 +7869,7 @@
     "saldo": "$117117.78",
     "tipoCuenta": "AHORRO",
     "interes": 0.371,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1964-09-01T18:13:17Z",
@@ -7877,14 +7877,14 @@
     "saldo": "$26303.09",
     "tipoCuenta": "AHORRO",
     "interes": 0.183,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1994-06-11T08:55:39Z",
     "IBAN": "HR90 4246 6602 9367 2777 4",
     "saldo": "$52864.30",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7892,7 +7892,7 @@
     "IBAN": "ES30 5580 2322 3557 7327 3593",
     "saldo": "$193873.85",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7901,14 +7901,14 @@
     "saldo": "$40519.68",
     "tipoCuenta": "AHORRO",
     "interes": 0.436,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-04-16T11:56:38Z",
     "IBAN": "FR25 7292 4083 52RI 8QOF WJMC H89",
     "saldo": "$14954.41",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7916,7 +7916,7 @@
     "IBAN": "KW52 TGNU MMUJ 5R8C FOHI T2FE T3ST G6",
     "saldo": "$50756.93",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7925,14 +7925,14 @@
     "saldo": "$92733.63",
     "tipoCuenta": "AHORRO",
     "interes": 0.953,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1999-03-28T06:14:56Z",
     "IBAN": "LU27 4004 BATA R12A L1S1",
     "saldo": "$191231.56",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7941,7 +7941,7 @@
     "saldo": "$201441.78",
     "tipoCuenta": "AHORRO",
     "interes": 0.239,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1995-09-16T06:32:08Z",
@@ -7949,14 +7949,14 @@
     "saldo": "$256277.41",
     "tipoCuenta": "AHORRO",
     "interes": 0.064,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1996-06-19T03:01:27Z",
     "IBAN": "RS82 2631 9032 7231 6488 74",
     "saldo": "$25163.02",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7964,7 +7964,7 @@
     "IBAN": "FR95 3058 7537 06LH PSDU GGQH E11",
     "saldo": "$220294.00",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7973,14 +7973,14 @@
     "saldo": "$49435.57",
     "tipoCuenta": "AHORRO",
     "interes": 0.512,
-    "oficina": "null"
+    "oficina": null
   },
   {
     "fechaCreacion": "1960-01-27T07:14:35Z",
     "IBAN": "VG77 BKPE 0448 9099 1870 0473",
     "saldo": "$195572.74",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7988,7 +7988,7 @@
     "IBAN": "PS63 ZRSD NEHK YPU9 ISJW 6FOK CEOG G",
     "saldo": "$63923.42",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   },
   {
@@ -7996,7 +7996,7 @@
     "IBAN": "GI85 KRYK MHPN KEKZ FJNC Q2L",
     "saldo": "$90786.87",
     "tipoCuenta": "CORRIENTE",
-    "interes": "null",
+    "interes": null,
     "oficina": 245
   }
 ]

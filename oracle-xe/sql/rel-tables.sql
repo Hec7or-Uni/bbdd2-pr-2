@@ -44,9 +44,9 @@ CREATE TABLE OPERACIONES (
 );
 
 CREATE TABLE TIENEN (
-    DNI         VARCHAR(9)      NOT NULL,
-    idCuenta    VARCHAR(24)		NOT NULL,
-    PRIMARY KEY (DNI, idCuenta),
-    FOREIGN KEY (DNI)   		REFERENCES cliente(DNI),
-    FOREIGN KEY (idcuenta)		REFERENCES cuenta(id)
+    DNI     VARCHAR(9),
+    IBAN    VARCHAR(40),
+    PRIMARY KEY (DNI, IBAN),
+    FOREIGN KEY (DNI)       REFERENCES clientes(DNI),
+    FOREIGN KEY (IBAN)		REFERENCES cuentas(IBAN)
 );

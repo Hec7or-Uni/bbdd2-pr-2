@@ -46,7 +46,13 @@ for dato in datos:
         sentencia = sentencia + "), (SELECT REF(o) FROM oficina o WHERE o.codigo = " + str(dato['oficina']) + ")));\n"
     else:
         if dato['tipoCuenta'] == "AHORRO":
-            sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', '" + dato['fechaCreacion'] + "', '" + str(dato['saldo']) + "', '" + dato['tipoCuenta'] + "', '" #+ titular + "', " + str(dato['interes']) + "));\n"
+            sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
+        while len(dnis) > 0:
+            sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
+            dnis.remove(dnis[0])
+            if len(dnis) > 0:
+                sentencia = sentencia + " OR "
+        sentencia = sentencia + "), " + str(dato['interes']) + "));\n"
     salida.write(sentencia)
 salida.close()
 fich.close()

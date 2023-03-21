@@ -7,6 +7,11 @@ public class Oficina {
     private List<Ingresos> ingresos;
     private List<Retirada> retiros;
 
+    public Oficina() { 
+        this.ingresos = null;
+        this.retiros = null;
+    }
+
     public Oficina(Integer codigo, String telefono, String direccion) {
         this.codigo = codigo;
         this.telefono = telefono;
@@ -71,5 +76,10 @@ public class Oficina {
         for (Retirada op : retiradas) {
             this.retiros.add(op);
         }
+    }
+
+    @Override
+    public String toString() {
+        return  "Oficina{" + "codigo=" + codigo + ", telefono=" + telefono + ", direccion=" + direccion + '}';
     }
 }

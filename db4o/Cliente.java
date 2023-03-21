@@ -1,4 +1,5 @@
-import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 public class Cliente {
@@ -11,6 +12,8 @@ public class Cliente {
     private String direccion;
     private Integer edad;
     private List<Cuenta> cuentas;
+
+    public Cliente() { this.cuentas = null; }
 
     public Cliente(String DNI, String nombre, String apellido, String email,
             String telefono, String fechaNacimiento, String direccion) {
@@ -112,16 +115,34 @@ public class Cliente {
 
     public void addCuenta(Cuenta cuenta) {
         this.cuentas.add(cuenta);
+        cuenta.addCliente(this);
     }
 
     public void addCuentas(List<Cuenta> cuentas) {
         for (Cuenta c : cuentas) {
+            c.addCliente(this);
             this.cuentas.add(c);
         }
     }
 
     private Date parseDate(String fecha) {
-        String fechaArray[] = fecha.split("-");
-        return Date.valueOf(fechaArray[2] + "-" + fechaArray[1] + "-" + fechaArray[0]);
+        String dateString;
+        Date date;
+        SimpleDateFormat formatter;
+
+        formatter = new SimpleDateFormat("dd-MM-yyyy");
+        dateString = fecha;
+        date = null;
+        try {
+            date = formatter.parse(dateString);
+        } catch (Exception e) {
+            System.out.println("Error al parsear la fecha: " + e.getMessage());
+        }
+        return date;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "DNI=" + DNI + ", nombre=" + nombre + ", apellido=" + apellido + ", email=" + email + ", telefono=" + telefono + ", fechaNacimiento=" + fechaNacimiento + ", direccion=" + direccion + ", edad=" + edad + ", cuentas=" + cuentas + '}';
     }
 }

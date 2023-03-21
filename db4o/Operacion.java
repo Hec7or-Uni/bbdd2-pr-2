@@ -1,23 +1,23 @@
-import java.sql.Timestamp;
-
 public class Operacion {
     private Cuenta cuenta;
     private String codigo;
-    private Timestamp fecha;
+    private String fecha;
     private Number cantidad;
     private String descripcion;
 
-    public Operacion(Cuenta cuenta, String codigo, Number cantidad) {
+    public Operacion() { }
+
+    protected Operacion(Cuenta cuenta, String codigo, Number cantidad) {
         this.codigo = codigo;
-        this.fecha = new Timestamp(System.currentTimeMillis());
+        this.fecha = "";
         this.cantidad = cantidad;
         this.descripcion = "";
         this.cuenta = cuenta;
     }
 
-    public Operacion(Cuenta cuenta, String codigo, Number cantidad, String descripcion) {
+    protected Operacion(Cuenta cuenta, String codigo, Number cantidad, String descripcion) {
         this.codigo = codigo;
-        this.fecha = new Timestamp(System.currentTimeMillis());
+        this.fecha = "";
         this.cantidad = cantidad;
         this.descripcion = descripcion;
         this.cuenta = cuenta;
@@ -31,11 +31,11 @@ public class Operacion {
         this.codigo = codigo;
     }
 
-    public Timestamp getFecha() {
+    public String getFecha() {
         return fecha;
     }
 
-    public void setFecha(Timestamp fecha) {
+    public void setFecha(String fecha) {
         this.fecha = fecha;
     }
 

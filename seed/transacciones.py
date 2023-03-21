@@ -38,9 +38,8 @@ for i in range(10000):
         data["oficina"] = 245
         data["cuentaReceptora"] = "null"
 
-    lista.append(data)
+    lista.append(data.copy())
 
-print(lista)
 with open("MOCK_DATA_OPERACIONES.json", "w") as f:
     json.dump(lista, f, indent=4)
     f.close()

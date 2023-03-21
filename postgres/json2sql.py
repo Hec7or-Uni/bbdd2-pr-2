@@ -43,22 +43,12 @@ for dato in datos:
             dnis.append(relacion['DNI'])
     if len(dnis) > 0:
         if dato['tipoCuenta'] == "CORRIENTE":
-            sentencia = "INSERT INTO cuenta VALUES (cuentaCorrienteUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
-            while len(dnis) > 0:
-                sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
-                dnis.remove(dnis[0])
-                if len(dnis) > 0:
-                    sentencia = sentencia + " OR "
-            sentencia = sentencia + "), (SELECT REF(o) FROM oficina o WHERE o.codigo = " + str(dato['oficina']) + ")));\n"
+            sentencia = "INSERT INTO cuentaCorriente (IBAN, fechaCreacion, saldo, tipoCuenta, oficina) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', " + str(dato['oficina']) + ");\n"
+            sentencia = sentencia + "INSERT INTO cuenta (IBAN, fechaCreacion, saldo, tipoCuenta) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "');\n"
         else:
             if dato['tipoCuenta'] == "AHORRO":
-                sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
-            while len(dnis) > 0:
-                sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
-                dnis.remove(dnis[0])
-                if len(dnis) > 0:
-                    sentencia = sentencia + " OR "
-            sentencia = sentencia + "), " + str(dato['interes']) + "));\n"
+                sentencia = "INSERT INTO cuentaAhorro (IBAN, fechaCreacion, saldo, tipoCuenta, interes) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', " + str(dato['interes']) + ");\n"
+                sentencia = sentencia + "INSERT INTO cuenta (IBAN, fechaCreacion, saldo, tipoCuenta) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "');\n"
         salida.write(sentencia)
 salida.close()
 fich.close()

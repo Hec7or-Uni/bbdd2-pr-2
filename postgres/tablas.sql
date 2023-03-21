@@ -19,14 +19,14 @@ CREATE TABLE cuenta (
     IBAN                varchar(40) primary key,
     fechaCreacion       timestamp   not null,
     saldo               float       default(0),
-    cliente             varchar(9)     REFERENCES cliente(DNI)
+    tipoCuenta          varchar(9)  not null
 );
 
 CREATE TABLE cuentaAhorro  (
     IBAN                varchar(40) primary key,
     fechaCreacion       timestamp   not null,
     saldo               float       default(0),
-    cliente             varchar(9)     REFERENCES cliente(DNI),
+    tipoCuenta          varchar(9)  not null,
     interes             integer     not null
 ) INHERITS (cuenta);
 
@@ -34,7 +34,7 @@ CREATE TABLE cuentaCorriente (
     IBAN                varchar(40) primary key,
     fechaCreacion       timestamp   not null,
     saldo               float       default(0),
-    cliente             varchar(9)  REFERENCES cliente(DNI),
+    tipoCuenta          varchar(9)  not null,
     oficina             INTEGER     REFERENCES oficina(codigo)
 ) INHERITS (cuenta);
 

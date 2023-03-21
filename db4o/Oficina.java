@@ -1,13 +1,13 @@
 import java.util.List;
 
-public class Oficinas {
+public class Oficina {
     private Integer codigo;
     private String telefono;
     private String direccion;
     private List<Ingresos> ingresos;
     private List<Retirada> retiros;
 
-    public Oficinas(Integer codigo, String telefono, String direccion) {
+    public Oficina(Integer codigo, String telefono, String direccion) {
         this.codigo = codigo;
         this.telefono = telefono;
         this.direccion = direccion;

@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Corriente extends Cuentas {
+public class Corriente extends Cuenta {
     private Number oficina;
 
     public Corriente(String IBAN, Cliente cliente, Number oficina) {

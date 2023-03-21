@@ -2,14 +2,14 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Cuentas {
+public class Cuenta {
     private String IBAN;
     private Timestamp fechaCreacion;
     private Number saldo;
     private List<Cliente> clientes;
     private List<Operacion> operaciones;
 
-    public Cuentas(String IBAN, Cliente cliente) {
+    public Cuenta(String IBAN, Cliente cliente) {
         this.IBAN = IBAN;
         this.fechaCreacion = new Timestamp(System.currentTimeMillis());
         this.saldo = 0;
@@ -18,7 +18,7 @@ public class Cuentas {
         this.clientes.add(cliente);
     }
 
-    public Cuentas(String IBAN, List<Cliente> clientes) {
+    public Cuenta(String IBAN, List<Cliente> clientes) {
         this.IBAN = IBAN;
         this.fechaCreacion = new Timestamp(System.currentTimeMillis());
         this.saldo = 0;

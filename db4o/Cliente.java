@@ -10,22 +10,22 @@ public class Cliente {
     private Date fechaNacimiento;
     private String direccion;
     private Integer edad;
-    private List<Cuentas> cuentas;
+    private List<Cuenta> cuentas;
 
     public Cliente(String DNI, String nombre, String apellido, String email,
-            String telefono, Date fechaNacimiento, String direccion) {
+            String telefono, String fechaNacimiento, String direccion) {
         this.DNI = DNI;
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.telefono = telefono;
-        this.fechaNacimiento = fechaNacimiento;
+        this.fechaNacimiento = parseDate(fechaNacimiento);
         this.direccion = direccion;
         calularEdad();
     }
 
     public Cliente(String DNI, String nombre, String apellido, String email,
-            String telefono, Date fechaNacimiento, String direccion, List<Cuentas> cuentas) {
+            String telefono, Date fechaNacimiento, String direccion, List<Cuenta> cuentas) {
         this.DNI = DNI;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -102,21 +102,26 @@ public class Cliente {
         this.edad = 0;
     }
 
-    public List<Cuentas> getCuentas() {
+    public List<Cuenta> getCuentas() {
         return cuentas;
     }
 
-    public void setCuentas(List<Cuentas> cuentas) {
+    public void setCuentas(List<Cuenta> cuentas) {
         this.cuentas = cuentas;
     }
 
-    public void addCuenta(Cuentas cuenta) {
+    public void addCuenta(Cuenta cuenta) {
         this.cuentas.add(cuenta);
     }
 
-    public void addCuentas(List<Cuentas> cuentas) {
-        for (Cuentas c : cuentas) {
+    public void addCuentas(List<Cuenta> cuentas) {
+        for (Cuenta c : cuentas) {
             this.cuentas.add(c);
         }
+    }
+
+    private Date parseDate(String fecha) {
+        String fechaArray[] = fecha.split("-");
+        return Date.valueOf(fechaArray[2] + "-" + fechaArray[1] + "-" + fechaArray[0]);
     }
 }

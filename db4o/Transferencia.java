@@ -1,18 +1,21 @@
-import java.sql.Timestamp;
-
 public class Transferencia extends Operacion {
-  private String IBAN;
+  private Cuenta destino;
 
-  public Transferencia(String codigo, Timestamp fecha, Number cantidad, String descripcion, String IBAN) {
-    super(codigo, fecha, cantidad, descripcion);
-    this.IBAN = IBAN;
+  public Transferencia(Cuenta envio, Cuenta destino, String codigo, Number cantidad) {
+    super(envio, codigo, cantidad);
+    this.destino = destino;
   }
 
-  public String getIBAN() {
-    return IBAN;
+  public Transferencia(Cuenta envio, Cuenta destino, String codigo, Number cantidad, String descripcion) {
+    super(envio, codigo, cantidad, descripcion);
+    this.destino = destino;
   }
 
-  public void setIBAN(String IBAN) {
-    this.IBAN = IBAN;
+  public Cuenta getDestino() {
+    return destino;
+  }
+
+  public void setDestino(Cuenta destino) {
+    this.destino = destino;
   }
 }

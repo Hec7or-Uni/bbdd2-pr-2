@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Ahorro extends Cuentas {
+public class Ahorro extends Cuenta {
     private Number interes;
 
     public Ahorro(String IBAN, Cliente cliente, Number interes) {

@@ -1,18 +1,21 @@
-import java.sql.Timestamp;
-
 public class Ingresos extends Operacion {
-    private String oficina;
+    private Integer oficina;
 
-    public Ingresos(String codigo, Timestamp fecha, Number cantidad, String descripcion, String oficina) {
-        super(codigo, fecha, cantidad, descripcion);
+    public Ingresos(Cuenta cuenta, String codigo, Number cantidad, Integer oficina) {
+        super(cuenta, codigo,  cantidad);
         this.oficina = oficina;
     }
 
-    public String getOficina() {
+    public Ingresos(Cuenta cuenta, String codigo, Number cantidad, String descripcion, Integer oficina) {
+        super(cuenta, codigo,  cantidad, descripcion);
+        this.oficina = oficina;
+    }
+
+    public Integer getOficina() {
         return oficina;
     }
 
-    public void setOficina(String oficina) {
+    public void setOficina(Integer oficina) {
         this.oficina = oficina;
     }
 }

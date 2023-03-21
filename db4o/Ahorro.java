@@ -3,6 +3,8 @@ import java.util.List;
 public class Ahorro extends Cuenta {
     private Number interes;
 
+    public Ahorro() { super(); }
+
     public Ahorro(String IBAN, Cliente cliente, Number interes) {
         super(IBAN, cliente);
         this.interes = interes;
@@ -19,5 +21,10 @@ public class Ahorro extends Cuenta {
 
     public void setInteres(Number interes) {
         this.interes = interes;
+    }
+
+    @Override
+    public String toString() {
+        return "Ahorro{" + "IBAN=" + getIBAN() + ", fechaCreacion=" + getFechaCreacion() + ", saldo=" + getSaldo() + ", interes=" + interes + '}';
     }
 }

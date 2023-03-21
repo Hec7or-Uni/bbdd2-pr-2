@@ -3,6 +3,8 @@ import java.util.List;
 public class Corriente extends Cuenta {
     private Number oficina;
 
+    public Corriente() { super(); }
+
     public Corriente(String IBAN, Cliente cliente, Number oficina) {
         super(IBAN, cliente);
         this.oficina = oficina;
@@ -19,5 +21,10 @@ public class Corriente extends Cuenta {
 
     public void setOficina(Number oficina) {
         this.oficina = oficina;
+    }
+
+    @Override
+    public String toString() {
+        return "Corriente{" + "IBAN=" + getIBAN() + ", fechaCreacion=" + getFechaCreacion() + ", saldo=" + getSaldo() + ", oficina=" + oficina + '}';
     }
 }

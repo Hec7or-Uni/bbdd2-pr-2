@@ -1,26 +1,27 @@
-import java.sql.Timestamp;
 import java.util.List;
 import java.util.ArrayList;
 
 public class Cuenta {
     private String IBAN;
-    private Timestamp fechaCreacion;
+    private String fechaCreacion;
     private Number saldo;
     private List<Cliente> clientes;
     private List<Operacion> operaciones;
 
-    public Cuenta(String IBAN, Cliente cliente) {
+    public Cuenta() { }
+
+    protected Cuenta(String IBAN, Cliente cliente) {
         this.IBAN = IBAN;
-        this.fechaCreacion = new Timestamp(System.currentTimeMillis());
+        this.fechaCreacion = "";
         this.saldo = 0;
         this.clientes = new ArrayList<>();
         this.operaciones = new ArrayList<>();
         this.clientes.add(cliente);
     }
 
-    public Cuenta(String IBAN, List<Cliente> clientes) {
+    protected Cuenta(String IBAN, List<Cliente> clientes) {
         this.IBAN = IBAN;
-        this.fechaCreacion = new Timestamp(System.currentTimeMillis());
+        this.fechaCreacion = "";
         this.saldo = 0;
         this.clientes = clientes;
         this.operaciones = new ArrayList<>();
@@ -34,11 +35,11 @@ public class Cuenta {
         this.IBAN = IBAN;
     }
 
-    public Timestamp getFechaCreacion() {
+    public String  getFechaCreacion() {
         return fechaCreacion;
     }
 
-    public void setFechaCreacion(Timestamp fechaCreacion) {
+    public void setFechaCreacion(String fechaCreacion) {
         this.fechaCreacion = fechaCreacion;
     }
 
@@ -64,11 +65,13 @@ public class Cuenta {
 
     public void addCliente(Cliente cliente) {
         this.clientes.add(cliente);
+        cliente.addCuenta(this);
     }
 
     public void addClientes(List<Cliente> clientes) {
         for (Cliente c : clientes) {
             this.clientes.add(c);
+            c.addCuenta(this);
         }
     }
 
@@ -76,7 +79,7 @@ public class Cuenta {
         this.operaciones = operaciones;
     }
 
-    public void addCliente(Operacion operacion) {
+    public void addOperacion(Operacion operacion) {
         this.operaciones.add(operacion);
     }
 

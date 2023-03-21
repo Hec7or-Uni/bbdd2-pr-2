@@ -1,5 +1,6 @@
 import java.sql.Timestamp;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Cuentas {
     private String IBAN;
@@ -12,8 +13,8 @@ public class Cuentas {
         this.IBAN = IBAN;
         this.fechaCreacion = new Timestamp(System.currentTimeMillis());
         this.saldo = 0;
-        this.clientes = new ArrayList<Cliente>();
-        this.operaciones = = new ArrayList<Operacion>();
+        this.clientes = new ArrayList<>();
+        this.operaciones = new ArrayList<>();
         this.clientes.add(cliente);
     }
 
@@ -22,7 +23,7 @@ public class Cuentas {
         this.fechaCreacion = new Timestamp(System.currentTimeMillis());
         this.saldo = 0;
         this.clientes = clientes;
-        this.operaciones = new ArrayList<Operacion>();
+        this.operaciones = new ArrayList<>();
     }
 
     public String getIBAN() {
@@ -66,7 +67,7 @@ public class Cuentas {
     }
 
     public void addClientes(List<Cliente> clientes) {
-        for (Cuentas c : clientes) {
+        for (Cliente c : clientes) {
             this.clientes.add(c);
         }
     }
@@ -79,7 +80,7 @@ public class Cuentas {
         this.operaciones.add(operacion);
     }
 
-    public void addClientes(List<Operacion> operaciones) {
+    public void addOperaciones(List<Operacion> operaciones) {
         for (Operacion op : operaciones) {
             this.operaciones.add(op);
         }

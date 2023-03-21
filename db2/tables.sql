@@ -1,6 +1,6 @@
 CREATE TABLE cliente (
     idCliente           INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_cliente       clienteUdt NOT NULL
+    datos_cliente       clienteUdt
 );
 
 CREATE TABLE oficina (
@@ -13,44 +13,37 @@ CREATE TABLE cuenta (
     datos_cuenta   cuentaUdt NOT NULL
 );
 
-CREATE TABLE cuentaAhorro (
+CREATE TABLE cuentaAhorro UNDER cuenta(
     idCuentaAhorro     	INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     datos_cuentaAhorro 	cuentaAhorroUdt NOT NULL
 );
 
-CREATE TABLE cuentaCorriente (
+CREATE TABLE cuentaCorriente UNDER cuenta(
     idCuentaCorriente     	INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     datos_cuentaCorriente 	cuentaCorrienteUdt NOT NULL,
-    oficina                 integer
 );
 
 CREATE TABLE operacion (
     idOperacion    	INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_operacion	operacionUdt NOT NULL,
-    cuentaEmisora   varchar(40)
+    datos_operacion	operacionUdt NOT NULL
 );
 
 CREATE TABLE transferencia (
     idTransferencia 	INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_transferencia	transferenciaUdt NOT NULL,
-    cuentaReceptora   varchar(40)
+    datos_transferencia	transferenciaUdt NOT NULL
 );
 
 CREATE TABLE retirada (
     idRetirada       INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_retirada   retiradaUdt NOT NULL,
-    oficina          integer
+    datos_retirada   retiradaUdt NOT NULL
 );
 
 CREATE TABLE ingreso (
     idIngreso       INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_ingreso   ingresoUdt NOT NULL,
-    oficina         integer
+    datos_ingreso   ingresoUdt NOT NULL
 );
 
 CREATE TABLE tienen (
     idTienen       INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    datos_tienen   tienenUdt NOT NULL,
-    DNI            varchar(9),
-    IBAN           varchar(40)
+    datos_tienen   tienenUdt NOT NULL
 );

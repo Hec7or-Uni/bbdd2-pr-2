@@ -1,0 +1,6 @@
+{
+  "java.project.referencedLibraries": [
+    "db4o/*.jar",
+    "C:\\Users\\hector\\Documents\\798095\\bbdd2-pr-2\\db4o\\db4o.jar"
+  ]
+}

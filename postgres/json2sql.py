@@ -44,11 +44,9 @@ for dato in datos:
     if len(dnis) > 0:
         if dato['tipoCuenta'] == "CORRIENTE":
             sentencia = "INSERT INTO cuentaCorriente (IBAN, fechaCreacion, saldo, tipoCuenta, oficina) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', " + str(dato['oficina']) + ");\n"
-            sentencia = sentencia + "INSERT INTO cuenta (IBAN, fechaCreacion, saldo, tipoCuenta) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "');\n"
         else:
             if dato['tipoCuenta'] == "AHORRO":
                 sentencia = "INSERT INTO cuentaAhorro (IBAN, fechaCreacion, saldo, tipoCuenta, interes) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', " + str(dato['interes']) + ");\n"
-                sentencia = sentencia + "INSERT INTO cuenta (IBAN, fechaCreacion, saldo, tipoCuenta) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "');\n"
         salida.write(sentencia)
 salida.close()
 fich.close()
@@ -66,13 +64,10 @@ for dato in datos:
     #    dato['descripcion'] = dato['descripcion'].replace("'", "''")
     if dato['tipoOp'] == "TRANSFERENCIA":
         sentencia = "INSERT INTO transferencia (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, cuentaReceptora) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', '" + dato['cuentaReceptora'] + "');\n"
-        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     if dato['tipoOp'] == "INGRESO":
         sentencia = "INSERT INTO ingreso (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, oficina) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', " + str(dato['oficina']) + ");\n"
-        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     if dato['tipoOp'] == "RETIRADA":
         sentencia = "INSERT INTO retirada (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, oficina) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', " + str(dato['oficina']) + ");\n"
-        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     salida.write(sentencia)
 salida.close()
 archivo.close()

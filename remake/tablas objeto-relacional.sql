@@ -6,6 +6,7 @@ create table cliente of clienteUdt (
     direccion           with option not null,
     telefono            with option not null,
     email               with option not null,
+    edad                with option not null
     ref is clienteID system generated
 );
 

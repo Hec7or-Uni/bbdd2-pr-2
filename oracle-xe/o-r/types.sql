@@ -62,8 +62,18 @@ CREATE OR REPLACE TYPE cuentaUdt AS OBJECT (
     fechaCreacion TIMESTAMP,
     saldo FLOAT,
     tipo VARCHAR(9),
-    refCliente tipoTitulares,
-    interes NUMBER,
+    refCliente tipoTitulares
+    --interes NUMBER,
+    --refOficina REF oficinaUdt
+) INSTANTIABLE NOT FINAL;
+/
+
+CREATE TYPE cuentaAhorroUdt UNDER cuentaUdt (
+    interes NUMBER
+) INSTANTIABLE NOT FINAL;
+/
+
+CREATE TYPE cuentaCorrienteUdt UNDER cuentaUdt (
     refOficina REF oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /

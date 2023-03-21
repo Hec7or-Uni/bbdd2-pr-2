@@ -82,21 +82,18 @@ CREATE OR REPLACE TYPE tipoCuentas AS VARRAY(100) of REF cuentaUdt;
 ALTER TYPE clienteUdt ADD ATTRIBUTE (refCuenta tipoCuentas) CASCADE; -- IBAN = codPais + codIdentificacion + digitosCtrl + numCuenta
 /
 
-CREATE TYPE tipoCuenta AS ARRAY(1) OF REF cuentaUdt;
-/
-
 CREATE TYPE operacionUdt AS OBJECT(
-    codigo              number,
+    codigo              varchar(36),
     cantidad            float,
     fechaYHora          timestamp,
     descripcion         varchar2(250),
-    refCuentaEmisora    tipoCuenta,
+    refCuentaEmisora    ref cuentaUdt,
     tipoOperacion       varchar(13)
 ) INSTANTIABLE NOT FINAL;
 /
 
 CREATE TYPE transferenciaUdt UNDER operacionUdt (
-    refCuentaReceptora  tipoCuenta
+    refCuentaReceptora  REF cuentaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 

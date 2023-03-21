@@ -42,11 +42,6 @@ create table oficina of oficinaUdt (
     ref is oficinaID system generated
 );
 
-create table entidad of entidadUdt (
-    primary key (codigoPais,codIdentificacion),
-    ref is entidadID system generated
-);
-
 create table operacion of operacionUdt (
     primary key (codigo)
     cantidad            with option not null,

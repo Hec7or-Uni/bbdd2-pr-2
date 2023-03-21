@@ -4,28 +4,10 @@ DROP TABLE cliente FORCE;
 DROP TABLE cuenta FORCE;
 /
 
-DROP TABLE cuentaAhorro FORCE;
-/
-
-DROP TABLE cuentaCorriente FORCE;
-/
-
 DROP TABLE oficina FORCE;
 /
 
-DROP TABLE entidad FORCE;
-/
-
 DROP TABLE operacion FORCE;
-/
-
-DROP TABLE transferencia FORCE;
-/
-
-DROP TABLE ingreso FORCE;
-/
-
-DROP TABLE retirada FORCE;
 /
 
 CREATE TABLE cliente OF clienteUdt (
@@ -35,73 +17,39 @@ CREATE TABLE cliente OF clienteUdt (
     fechaNacimiento     NOT NULL,
     direccion           NOT NULL,
     telefono            NOT NULL,
-    email               NOT NULL,
-    refCuenta           NOT NULL
-);
+    email               NOT NULL
+    -- refCuenta se deja con la posibilidad de tener valor nulo para
+    -- poder hacer la población. Se van a introducir los clientes,
+    -- después las cuentas, y por último se modificarán los clientes
+    -- para introducirles la cuenta.
+)
+object id system generated;
 /
 
 CREATE TABLE cuenta OF cuentaUdt (
-    id                  PRIMARY KEY,
-    codPais             NOT NULL,
-    codIdentificacion   NOT NULL,
-    digitosCtrl         NOT NULL,
-    numCuenta           NOT NULL,
+    IBAN                PRIMARY KEY,
     fechaCreacion       NOT NULL,
     saldo               NOT NULL,
-    refCliente          NOT NULL,
-    refEntidad          NOT NULL
-);
-/
-
-CREATE TABLE cuentaAhorro OF cuentaAhorroUdt(
-    interes             NOT NULL,
-    PRIMARY KEY (id)
-);
-/
-
-CREATE TABLE cuentaCorriente OF cuentaCorrienteUdt (
-    refOficina         NOT NULL,
-    PRIMARY KEY (id)
-);
+    tipo                NOT NULL,
+    refCliente          NOT NULL
+)
+object id system generated;
 /
 
 create table oficina of oficinaUdt (
     codigo              primary key,
     telefono            not null,
-    direccion           not null,
-    refEntidad          not null
-);
-/
-
-create table entidad of entidadUdt (
-    codPais          not null,
-    codId   not null,
-    primary key (id)
-);
+    direccion           not null
+)
+object id system generated;
 /
 
 create table operacion of operacionUdt (
     codigo              primary key,
     cantidad            not null,
     fechaYHora          not null,
-    refCuentaEmisora    not null
-);
-/
-
-create table transferencia of transferenciaUdt (
-    codigo              primary key,
-    refCuentaReceptora  not null
-);
-/
-
-create table ingreso of ingresoUdt (
-    codigo              primary key,
-    refOficina          not null
-);
-/
-
-create table retirada of retiradaUdt (
-    codigo              primary key,
-    refOficina          not null
-);
+    refCuentaEmisora    not null,
+    tipoOperacion       not null
+)
+object id system generated;
 /

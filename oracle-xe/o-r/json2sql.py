@@ -1,23 +1,53 @@
 import json
 
-# OFICINA
+# CLIENTES
 # Leer los datos del archivo JSON
-with open('data/json/oficina.json', 'r') as archivo:
+with open('seed/MOCK_DATA_CLIENTES.json', 'r') as archivo:
     datos = json.load(archivo)
 
 # Generar las sentencias de inserción
-salida = open('oracle-xe/o-r/insert-oficina.sql', 'w')
+salida = open('oracle-xe/o-r/MOCK_DATA_CLIENTES.sql', 'w')
 for dato in datos:
-    fich = open('data/json/entidad.json', 'r')
-    ent = json.load(fich)
-    entidad_codPais = ""
-    entidad_codId = ""
-    for e in ent:
-        if e['id'] == dato['idEntidad']:
-            entidad_codPais = e['codPais']
-            entidad_codId = e['codId']
-            break
-    sentencia = "INSERT INTO oficina (codigo, telefono, direccion, refEntidad) VALUES (" + str(dato['codigo']) + ", '" + dato['telefono'] + "', '" + dato['direccion'] + "', entidadUdt(" + str(dato['idEntidad']) + ", '" + entidad_codPais + "', '" + entidad_codId + "'));\n"
+    if "'" in dato['apellido']:
+        dato['apellido'] = dato['apellido'].replace("'", "''")
+    if "'" in dato['nombre']:
+        dato['nombre'] = dato['nombre'].replace("'", "''")
+    sentencia = "INSERT INTO cliente (DNI, nombre, apellido, email, telefono, fechaNacimiento, direccion, edad) VALUES ('" + dato['DNI'] + "', '" + dato['nombre'] + "', '" + dato['apellido'] + "', '" + str(dato['email']) + "', '" + dato['telefono'] + "', '" + dato['fechaNacimiento'] + "', '" + dato['direccion'] + "', " + str(dato['edad']) + ");\n"
     salida.write(sentencia)
 salida.close()
+archivo.close()
 
+# CUENTAS
+# Leer los datos del archivo JSON
+with open('seed/MOCK_DATA_CUENTAS.json', 'r') as archivo:
+    datos = json.load(archivo)
+
+# Generar las sentencias de inserción
+fich = open('seed/MOCK_DATA_TIENEN.json', 'r')
+datos_relacion = json.load(fich)
+salida = open('oracle-xe/o-r/MOCK_DATA_CUENTAS.sql', 'w')
+for dato in datos:
+    dnis = []
+    f = dato['fechaCreacion'].split('T')
+    fecha = f[0] + ' '
+    hora = f[1].split('Z')
+    fecha = fecha + hora[0]
+    for relacion in datos_relacion:
+        if relacion['IBAN'] == dato['IBAN']:
+            # es esta cuenta
+            dnis.append(relacion['DNI'])
+    if dato['tipoCuenta'] == "CORRIENTE":
+        sentencia = "INSERT INTO cuenta (IBAN, fechaCreacion, saldo, tipo, refCliente) VALUES ('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['saldo']) + "', '" + dato['tipoCuenta'] + "', tipoTitulares("
+        while len(dnis) > 0:
+            sentencia = sentencia + "'" + dnis[0] + "'"
+            dnis.remove(dnis[0])
+            if len(dnis) > 0:
+                sentencia = sentencia + ","
+        sentencia = sentencia + "));\n"
+    else:
+        if dato['tipoCuenta'] == "AHORRO":
+            sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', '" + dato['fechaCreacion'] + "', '" + str(dato['saldo']) + "', '" + dato['tipoCuenta'] + "', '" #+ titular + "', " + str(dato['interes']) + "));\n"
+    salida.write(sentencia)
+salida.close()
+fich.close()
+archivo.close()

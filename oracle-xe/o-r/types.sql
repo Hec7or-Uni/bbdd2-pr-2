@@ -16,9 +16,6 @@ DROP TYPE tipoCuenta FORCE;
 DROP TYPE cuentaCorrienteUdt FORCE;
 /
 
-DROP TYPE tipoOficina FORCE;
-/
-
 DROP TYPE cuentaAhorroUdt FORCE;
 /
 
@@ -37,24 +34,10 @@ DROP TYPE clienteUdt FORCE;
 DROP TYPE oficinaUdt FORCE;
 /
 
-DROP TYPE tipoEntidad FORCE;
-/
-
-DROP TYPE entidadUdt FORCE;
-/
-
-CREATE TYPE entidadUdt AS OBJECT (
-    id VARCHAR2(36),
-    codPais VARCHAR2(2),
-    codId VARCHAR2(4)
-) INSTANTIABLE NOT FINAL;
-/
-
 CREATE TYPE oficinaUdt AS OBJECT (
     codigo NUMBER,
-    telefono NUMBER,
-    direccion VARCHAR2(255),
-    refEntidad entidadUdt -- ID = codPais + codIdentificacion
+    telefono VARCHAR(15),
+    direccion VARCHAR2(255)
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -63,7 +46,7 @@ CREATE OR REPLACE TYPE clienteUdt AS OBJECT (
     nombre VARCHAR2(100),
     apellido VARCHAR2(100),
     email VARCHAR2(50),
-    telefono NUMBER,
+    telefono VARCHAR(15),
     fechaNacimiento DATE,
     direccion VARCHAR2(100),
     edad NUMBER
@@ -75,15 +58,13 @@ CREATE TYPE tipoTitulares as VARRAY(10) of REF clienteUdt;
 /
 
 CREATE OR REPLACE TYPE cuentaUdt AS OBJECT (
-    id NUMBER,
-    codPais VARCHAR2(2),
-    digitosCtrl VARCHAR2(4),
-    codIdentificacion VARCHAR2(2),
-    numCuenta VARCHAR2(16),
+    IBAN VARCHAR(40),
     fechaCreacion TIMESTAMP,
     saldo FLOAT,
-    refCliente tipoTitulares, -- DNI
-    refEntidad entidadUdt -- ID = codPais + codIdentificacion
+    tipo VARCHAR(9),
+    refCliente tipoTitulares,
+    interes NUMBER,
+    refOficina REF oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -91,16 +72,6 @@ CREATE OR REPLACE TYPE tipoCuentas AS VARRAY(100) of REF cuentaUdt;
 /
 
 ALTER TYPE clienteUdt ADD ATTRIBUTE (refCuenta tipoCuentas) CASCADE; -- IBAN = codPais + codIdentificacion + digitosCtrl + numCuenta
-/
-
-CREATE TYPE cuentaAhorroUdt UNDER cuentaUdt (
-    interes NUMBER
-) INSTANTIABLE NOT FINAL;
-/
-
-CREATE TYPE cuentaCorrienteUdt UNDER cuentaUdt (
-    refOficina oficinaUdt
-) INSTANTIABLE NOT FINAL;
 /
 
 CREATE TYPE tipoCuenta AS ARRAY(1) OF REF cuentaUdt;
@@ -111,7 +82,8 @@ CREATE TYPE operacionUdt AS OBJECT(
     cantidad            float,
     fechaYHora          timestamp,
     descripcion         varchar2(250),
-    refCuentaEmisora    tipoCuenta
+    refCuentaEmisora    tipoCuenta,
+    tipoOperacion       varchar(13)
 ) INSTANTIABLE NOT FINAL;
 /
 
@@ -121,11 +93,11 @@ CREATE TYPE transferenciaUdt UNDER operacionUdt (
 /
 
 CREATE TYPE ingresoUdt UNDER operacionUdt (
-    refOficina          oficinaUdt
+    refOficina          REF oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 
 CREATE TYPE retiradaUdt UNDER operacionUdt (
-    refOficina          oficinaUdt
+    refOficina          REF oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /

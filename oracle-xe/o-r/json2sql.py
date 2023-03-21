@@ -36,24 +36,39 @@ for dato in datos:
         if relacion['IBAN'] == dato['IBAN']:
             # es esta cuenta
             dnis.append(relacion['DNI'])
-    if dato['tipoCuenta'] == "CORRIENTE":
-        sentencia = "INSERT INTO cuenta VALUES (cuentaCorrienteUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
-        while len(dnis) > 0:
-            sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
-            dnis.remove(dnis[0])
-            if len(dnis) > 0:
-                sentencia = sentencia + " OR "
-        sentencia = sentencia + "), (SELECT REF(o) FROM oficina o WHERE o.codigo = " + str(dato['oficina']) + ")));\n"
-    else:
-        if dato['tipoCuenta'] == "AHORRO":
-            sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
-        while len(dnis) > 0:
-            sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
-            dnis.remove(dnis[0])
-            if len(dnis) > 0:
-                sentencia = sentencia + " OR "
-        sentencia = sentencia + "), " + str(dato['interes']) + "));\n"
-    salida.write(sentencia)
+    if len(dnis) > 0:
+        if dato['tipoCuenta'] == "CORRIENTE":
+            sentencia = "INSERT INTO cuenta VALUES (cuentaCorrienteUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
+            while len(dnis) > 0:
+                sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
+                dnis.remove(dnis[0])
+                if len(dnis) > 0:
+                    sentencia = sentencia + " OR "
+            sentencia = sentencia + "), (SELECT REF(o) FROM oficina o WHERE o.codigo = " + str(dato['oficina']) + ")));\n"
+        else:
+            if dato['tipoCuenta'] == "AHORRO":
+                sentencia = "INSERT INTO cuenta VALUES (cuentaAhorroUdt('" + dato['IBAN'] + "', TO_DATE('" + fecha + "', 'YYYY-MM-DD HH24:MI:SS'), " + str(dato['saldo']) + ", '" + dato['tipoCuenta'] + "', (SELECT CAST(COLLECT(REF(t)) AS tipoTitulares) FROM cliente t WHERE "
+            while len(dnis) > 0:
+                sentencia = sentencia + "t.DNI = '" + dnis[0] + "'"
+                dnis.remove(dnis[0])
+                if len(dnis) > 0:
+                    sentencia = sentencia + " OR "
+            sentencia = sentencia + "), " + str(dato['interes']) + "));\n"
+        salida.write(sentencia)
 salida.close()
 fich.close()
+archivo.close()
+
+
+# UPDATE CLIENTES
+# Leer los datos del archivo JSON
+with open('seed/MOCK_DATA_TIENEN.json', 'r') as archivo:
+    datos = json.load(archivo)
+
+# Generar las sentencias de inserción
+salida = open('oracle-xe/o-r/MOCK_DATA_UPDATE_CLIENTES.sql', 'w')
+for dato in datos:
+    sentencia = "UPDATE cliente SET refCuenta = (SELECT CAST(COLLECT(REF(c)) AS tipoCuentas) FROM cuenta c WHERE c.IBAN = '" + dato['IBAN'] + "') WHERE DNI = '" + dato['DNI'] + "';\n"
+    salida.write(sentencia)
+salida.close()
 archivo.close()

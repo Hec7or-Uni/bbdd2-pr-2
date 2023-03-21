@@ -54,7 +54,7 @@ CREATE OR REPLACE TYPE clienteUdt AS OBJECT (
 INSTANTIABLE NOT FINAL;
 /
 
-CREATE TYPE tipoTitulares as VARRAY(10) of REF clienteUdt;
+CREATE TYPE tipoTitulares as VARRAY(50) of REF clienteUdt;
 /
 
 CREATE OR REPLACE TYPE cuentaUdt AS OBJECT (
@@ -63,8 +63,6 @@ CREATE OR REPLACE TYPE cuentaUdt AS OBJECT (
     saldo FLOAT,
     tipo VARCHAR(9),
     refCliente tipoTitulares
-    --interes NUMBER,
-    --refOficina REF oficinaUdt
 ) INSTANTIABLE NOT FINAL;
 /
 

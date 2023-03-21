@@ -19,24 +19,12 @@ CREATE TABLE cuenta (
     IBAN                varchar(40) primary key,
     fechaCreacion       timestamp   not null,
     saldo               float       default(0),
-    tipoCuenta          varchar(9)  not null
+    tipoCuenta          varchar(9)  not null,
+    interes             float,
+    oficina             INTEGER     REFERENCES oficina(codigo),
+    CHECK (tipoCuenta IN ('AHORRO', 'CORRIENTE')),
+    CHECK ((tipoCuenta = 'AHORRO' AND oficina IS NULL AND interes IS NOT NULL) OR (tipoCuenta = 'CORRIENTE' AND oficina IS NOT NULL AND interes IS NULL))
 );
-
-CREATE TABLE cuentaAhorro  (
-    IBAN                varchar(40) primary key,
-    fechaCreacion       timestamp   not null,
-    saldo               float       default(0),
-    tipoCuenta          varchar(9)  not null,
-    interes             integer     not null
-) INHERITS (cuenta);
-
-CREATE TABLE cuentaCorriente (
-    IBAN                varchar(40) primary key,
-    fechaCreacion       timestamp   not null,
-    saldo               float       default(0),
-    tipoCuenta          varchar(9)  not null,
-    oficina             INTEGER     REFERENCES oficina(codigo)
-) INHERITS (cuenta);
 
 CREATE TABLE operacion (
     codigo              varchar(36) primary key,
@@ -77,7 +65,7 @@ CREATE TABLE retirada (
     oficina         INTEGER         REFERENCES oficina(codigo)
 ) INHERITS (operacion);
 
-CREATE TABLE TIENEN (
+CREATE TABLE tienen (
     DNI     VARCHAR(9)      REFERENCES cliente(DNI),
     IBAN    VARCHAR(40)     REFERENCES cuenta(IBAN),
     PRIMARY KEY (DNI, IBAN)	

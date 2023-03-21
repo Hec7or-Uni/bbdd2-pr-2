@@ -10,15 +10,11 @@ create table cliente of clienteUdt (
 );
 
 create table cuenta of cuentaUdt (
-    primary key (id),
-    codPais             with option not null,
-    codIdentificacion   with option not null,
-    digitosCtrl         with option not null,
-    numCuenta           with option not null,
+    primary key (IBAN),
     fechaCreacion       with option not null,
     saldo               with option not null,
-    refEntidad          with option not null,
-    foreign key (entidad) references entidad(codigo),
+    refCliente          with option not null,
+    foreign key (cliente) references cliente(DNI),
     on delete cascade,
     ref is cuentaID system generated
 );
@@ -37,8 +33,6 @@ create table oficina of oficinaUdt (
     primary key (codigo),
     telefono            with option not null,
     direccion           with option not null,
-    foreign key (entidad) references entidad(codigo)
-    on delete set null,
     ref is oficinaID system generated
 );
 
@@ -47,7 +41,7 @@ create table operacion of operacionUdt (
     cantidad            with option not null,
     fechaYHora          with option not null,
     refCuentaEmisora    with option not null,
-    foreign key (cuenta) references cuenta(codPais,codIdentificacion,digitosCtrl,numCuenta),
+    foreign key (cuenta) references cuenta(IBAN),
     foreign key (oficina) references oficina(codigo),
     on delete cascade,
     ref is operacionID system generated

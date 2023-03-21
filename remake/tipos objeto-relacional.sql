@@ -30,7 +30,7 @@ create type cuentaCorrienteUdt under cuentaUdt as (
 
 create type oficinaUdt as (
     codigo              integer,
-    telefono            integer,
+    telefono            varchar(15),
     direccion           varchar(255),
 ) instantiable not final ref is system generated;
 

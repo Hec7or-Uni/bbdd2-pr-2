@@ -11,7 +11,7 @@ CREATE TABLE cliente (
 
 CREATE TABLE oficina (
     codigo              integer         primary key,
-    telefono            integer,
+    telefono            varchar(15),
     direccion           varchar(255)
 );
 

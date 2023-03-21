@@ -54,21 +54,6 @@ salida.close()
 fich.close()
 archivo.close()
 
-
-# UPDATE CLIENTES
-# Leer los datos del archivo JSON
-with open('seed/MOCK_DATA_TIENEN.json', 'r') as archivo:
-    datos = json.load(archivo)
-
-# Generar las sentencias de inserción
-salida = open('postgres/MOCK_DATA_UPDATE_CLIENTES.sql', 'w')
-for dato in datos:
-    sentencia = "UPDATE cliente SET refCuenta = (SELECT CAST(COLLECT(REF(c)) AS tipoCuentas) FROM cuenta c WHERE c.IBAN = '" + dato['IBAN'] + "') WHERE DNI = '" + dato['DNI'] + "';\n"
-    salida.write(sentencia)
-salida.close()
-archivo.close()
-
-
 # OPERACIONES
 # Leer los datos del archivo JSON
 with open('seed/MOCK_DATA_OPERACIONES.json', 'r') as archivo:
@@ -80,11 +65,14 @@ for dato in datos:
     #if "'" in dato['descripcion']:
     #    dato['descripcion'] = dato['descripcion'].replace("'", "''")
     if dato['tipoOp'] == "TRANSFERENCIA":
-        sentencia = "INSERT INTO operacion VALUES (transferenciaUdt('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', (SELECT REF(c) FROM cuenta c WHERE c.IBAN = '" + dato['cuentaEmisora'] + "'), '" + dato['tipoOp'] + "', (SELECT REF(c) FROM cuenta c WHERE c.IBAN = '" + dato['cuentaReceptora'] + "')));\n"
+        sentencia = "INSERT INTO transferencia (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, cuentaReceptora) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', '" + dato['cuentaReceptora'] + "');\n"
+        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     if dato['tipoOp'] == "INGRESO":
-        sentencia = "INSERT INTO operacion VALUES (ingresoUdt'" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', (SELECT REF(c) FROM cuenta c WHERE c.IBAN = '" + dato['cuentaEmisora'] + "'), '" + dato['tipoOp'] + "', (SELECT REF(o) FROM oficina o WHERE o.codigo = " + dato['oficina'] + "));\n"
+        sentencia = "INSERT INTO ingreso (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, oficina) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', " + str(dato['oficina']) + ");\n"
+        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     if dato['tipoOp'] == "RETIRADA":
-        sentencia = "INSERT INTO operacion VALUES (retiradaUdt'" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "',TO_DATE 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', (SELECT REF(c) FROM cuenta c WHERE c.IBAN = '" + dato['cuentaEmisora'] + "'), '" +  dato['tipoOp'] + "', (SELECT REF(o) FROM oficina o WHERE o.codigo = " + str(dato['oficina'])+ "));\n"
+        sentencia = "INSERT INTO retirada (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion, oficina) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "', " + str(dato['oficina']) + ");\n"
+        sentencia = sentencia + "INSERT INTO operacion (codigo, cantidad, fechaYHora, descripcion, cuentaEmisora, tipoOperacion) VALUES ('" + dato['codigo'] + "', " + dato['cantidad'] + ", TO_DATE('" + dato['timestamp'] + "', 'YYYY-MM-DD HH24:MI:SS'), '" + str(dato['descripcion']) + "', '" + dato['cuentaEmisora'] + "', '" + dato['tipoOp'] + "');\n"
     salida.write(sentencia)
 salida.close()
 archivo.close()

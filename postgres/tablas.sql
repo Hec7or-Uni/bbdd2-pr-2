@@ -43,7 +43,8 @@ CREATE TABLE operacion (
     cantidad            float       not null,
     fechaYHora          timestamp   not null,
     descripcion         varchar(250),
-    cuentaEmisora   VARCHAR(24)		NOT NULL    REFERENCES cuenta(IBAN)   
+    cuentaEmisora       VARCHAR(40)		NOT NULL    REFERENCES cuenta(IBAN),
+    tipoOperacion       varchar(13) not null
 );
 
 CREATE TABLE transferencia (
@@ -51,8 +52,9 @@ CREATE TABLE transferencia (
     cantidad            float       not null,
     fechaYHora          timestamp   not null,
     descripcion         varchar(250),
-    cuentaEmisora   VARCHAR(24)		NOT NULL    REFERENCES cuenta(IBAN),
-    cuentaReceptora VARCHAR(24)		NOT NULL    REFERENCES cuenta(IBAN)
+    cuentaEmisora   VARCHAR(40)		NOT NULL    REFERENCES cuenta(IBAN),
+    tipoOperacion       varchar(13) not null,
+    cuentaReceptora VARCHAR(40)		NOT NULL    REFERENCES cuenta(IBAN)
 ) INHERITS (operacion);
 
 CREATE TABLE ingreso (
@@ -60,7 +62,8 @@ CREATE TABLE ingreso (
     cantidad            float       not null,
     fechaYHora          timestamp   not null,
     descripcion         varchar(250),
-    cuentaEmisora   VARCHAR(24)		NOT NULL    REFERENCES cuenta(IBAN),
+    cuentaEmisora   VARCHAR(40)		NOT NULL    REFERENCES cuenta(IBAN),
+    tipoOperacion       varchar(13) not null,
     oficina         INTEGER         REFERENCES oficina(codigo)
 ) INHERITS (operacion);
 
@@ -69,7 +72,8 @@ CREATE TABLE retirada (
     cantidad            float       not null,
     fechaYHora          timestamp   not null,
     descripcion         varchar(250),
-    cuentaEmisora   VARCHAR(24)		NOT NULL    REFERENCES cuenta(IBAN),
+    cuentaEmisora   VARCHAR(40)		NOT NULL    REFERENCES cuenta(IBAN),
+    tipoOperacion       varchar(13) not null,
     oficina         INTEGER         REFERENCES oficina(codigo)
 ) INHERITS (operacion);
 
